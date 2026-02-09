@@ -29,7 +29,7 @@ const HeroSection = () => {
           animationDelay: "0.6s"
         }}>
             <a href="#locations" className="btn-strong animate-pulse-glow">
-              Find a Studio
+              ​Start Here   
             </a>
             <a href="#about" className="btn-outline-strong">
               New to SCP?
