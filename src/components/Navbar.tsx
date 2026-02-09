@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import scpLogo from "@/assets/scp-logo.png";
 
 const navLinks = [
   { label: "Workouts", href: "#workouts" },
@@ -38,8 +39,8 @@ const Navbar = () => {
     >
       <nav className="flex items-center justify-between px-6 md:px-12 lg:px-20 py-4">
         {/* Logo */}
-        <a href="#" className="font-display text-2xl md:text-3xl tracking-[0.1em] text-foreground">
-          STRONG
+        <a href="#" className="flex items-center">
+          <img src={scpLogo} alt="Sport Core Pilates" className="h-10 md:h-12 w-auto" />
         </a>
 
         {/* Desktop Nav */}

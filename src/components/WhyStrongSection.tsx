@@ -24,7 +24,7 @@ const features = [
   {
     icon: Users,
     title: "Community",
-    description: "Join a tribe of STRONG Humans who push limits and support each other, every single session.",
+    description: "Join a tribe of SCP Humans who push limits and support each other, every single session.",
   },
   {
     icon: TrendingUp,
@@ -40,10 +40,10 @@ const WhyStrongSection = () => {
         {/* Header */}
         <div className="text-center mb-16 md:mb-20">
           <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4">
-            Why Strong?
+            Why Sport Core Pilates?
           </p>
           <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground mb-6">
-            STRONG IS MORE THAN
+            SCP IS MORE THAN
             <br />
             <span className="text-gradient-yellow">JUST PILATES</span>
           </h2>

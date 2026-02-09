@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Instagram, Facebook, Youtube, ArrowRight } from "lucide-react";
+import scpLogo from "@/assets/scp-logo.png";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -8,7 +9,7 @@ const Footer = () => {
     e.preventDefault();
     // In production, this would submit to a Google Form or backend
     setEmail("");
-    alert("Thanks for subscribing! Welcome to the STRONG community.");
+    alert("Thanks for subscribing! Welcome to the Sport Core Pilates community.");
   };
 
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
           <div>
             <h3 className="font-display text-2xl md:text-3xl text-foreground mb-2">
-              JOIN THE <span className="text-gradient-yellow">STRONG</span> COMMUNITY
+              JOIN THE <span className="text-gradient-yellow">SCP</span> COMMUNITY
             </h3>
             <p className="font-body text-muted-foreground text-sm">
               Get exclusive offers, workout tips, and studio updates.
@@ -45,8 +46,8 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <a href="#" className="font-display text-2xl tracking-[0.1em] text-foreground">
-              STRONG
+            <a href="#" className="flex items-center">
+              <img src={scpLogo} alt="Sport Core Pilates" className="h-10 w-auto" />
             </a>
             <p className="font-body text-muted-foreground text-sm mt-4 leading-relaxed">
               Pilates Inspired.
@@ -72,7 +73,7 @@ const Footer = () => {
               Workouts
             </h4>
             <ul className="space-y-2">
-              {["Strong Pilates Only", "Strong Body", "Strong Ride", "Beginner Class"].map((item) => (
+              {["SCP Pilates Only", "SCP Body", "SCP Ride", "Beginner Class"].map((item) => (
                 <li key={item}>
                   <a href="#workouts" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
                     {item}
@@ -87,7 +88,7 @@ const Footer = () => {
               Company
             </h4>
             <ul className="space-y-2">
-              {["About STRONG", "Locations", "Careers", "Franchising", "Contact"].map((item) => (
+              {["About SCP", "Locations", "Careers", "Franchising", "Contact"].map((item) => (
                 <li key={item}>
                   <a href="#" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
                     {item}
@@ -118,7 +119,7 @@ const Footer = () => {
       <div className="px-6 md:px-12 lg:px-20 py-6 border-t border-border">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-muted-foreground text-xs">
-            © 2025 STRONG Pilates. All rights reserved.
+            © 2025 Sport Core Pilates. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="font-body text-muted-foreground text-xs hover:text-primary transition-colors">

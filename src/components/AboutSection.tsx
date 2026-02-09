@@ -10,7 +10,7 @@ const AboutSection = () => {
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src={aboutImg}
-                alt="Strong Pilates class in action"
+                alt="Sport Core Pilates class in action"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -27,14 +27,14 @@ const AboutSection = () => {
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-[0.95]">
               WELCOME TO
               <br />
-              <span className="text-gradient-yellow">STRONG PILATES</span>
+              <span className="text-gradient-yellow">SPORT CORE PILATES</span>
             </h2>
             <div className="space-y-6 font-body text-muted-foreground">
               <p className="text-lg">
-                STRONG is a fitness movement combining rowing or riding with Pilates-inspired movements using our innovative Rowformer and Bikeformer.
+                Sport Core Pilates is a fitness movement combining rowing or riding with Pilates-inspired movements using our innovative Rowformer and Bikeformer.
               </p>
               <p>
-                A STRONG class lasts between 45–50 minutes, incorporating a mixture of cardio HIIT training and Pilates-inspired strength and resistance training.
+                A SCP class lasts between 45–50 minutes, incorporating a mixture of cardio HIIT training and Pilates-inspired strength and resistance training.
               </p>
               <div className="grid grid-cols-2 gap-6 py-6 border-t border-b border-border">
                 <div>
@@ -47,7 +47,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <p className="font-display text-3xl text-primary">1000+</p>
-                  <p className="font-heading text-xs uppercase tracking-wider text-muted-foreground mt-1">Strong Humans</p>
+                  <p className="font-heading text-xs uppercase tracking-wider text-muted-foreground mt-1">SCP Humans</p>
                 </div>
                 <div>
                   <p className="font-display text-3xl text-primary">12</p>

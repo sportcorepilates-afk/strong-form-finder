@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroBg}
-          alt="Strong Pilates studio"
+          alt="Sport Core Pilates studio"
           className="w-full h-full object-cover"
           loading="eager"
         />
@@ -33,7 +33,7 @@ const HeroSection = () => {
               Find a Studio
             </a>
             <a href="#about" className="btn-outline-strong">
-              New to Strong?
+              New to SCP?
             </a>
           </div>
         </div>
