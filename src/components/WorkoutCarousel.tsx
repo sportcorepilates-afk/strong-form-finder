@@ -30,10 +30,9 @@ const WorkoutCarousel = () => {
           <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">
             Our Classes
           </p>
-          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground">
-            ROW. RIDE.
-            <br />
-            <span className="text-gradient-yellow">REFORM.</span>
+          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground">SCP
+REFORM.<br />
+            <span className="text-gradient-yellow">FOUNDATION.</span>
           </h2>
         </div>
 
@@ -47,7 +46,7 @@ const WorkoutCarousel = () => {
 
                 {/* Content overlay */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
-                  <span className="font-heading text-primary text-xs uppercase tracking-[0.2em] mb-2 block">
+                  <span className="font-heading text-primary uppercase tracking-[0.2em] mb-2 block text-base font-bold">
                     {workout.subtitle}
                   </span>
                   <h3 className="font-display text-2xl md:text-3xl text-foreground mb-3">
