@@ -16,10 +16,10 @@ const FranchiseSection = () => {
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-[0.95]">
               OWN A
               <br />
-              <span className="text-gradient-yellow">STRONG STUDIO</span>
+              <span className="text-gradient-yellow">SCP STUDIO</span>
             </h2>
             <p className="font-body text-muted-foreground text-lg mb-6">
-              Join the fastest-growing boutique fitness franchise in Australia. STRONG Pilates is redefining the fitness experience with our innovative Rowformer technology and premium class experience.
+              Join the fastest-growing boutique fitness franchise in Australia. Sport Core Pilates is redefining the fitness experience with our innovative Rowformer technology and premium class experience.
             </p>
             <ul className="space-y-4 mb-8">
               {["Proven business model", "Comprehensive training & support", "Premium brand with strong demand", "Innovative fitness technology"].map((item) => (

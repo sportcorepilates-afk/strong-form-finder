@@ -5,21 +5,21 @@ import workoutReform from "@/assets/workout-reform.jpg";
 
 const workouts = [
   {
-    title: "Strong Pilates Only",
+    title: "SCP Pilates Only",
     subtitle: "Reform",
     image: workoutReform,
     description: "A fusion of dynamic movements and controlled Pilates flows with the use of props to deepen muscle engagement.",
     duration: "45 min",
   },
   {
-    title: "Strong Body",
+    title: "SCP Body",
     subtitle: "Row + Reform",
     image: workoutRow,
     description: "Balanced full-body workout combining rowing intervals with Pilates-inspired reformer movements for total-body conditioning.",
     duration: "45 min",
   },
   {
-    title: "Strong Ride",
+    title: "SCP Ride",
     subtitle: "Ride + Reform",
     image: workoutRide,
     description: "High-energy cycling meets reformer Pilates. An explosive cardio and strength experience on our Bikeformer machines.",

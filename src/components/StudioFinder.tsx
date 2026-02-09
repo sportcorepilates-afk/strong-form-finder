@@ -29,7 +29,7 @@ const StudioFinder = () => {
           <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground mb-6">
             FIND YOUR
             <br />
-            <span className="text-gradient-yellow">STRONG</span>
+            <span className="text-gradient-yellow">SCP STUDIO</span>
           </h2>
         </div>
 
