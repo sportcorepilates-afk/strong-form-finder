@@ -55,7 +55,7 @@ REFORM.<br />
                   <p className={`font-body text-muted-foreground text-sm leading-relaxed transition-all duration-500 ${active === i ? "max-h-24 opacity-100" : "max-h-0 opacity-0 lg:max-h-0 lg:opacity-0"}`}>
                     {workout.description}
                   </p>
-                  <div className="flex items-center gap-3 mt-4">
+                  <div className="flex items-center gap-3 mt-4 font-bold">
                     <span className="font-heading text-xs uppercase tracking-wider text-primary">
                       {workout.duration}
                     </span>
