@@ -32,7 +32,7 @@ const WorkoutCarousel = () => {
           </p>
           <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground">SCP
 REFORM.<br />
-            <span className="text-gradient-yellow">FOUNDATION.</span>
+            <span className="text-gradient-yellow">​</span>
           </h2>
         </div>
 
