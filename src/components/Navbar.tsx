@@ -39,7 +39,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between px-6 md:px-12 lg:px-20 py-4">
         {/* Logo */}
         <a href="#" className="flex items-center">
-          <img src={scpLogo} alt="Sport Core Pilates" className="h-10 md:h-12 w-auto rounded-lg" />
+          <img src={scpLogo} alt="Sport Core Pilates" className="h-14 md:h-16 w-auto rounded-lg" />
         </a>
 
         {/* Desktop Nav */}
