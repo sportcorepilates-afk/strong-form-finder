@@ -5,16 +5,16 @@ const navLinks = [{
   label: "Workouts",
   href: "#workouts"
 }, {
-  label: "About",
+  label: "SCP Method",
   href: "#about"
 }, {
-  label: "Locations",
+  label: "The Studio",
   href: "#locations"
 }, {
   label: "First Timers",
   href: "#first-timers"
 }, {
-  label: "Franchising",
+  label: "Services",
   href: "#franchise"
 }];
 const Navbar = () => {
