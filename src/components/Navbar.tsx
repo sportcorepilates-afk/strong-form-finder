@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import scpLogo from "@/assets/scp-logo.png";
 const navLinks = [{
-  label: "Workouts",
+  label: "Classes",
   href: "#workouts"
 }, {
   label: "SCP Method",
