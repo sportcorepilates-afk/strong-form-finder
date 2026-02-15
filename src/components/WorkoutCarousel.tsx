@@ -10,7 +10,7 @@ const workouts = [{
   duration: "45 min"
 }, {
   title: "SCP Perform",
-  subtitle: "Row + Reform",
+  subtitle: "PILATES + STRENGTH & CONDITIONING",
   image: workoutRow,
   description: "Balanced full-body workout combining rowing intervals with Pilates-inspired reformer movements for total-body conditioning.",
   duration: "45 min"
