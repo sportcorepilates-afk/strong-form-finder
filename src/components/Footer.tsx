@@ -103,7 +103,7 @@ const Footer = () => {
               Support
             </h4>
             <ul className="space-y-2">
-              {["First Timers", "FAQs", "Pricing", "Gift Cards", "Terms & Conditions"].map((item) => (
+              {["FAQs", "Pricing", "Gift Cards", "Terms & Conditions"].map((item) => (
                 <li key={item}>
                   <a href="#" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
                     {item}
