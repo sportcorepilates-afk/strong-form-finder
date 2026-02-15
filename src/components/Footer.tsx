@@ -70,7 +70,7 @@ const Footer = () => {
           {/* Links */}
           <div>
             <h4 className="font-heading text-xs uppercase tracking-[0.2em] text-foreground mb-4">
-              Workouts
+              Classes
             </h4>
             <ul className="space-y-2">
               {["SCP Pilates Only", "SCP Body", "SCP Ride", "Beginner Class"].map((item) => (
