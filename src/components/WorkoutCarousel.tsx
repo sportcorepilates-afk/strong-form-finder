@@ -16,7 +16,7 @@ const workouts = [{
   duration: "45 min"
 }, {
   title: "SCP Reform",
-  subtitle: "Ride + Reform",
+  subtitle: "PHYSIO + READY TO PLAY",
   image: workoutRide,
   description: "High-energy cycling meets reformer Pilates. An explosive cardio and strength experience on our Bikeformer machines.",
   duration: "45 min"
