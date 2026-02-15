@@ -15,7 +15,7 @@ const workouts = [{
   description: "Balanced full-body workout combining rowing intervals with Pilates-inspired reformer movements for total-body conditioning.",
   duration: "45 min"
 }, {
-  title: "SCP Ride",
+  title: "SCP Reform",
   subtitle: "Ride + Reform",
   image: workoutRide,
   description: "High-energy cycling meets reformer Pilates. An explosive cardio and strength experience on our Bikeformer machines.",
