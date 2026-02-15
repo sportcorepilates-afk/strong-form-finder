@@ -11,9 +11,6 @@ const navLinks = [{
   label: "The Studio",
   href: "#locations"
 }, {
-  label: "First Timers",
-  href: "#first-timers"
-}, {
   label: "Services",
   href: "#franchise"
 }];
