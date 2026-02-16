@@ -3,7 +3,7 @@ import { Dumbbell, Heart, Zap, Timer, Users, TrendingUp } from "lucide-react";
 const features = [
 {
   icon: Zap,
-  title: "High Intensity",
+  title: "Assessment-Led",
   description: "45 minutes of Row. Ride. Reform. Pilates principles, strength training, and intentional cardio."
 },
 {
