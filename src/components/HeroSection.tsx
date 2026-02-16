@@ -27,7 +27,7 @@ const HeroSection = () => {
               ​Start Here   
             </a>
             <a href="#about" className="btn-outline-strong">
-              New to SCP?
+              ​SCP METHOD     
             </a>
           </div>
         </div>
