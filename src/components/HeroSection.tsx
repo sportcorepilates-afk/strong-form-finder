@@ -23,7 +23,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{
           animationDelay: "0.6s"
         }}>
-            <a className="btn-strong animate-pulse-glow" href="#starthere">
+            <a className="btn-strong animate-pulse-glow" href="/start-here">
               ​Start Here   
             </a>
             <a href="#about" className="btn-outline-strong">
