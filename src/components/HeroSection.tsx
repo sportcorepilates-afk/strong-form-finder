@@ -17,7 +17,7 @@ const HeroSection = () => {
           </h1>
           <p className="font-body text-muted-foreground text-base md:text-lg max-w-lg mb-8 animate-fade-in-up" style={{
           animationDelay: "0.4s"
-        }}>Performance - focused Pilates for active adults and athletes who want to move better, train stronger and stay injury resilient.
+        }}>Performance - focused Pilates for active adults and athletes who want to move better, train stronger and stay injury resilient. 
 Low Impact. High Intensity.
 
         </p>
