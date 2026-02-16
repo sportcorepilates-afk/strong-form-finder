@@ -42,10 +42,9 @@ const WhyStrongSection = () => {
           <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">
             Why Sport Core Pilates?
           </p>
-          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground mb-6">SCP IS WHERE PILATES MEETS   
-STRUCTURED PERFROMANCE
+          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground mb-6">SCP IS WHERE PILATES MEETS
             <br />
-            <span className="text-gradient-yellow">  STRUCTURED PERFROMANCE</span>
+            <span className="text-gradient-yellow">STRUCTURED PERFORMANCE</span>
           </h2>
           <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
             It's a unique workout experience that fuses Pilates, cardio, and strength into one full-body burn. More variety, more sweat, and more results — all in one session.
