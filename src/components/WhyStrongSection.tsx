@@ -42,8 +42,8 @@ const WhyStrongSection = () => {
           <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">
             Why Sport Core Pilates?
           </p>
-          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground mb-6">SCP IS WHERE PILATES MEETS
-JUST PILATES
+          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground mb-6">SCP IS WHERE PILATES MEETS  
+STRUCTURED PERFROMANCE
             <br />
             <span className="text-gradient-yellow">  STRUCTURED PERFROMANCE</span>
           </h2>
