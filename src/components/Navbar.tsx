@@ -48,7 +48,7 @@ const Navbar = () => {
 
         {/* CTA */}
         <div className="hidden lg:block">
-          <a href="#locations" className="btn-strong text-xs">
+          <a href="/start-here" className="btn-strong text-xs">
             Start Here
           </a>
         </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
         }}>
               {link.label}
             </a>)}
-          <a href="#locations" onClick={() => setMobileOpen(false)} className="btn-strong mt-4 text-base">
+          <a href="/start-here" onClick={() => setMobileOpen(false)} className="btn-strong mt-4 text-base">
             Start Here
           </a>
         </div>
