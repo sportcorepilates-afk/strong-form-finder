@@ -17,12 +17,12 @@ const HeroSection = () => {
           </h1>
           <p className="font-body text-muted-foreground text-base md:text-lg max-w-lg mb-8 animate-fade-in-up" style={{
           animationDelay: "0.4s"
-        }}>Performance - focused Pilates for active adults and athletes who want to move better, train stronger and stay injury resilient. 
-Low Impact. High Intensity.
+        }}>Performance - focused Pilates for active adults and athletes who want to move better, train stronger and stay injury - resilient.  Low Impact. High Intensity.
 
         </p>
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.6s"
-          }}>
+          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{
+          animationDelay: "0.6s"
+        }}>
             <a href="#locations" className="btn-strong animate-pulse-glow">
               ​Start Here   
             </a>
