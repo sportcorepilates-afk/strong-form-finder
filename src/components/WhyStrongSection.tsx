@@ -47,7 +47,7 @@ const WhyStrongSection = () => {
             <span className="text-gradient-yellow">STRUCTURED PERFORMANCE</span>
           </h2>
           <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
-            It's a unique workout experience that fuses Pilates, cardio, and strength into one full-body burn. More variety, more sweat, and more results — all in one session.
+            Built on precision and assessment, SCP strengthens your body for sport, longevity and real-world performance.        
           </p>
         </div>
 
