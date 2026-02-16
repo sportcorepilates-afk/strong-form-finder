@@ -3,16 +3,16 @@ import { Menu, X } from "lucide-react";
 import scpLogo from "@/assets/scp-logo.png";
 const navLinks = [{
   label: "Classes",
-  href: "#workouts"
+  href: "/#workouts"
 }, {
   label: "SCP Method",
-  href: "#about"
+  href: "/#about"
 }, {
   label: "The Studio",
-  href: "#locations"
+  href: "/#locations"
 }, {
   label: "Services",
-  href: "#franchise"
+  href: "/#franchise"
 }];
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
