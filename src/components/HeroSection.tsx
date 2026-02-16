@@ -11,9 +11,9 @@ const HeroSection = () => {
       <div className="relative z-10 w-full px-6 md:px-12 lg:px-20 pb-16 md:pb-24 lg:pb-32">
         <div className="max-w-3xl">
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-foreground leading-[0.9] mb-6 animate-fade-in-up">
-            MORE THAN
+            PILATES FIRST.
             <br />
-            <span className="text-gradient-yellow">JUST PILATES</span>
+            <span className="text-gradient-yellow">PERFORMANCE DRIVEN.</span>
           </h1>
           <p className="font-body text-muted-foreground text-base md:text-lg max-w-lg mb-8 animate-fade-in-up" style={{
           animationDelay: "0.4s"
