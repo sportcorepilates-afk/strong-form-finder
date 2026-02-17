@@ -19,7 +19,7 @@ const features = [
 {
   icon: Timer,
   title: "Structured Progression",
-  description: "Efficient, expertly programmed classes that deliver maximum results in minimum time."
+  description: "Clear training pathways that evolve as your capacity improves."
 },
 {
   icon: Users,
