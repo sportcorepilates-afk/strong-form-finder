@@ -18,7 +18,7 @@ const features = [
 },
 {
   icon: Timer,
-  title: "45 Min Sessions",
+  title: "Structured Progression",
   description: "Efficient, expertly programmed classes that deliver maximum results in minimum time."
 },
 {
