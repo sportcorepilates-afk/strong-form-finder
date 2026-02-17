@@ -28,7 +28,7 @@ const features = [
 },
 {
   icon: TrendingUp,
-  title: "Progression",
+  title: "Low Impact. High Control",
   description: "Track your performance, beat your personal bests, and see real, measurable improvement."
 }];
 
