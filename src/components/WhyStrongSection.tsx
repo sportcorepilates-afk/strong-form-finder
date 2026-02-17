@@ -4,7 +4,7 @@ const features = [
 {
   icon: Zap,
   title: "Assessment-Led",
-  description: "45 minutes of Row. Ride. Reform. Pilates principles, strength training, and intentional cardio."
+  description: "Every client begins with structured movement evaluation through our proprietary SCP-PX framework."
 },
 {
   icon: Heart,
