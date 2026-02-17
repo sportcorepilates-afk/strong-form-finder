@@ -9,7 +9,7 @@ const features = [
 {
   icon: Heart,
   title: "Precision-Based",
-  description: "Without compromising your body or your exercise high. Do more, sustain longer, recover faster."
+  description: "Quality of movement comes before load or intensity."
 },
 {
   icon: Dumbbell,
