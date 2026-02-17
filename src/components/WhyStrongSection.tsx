@@ -14,7 +14,7 @@ const features = [
 {
   icon: Dumbbell,
   title: "Performance-Focused",
-  description: "Expert-designed 12-week movement cycles that progress week by week with trackable programming."
+  description: "Build strength, balance, and efficient force transfer to improve performance and reduce injury risk."
 },
 {
   icon: Timer,
