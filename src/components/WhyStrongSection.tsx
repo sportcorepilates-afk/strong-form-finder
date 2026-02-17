@@ -24,7 +24,7 @@ const features = [
 {
   icon: Users,
   title: "Coach Guided Performance",
-  description: "Join a tribe of SCP Humans who push limits and support each other, every single session."
+  description: "Structured sessions led by trained professionals focused on movement quality and long-term progression."
 },
 {
   icon: TrendingUp,
