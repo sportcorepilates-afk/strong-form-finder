@@ -59,7 +59,7 @@ const WhyStrongSection = () => {
             className="group p-8 bg-card border border-border hover:border-primary/30 transition-all duration-500 hover:-translate-y-1"
             style={{ animationDelay: `${i * 0.1}s` }}>
 
-              <feature.icon className="w-8 h-8 text-primary mb-6 group-hover:scale-110 transition-transform duration-300" />
+              
               <h3 className="font-heading text-xl uppercase tracking-wider text-foreground mb-3">
                 {feature.title}
               </h3>
