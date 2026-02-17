@@ -13,7 +13,7 @@ const features = [
 },
 {
   icon: Dumbbell,
-  title: "Performance-Focussed",
+  title: "Performance-Focused",
   description: "Expert-designed 12-week movement cycles that progress week by week with trackable programming."
 },
 {
