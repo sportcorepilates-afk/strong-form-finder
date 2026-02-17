@@ -8,7 +8,7 @@ const features = [
 },
 {
   icon: Heart,
-  title: "Low Impact",
+  title: "Precision-Based",
   description: "Without compromising your body or your exercise high. Do more, sustain longer, recover faster."
 },
 {
