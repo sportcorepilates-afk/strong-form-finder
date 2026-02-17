@@ -23,7 +23,7 @@ const features = [
 },
 {
   icon: Users,
-  title: "Community",
+  title: "Coach Guided Performance",
   description: "Join a tribe of SCP Humans who push limits and support each other, every single session."
 },
 {
