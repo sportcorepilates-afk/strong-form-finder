@@ -46,13 +46,13 @@ const Footer = () => {
               Classes
             </h4>
             <ul className="space-y-2">
-              {["SCP Pilates Only", "SCP Body", "SCP Ride", "Beginner Class"].map((item) => (
-                <li key={item}>
-                  <a href="#workouts" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
+              {["SCP Pilates Only", "SCP Body", "SCP Ride", "Beginner Class"].map((item) =>
+              <li key={item}>
+                  <a className="font-body text-muted-foreground text-sm hover:text-primary transition-colors" href="/#workouts">
                     {item}
                   </a>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
 
@@ -61,13 +61,13 @@ const Footer = () => {
               Company
             </h4>
             <ul className="space-y-2">
-              {["About SCP", "Locations", "Careers", "Franchising", "Contact"].map((item) => (
-                <li key={item}>
+              {["About SCP", "Locations", "Careers", "Franchising", "Contact"].map((item) =>
+              <li key={item}>
                   <a href="#" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
                     {item}
                   </a>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
 
@@ -76,13 +76,13 @@ const Footer = () => {
               Support
             </h4>
             <ul className="space-y-2">
-              {["FAQs", "Pricing", "Gift Cards", "Terms & Conditions"].map((item) => (
-                <li key={item}>
+              {["FAQs", "Pricing", "Gift Cards", "Terms & Conditions"].map((item) =>
+              <li key={item}>
                   <a href="#" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
                     {item}
                   </a>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
         </div>
@@ -104,8 +104,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
