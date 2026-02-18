@@ -22,7 +22,7 @@ SCP STUDIO
 
             </p>
             <ul className="space-y-4 mb-8">
-              {["Comprehensive training & support", "Premium brand with strong demand", "Innovative fitness technology"].map((item) =>
+              {["Premium brand with strong demand", "Innovative fitness technology"].map((item) =>
               <li key={item} className="flex items-center gap-3 font-body text-foreground">
                   <span className="w-2 h-2 bg-primary flex-shrink-0" />
                   {item}
