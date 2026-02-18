@@ -46,7 +46,7 @@ const Footer = () => {
               Classes
             </h4>
             <ul className="space-y-2">
-              {["SCP Foundation", "SCP Control", "SCP Performance", "SCP Restore"].map((item) =>
+              {["SCP Foundation", "SCP Control", "SCP Performance", "SCP Restore", "Private Training"].map((item) =>
               <li key={item}>
                   <a className="font-body text-muted-foreground text-sm hover:text-primary transition-colors" href="/#workouts">
                     {item}
