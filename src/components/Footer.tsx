@@ -23,9 +23,9 @@ const Footer = () => {
               <img src={scpLogo} alt="Sport Core Pilates" className="h-10 w-auto" />
             </a>
             <p className="font-body text-muted-foreground text-sm mt-4 leading-relaxed">
-              Pilates Inspired.
+            Pilates First.
               <br />
-              Cardio Infused.
+              Performance Driven.
             </p>
             <div className="flex gap-4 mt-6">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
