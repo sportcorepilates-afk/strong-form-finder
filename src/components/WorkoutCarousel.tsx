@@ -9,7 +9,7 @@ const workouts = [{
   description: "A structured introduction to performance - focused Pilates. Build movement quality, core strength, and control before progressing to advanced training formats.",
   duration: "45 min"
 }, {
-  title: "SCP Perform",
+  title: "SCP Control",
   subtitle: "PILATES + STRENGTH & CONDITIONING",
   image: workoutRow,
   description: "Balanced full-body workout combining rowing intervals with Pilates-inspired reformer movements for total-body conditioning.",
