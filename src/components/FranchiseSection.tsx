@@ -21,14 +21,6 @@ SCP STUDIO
             <p className="font-body text-muted-foreground text-lg mb-6">Begin with a structured assessment and discover the training format designed for your body and your goals.   
 
             </p>
-            <ul className="space-y-4 mb-8">
-              {["Innovative fitness technology"].map((item) =>
-              <li key={item} className="flex items-center gap-3 font-body text-foreground">
-                  <span className="w-2 h-2 bg-primary flex-shrink-0" />
-                  {item}
-                </li>
-              )}
-            </ul>
             <a href="#" className="btn-strong inline-flex items-center gap-3">
               Enquire Now
               <ArrowRight className="w-4 h-4" />
