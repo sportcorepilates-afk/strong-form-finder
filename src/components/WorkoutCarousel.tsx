@@ -4,7 +4,7 @@ import workoutRide from "@/assets/workout-ride.jpg";
 import workoutReform from "@/assets/workout-reform.jpg";
 const workouts = [{
   title: "SCP Foundation",
-  subtitle: "PILATES ONLY",
+  subtitle: "Movement Foundations",
   image: workoutReform,
   description: "A fusion of dynamic movements and controlled Pilates flows with the use of props to deepen muscle engagement.",
   duration: "45 min"
