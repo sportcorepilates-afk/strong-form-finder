@@ -14,33 +14,6 @@ const Footer = () => {
 
   return (
     <footer className="bg-card border-t border-border">
-      {/* Newsletter Band */}
-      <div className="px-6 md:px-12 lg:px-20 py-12 md:py-16 border-b border-border">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
-          <div>
-            <h3 className="font-display text-2xl md:text-3xl text-foreground mb-2">
-              JOIN THE <span className="text-gradient-yellow">SCP</span> COMMUNITY
-            </h3>
-            <p className="font-body text-muted-foreground text-sm">
-              Get exclusive offers, workout tips, and studio updates.
-            </p>
-          </div>
-          <form onSubmit={handleSubmit} className="flex w-full lg:w-auto">
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Your email address"
-              required
-              className="flex-1 lg:w-72 bg-background border border-border px-4 py-3 font-body text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors"
-            />
-            <button type="submit" className="btn-strong px-6">
-              <ArrowRight className="w-4 h-4" />
-            </button>
-          </form>
-        </div>
-      </div>
-
       {/* Main Footer */}
       <div className="px-6 md:px-12 lg:px-20 py-12">
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
