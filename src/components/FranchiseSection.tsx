@@ -18,7 +18,7 @@ SCP STUDIO
               <br />
               <span className="text-gradient-yellow">Perform with confidence. </span>
             </h2>
-            <p className="font-body text-muted-foreground text-lg mb-6">Begin with a structured assessment and discover the training format designed for your body and your goals. oin the fastest-growing boutique fitn
+            <p className="font-body text-muted-foreground text-lg mb-6">Begin with a structured assessment and discover the training format designed for your body and your goals.   
 
             </p>
             <ul className="space-y-4 mb-8">
