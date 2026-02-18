@@ -20,6 +20,12 @@ const workouts = [{
   image: workoutRide,
   description: "Pilates integrated with structured strength and conditioning principles, tailored to the specific demands of your sport.",
   duration: "45 min"
+}, {
+  title: "SCP Reform",
+  subtitle: "PHYSIO + READY TO PLAY",
+  image: workoutReform,
+  description: "Rehabilitation-focused Pilates designed to support injury recovery, build resilience, and prepare you for a confident return to sport and movement.",
+  duration: "45 min"
 }];
 const WorkoutCarousel = () => {
   const [active, setActive] = useState(0);
@@ -37,7 +43,7 @@ const WorkoutCarousel = () => {
         </div>
 
         {/* Workout Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {workouts.map((workout, i) => <div key={workout.title} className={`group relative overflow-hidden cursor-pointer transition-all duration-500 ${active === i ? "lg:scale-105" : "lg:scale-100 lg:opacity-80"}`} onMouseEnter={() => setActive(i)} onClick={() => setActive(i)}>
               {/* Image */}
               <div className="aspect-[3/4] relative overflow-hidden">
