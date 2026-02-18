@@ -66,7 +66,7 @@ const Footer = () => {
 
                 </a>
               </li>
-              {["Locations", "Careers", "Franchising", "Contact"].map((item) =>
+              {["SCP Method", "Careers", "Franchising", "Contact"].map((item) =>
               <li key={item}>
                   <a href="#" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
                     {item}
