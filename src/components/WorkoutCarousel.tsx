@@ -81,9 +81,9 @@ const WorkoutCarousel = () => {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <a href="#locations" className="btn-strong">
-            Book a Class
-          </a>
+          <a href="#locations" className="btn-strong">START HERE
+
+        </a>
         </div>
       </div>
     </section>;
