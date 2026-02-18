@@ -27,23 +27,6 @@ SCP STUDIO
             </a>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-2 gap-6">
-            {[
-            { number: "50+", label: "Studios Nationwide" },
-            { number: "200%", label: "Growth Year on Year" },
-            { number: "#1", label: "Pilates Franchise" },
-            { number: "10K+", label: "Weekly Members" }].
-            map((stat) =>
-            <div
-              key={stat.label}
-              className="bg-card border border-border p-8 text-center hover:border-primary/30 transition-colors duration-300">
-
-                <p className="font-display text-3xl md:text-4xl text-primary mb-2">{stat.number}</p>
-                <p className="font-heading text-xs uppercase tracking-wider text-muted-foreground">{stat.label}</p>
-              </div>
-            )}
-          </div>
         </div>
       </div>
     </section>);
