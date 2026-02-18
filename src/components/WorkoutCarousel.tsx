@@ -30,7 +30,7 @@ const workouts = [{
   title: "Private Training",
   subtitle: "Personalised Training",
   image: workoutRow,
-  description: "Personalised one-on-one Pilates sessions tailored to your individual goals, movement needs, and performance aspirations.",
+  description: "One-on-one or semi-private (1:2) sessions tailored to your individual goals, movement needs, and performance aspirations.",
   duration: "60 min"
 }];
 const WorkoutCarousel = () => {
