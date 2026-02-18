@@ -57,13 +57,13 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-heading text-xs uppercase tracking-[0.2em] text-foreground mb-4">
-              Company
+            <h4 className="font-heading text-xs uppercase tracking-[0.2em] text-foreground mb-4">SCP
+
             </h4>
             <ul className="space-y-2">
               <li>
-                <a href="/about" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
-                  About SCP
+                <a href="/about" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">About Us
+
                 </a>
               </li>
               {["Locations", "Careers", "Franchising", "Contact"].map((item) =>
