@@ -21,7 +21,7 @@ const workouts = [{
   description: "Pilates integrated with structured strength and conditioning principles, tailored to the specific demands of your sport.",
   duration: "45 min"
 }, {
-  title: "SCP Reform",
+  title: "SCP Restore",
   subtitle: "PHYSIO + READY TO PLAY",
   image: workoutReform,
   description: "Rehabilitation-focused Pilates designed to support injury recovery, build resilience, and prepare you for a confident return to sport and movement.",
