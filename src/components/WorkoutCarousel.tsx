@@ -27,9 +27,9 @@ const WorkoutCarousel = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-12 md:mb-16">
-          <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">
-            Our Classes
-          </p>
+          <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">HOW WE TRAIN
+
+        </p>
           <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground">SCP FOUNDATION 
 ​<br />
             <span className="text-gradient-yellow">​</span>
