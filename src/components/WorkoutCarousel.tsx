@@ -15,7 +15,7 @@ const workouts = [{
   description: "Designed for experienced Pilates clients, focusing on refined control, strength progression, and elevated movement precision.",
   duration: "45 min"
 }, {
-  title: "SCP Reform",
+  title: "SCP PERFORMANCE",
   subtitle: "PHYSIO + READY TO PLAY",
   image: workoutRide,
   description: "High-energy cycling meets reformer Pilates. An explosive cardio and strength experience on our Bikeformer machines.",
