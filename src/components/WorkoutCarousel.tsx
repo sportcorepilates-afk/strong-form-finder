@@ -12,7 +12,7 @@ const workouts = [{
   title: "SCP Control",
   subtitle: "PROGRESSIVE TRAINING",
   image: workoutRow,
-  description: "Balanced full-body workout combining rowing intervals with Pilates-inspired reformer movements for total-body conditioning.",
+  description: "Designed for experienced Pilates clients, focusing on refined control, strength progression, and elevated movement precision.",
   duration: "45 min"
 }, {
   title: "SCP Reform",
