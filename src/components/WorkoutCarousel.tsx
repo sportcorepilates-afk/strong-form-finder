@@ -28,7 +28,7 @@ const workouts = [{
   duration: "45 min"
 }, {
   title: "Private Training",
-  subtitle: "1-ON-1 COACHING",
+  subtitle: "Personalised Training",
   image: workoutRow,
   description: "Personalised one-on-one Pilates sessions tailored to your individual goals, movement needs, and performance aspirations.",
   duration: "60 min"
