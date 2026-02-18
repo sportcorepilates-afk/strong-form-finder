@@ -13,10 +13,9 @@ const FranchiseSection = () => {
             <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4">START YOUR TRAINING
 
             </p>
-            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-[0.95]">TRAIN WITH STRUCTURE
-SCP STUDIO
+            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-[0.95]">TRAIN WITH STRUCTURE.
               <br />
-              <span className="text-gradient-yellow">Perform with confidence. </span>
+              <span className="text-gradient-yellow">Perform with confidence.</span>
             </h2>
             <p className="font-body text-muted-foreground text-lg mb-6">Begin with a structured assessment and discover the training format designed for your body and your goals.   
 
