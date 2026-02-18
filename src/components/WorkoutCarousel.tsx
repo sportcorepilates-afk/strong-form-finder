@@ -30,7 +30,7 @@ const WorkoutCarousel = () => {
           <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">HOW WE TRAIN
 
         </p>
-          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground">SCP FOUNDATION 
+          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground">CLASSES  ​
 ​<br />
             <span className="text-gradient-yellow">​</span>
           </h2>
