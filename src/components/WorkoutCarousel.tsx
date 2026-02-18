@@ -24,7 +24,7 @@ const workouts = [{
   title: "SCP Restore",
   subtitle: "PHYSIO + READY TO PLAY",
   image: workoutReform,
-  description: "Rehabilitation-focused Pilates designed to support injury recovery, build resilience, and prepare you for a confident return to sport and movement.",
+  description: "For clients transitioning from physiotherapy or recovering from injury, focusing on controlled rebuilding of strength and movement capacity.",
   duration: "45 min"
 }, {
   title: "Private Training",
