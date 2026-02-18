@@ -66,7 +66,7 @@ const Footer = () => {
 
                 </a>
               </li>
-              {["SCP Method", "The Studio", "Start Here", "Contact Us"].map((item) =>
+              {["SCP Method", "The Studio", "Start Here", "Contact"].map((item) =>
               <li key={item}>
                   <a href="#" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
                     {item}
@@ -77,8 +77,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-heading text-xs uppercase tracking-[0.2em] text-foreground mb-4">
-              Support
+            <h4 className="font-heading text-xs uppercase tracking-[0.2em] text-foreground mb-4">RESOURCES
+
             </h4>
             <ul className="space-y-2">
               {["FAQs", "Pricing", "Gift Cards", "Terms & Conditions"].map((item) =>
