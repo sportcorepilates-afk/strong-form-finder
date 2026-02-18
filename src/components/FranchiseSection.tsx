@@ -21,7 +21,7 @@ SCP STUDIO
             <p className="font-body text-muted-foreground text-lg mb-6">Begin with a structured assessment and discover the training format designed for your body and your goals.   
 
             </p>
-            <a href="#" className="btn-strong inline-flex items-center gap-3">
+            <a className="btn-strong inline-flex items-center gap-3" href="#/start-here">
               Enquire Now
               <ArrowRight className="w-4 h-4" />
             </a>
