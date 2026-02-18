@@ -18,7 +18,7 @@ const workouts = [{
   title: "SCP PERFORMANCE",
   subtitle: "SPORT - SPECIFIC",
   image: workoutRide,
-  description: "High-energy cycling meets reformer Pilates. An explosive cardio and strength experience on our Bikeformer machines.",
+  description: "Pilates integrated with structured strength and conditioning principles, tailored to the specific demands of your sport.",
   duration: "45 min"
 }];
 const WorkoutCarousel = () => {
