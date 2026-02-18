@@ -6,7 +6,7 @@ const workouts = [{
   title: "SCP Foundation",
   subtitle: "Movement Foundations",
   image: workoutReform,
-  description: "A fusion of dynamic movements and controlled Pilates flows with the use of props to deepen muscle engagement.",
+  description: "A structured introduction to performance - focused Pilates. Build movement quality, core strength, and control before progressing to advanced training formats.",
   duration: "45 min"
 }, {
   title: "SCP Perform",
