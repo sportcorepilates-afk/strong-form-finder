@@ -4,7 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import WhyStrongSection from "@/components/WhyStrongSection";
 import WorkoutCarousel from "@/components/WorkoutCarousel";
 
-import StudioFinder from "@/components/StudioFinder";
+
 import FranchiseSection from "@/components/FranchiseSection";
 import Footer from "@/components/Footer";
 
@@ -17,7 +17,7 @@ const Index = () => {
       <WhyStrongSection />
       <WorkoutCarousel />
       
-      <StudioFinder />
+      
       <FranchiseSection />
       <Footer />
     </main>
