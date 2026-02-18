@@ -22,7 +22,7 @@ const workouts = [{
   duration: "45 min"
 }, {
   title: "SCP Restore",
-  subtitle: "PHYSIO + READY TO PLAY",
+  subtitle: "Recovery & Return",
   image: workoutReform,
   description: "For clients transitioning from physiotherapy or recovering from injury, focusing on controlled rebuilding of strength and movement capacity.",
   duration: "45 min"
