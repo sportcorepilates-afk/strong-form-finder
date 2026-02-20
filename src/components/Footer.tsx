@@ -66,10 +66,15 @@ const Footer = () => {
 
                 </a>
               </li>
-              {["SCP Method", "The Studio", "Start Here", "Contact"].map((item) =>
-              <li key={item}>
-                  <a href="#" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
-                    {item}
+              {[
+                { label: "SCP Method", href: "/scp-method" },
+                { label: "The Studio", href: "#" },
+                { label: "Start Here", href: "/start-here" },
+                { label: "Contact", href: "#" },
+              ].map((item) =>
+              <li key={item.label}>
+                  <a href={item.href} className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
+                    {item.label}
                   </a>
                 </li>
               )}
