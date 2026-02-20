@@ -6,7 +6,7 @@ const navLinks = [{
   href: "/#workouts"
 }, {
   label: "SCP Method",
-  href: "/#about"
+  href: "/scp-method"
 }, {
   label: "The Studio",
   href: "/#locations"
