@@ -42,7 +42,7 @@ const SCPMethod = () => {
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
               Pilates First.{" "}
-              <span className="text-gradient-yellow">Structured for Performance.</span>
+              <span className="text-gradient-yellow">Structure Behind the Performance.</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
               SCP places Pilates at the centre of training, enhanced by structured strength and performance principles without compromising movement quality.
