@@ -26,7 +26,7 @@ const HeroSection = () => {
             <a className="btn-strong animate-pulse-glow" href="/start-here">
               ​Start Here   
             </a>
-            <a href="#about" className="btn-outline-strong">
+            <a className="btn-outline-strong" href="/scp-method">
               ​SCP METHOD     
             </a>
           </div>
