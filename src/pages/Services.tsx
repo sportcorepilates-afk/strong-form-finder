@@ -36,8 +36,8 @@ const Services = () => {
               Movement-Led{" "}
               <span className="text-gradient-yellow">Physiotherapy</span>
             </h2>
-            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              Our physiotherapy service is embedded within the SCP framework, ensuring rehabilitation is aligned with your training goals. Every session is designed to restore function, reduce pain, and return you to performance — not just baseline.
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">Our physiotherapy service is embedded within the SCP framework, ensuring rehabilitation is aligned with your training goals. Every session is designed to restore function, reduce pain, and safely return you to performance — not just baseline.
+
             </p>
           </div>
         </section>
@@ -94,8 +94,8 @@ const Services = () => {
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>);
+
 };
 
 export default Services;
