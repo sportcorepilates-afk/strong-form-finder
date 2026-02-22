@@ -58,7 +58,7 @@ const SCPMethod = () => {
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
               The SCP-PX{" "}
-              <span className="text-gradient-yellow">Framework</span>
+              <span className="text-gradient-yellow">Assessment Framework</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-12">
               The proprietary SCP-PX movement evaluation framework.
