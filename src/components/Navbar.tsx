@@ -12,7 +12,7 @@ const navLinks = [{
   href: "/#locations"
 }, {
   label: "Services",
-  href: "/#franchise"
+  href: "/services"
 }];
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
