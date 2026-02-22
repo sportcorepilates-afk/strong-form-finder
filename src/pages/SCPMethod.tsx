@@ -60,28 +60,28 @@ const SCPMethod = () => {
               The SCP-PX{" "}
               <span className="text-gradient-yellow">Assessment Framework</span>
             </h2>
-            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-12">
-              The proprietary SCP-PX movement evaluation framework.
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-12">SCP - PX stands for Performance Index - our proprietary framework for evaluating how your body performs and how effectively it executes movement quality. Conceptually PX represents Performance x Execution: the intersection of physical capacity and movement quality. By assessing movement patterns, strength capacity and sport/activity specific demands. We establish a clear starting point for structured progression. Every training pathway at SCP begins here.                                           
+
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
-                {
-                  icon: Activity,
-                  title: "Movement Quality",
-                  description: "Evaluating how you move to build a training plan rooted in precision and control.",
-                },
-                {
-                  icon: Shield,
-                  title: "Strength & Control",
-                  description: "Measuring your capacity to stabilise, resist, and produce force safely under load.",
-                },
-                {
-                  icon: Zap,
-                  title: "Performance Demands",
-                  description: "Understanding the physical demands of your sport or lifestyle to tailor progression.",
-                },
-              ].map((pillar) => (
-                <div key={pillar.title} className="bg-card border border-border p-8 group hover:border-primary/40 transition-colors duration-300">
+              {
+                icon: Activity,
+                title: "Movement Quality",
+                description: "Evaluating how you move to build a training plan rooted in precision and control."
+              },
+              {
+                icon: Shield,
+                title: "Strength & Control",
+                description: "Measuring your capacity to stabilise, resist, and produce force safely under load."
+              },
+              {
+                icon: Zap,
+                title: "Performance Demands",
+                description: "Understanding the physical demands of your sport or lifestyle to tailor progression."
+              }].
+              map((pillar) =>
+              <div key={pillar.title} className="bg-card border border-border p-8 group hover:border-primary/40 transition-colors duration-300">
                   <pillar.icon className="w-8 h-8 text-primary mb-6" />
                   <h3 className="font-heading text-lg text-foreground mb-3 tracking-wide">
                     {pillar.title}
@@ -90,7 +90,7 @@ const SCPMethod = () => {
                     {pillar.description}
                   </p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -147,8 +147,8 @@ const SCPMethod = () => {
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>);
+
 };
 
 export default SCPMethod;
