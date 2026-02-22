@@ -60,7 +60,7 @@ const SCPMethod = () => {
               The SCP-PX{" "}
               <span className="text-gradient-yellow">Assessment Framework</span>
             </h2>
-            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-12">SCP - PX stands for Performance Index - our proprietary framework for evaluating how your body performs and how effectively it executes movement quality. Conceptually PX represents Performance x Execution: the intersection of physical capacity and movement quality. By assessing movement patterns, strength capacity and sport/activity specific demands. We establish a clear starting point for structured progression. Every training pathway at SCP begins here.                                           
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-12">SCP - PX stands for Performance Index - our proprietary framework for evaluating how your body moves and performs. It looks at how well you generate strength, control movement and maintain quality under load, fatigue, or physical stress. Conceptually PX represents Performance x Execution - not just how strong you are, but how well you move when it matters. Every training pathway at SCP begins here.                                           
 
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
