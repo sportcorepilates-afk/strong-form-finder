@@ -68,8 +68,8 @@ const Services = () => {
               Everything Works{" "}
               <span className="text-gradient-yellow">Together</span>
             </h2>
-            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              At Sport Core Pilates, physiotherapy and strength & conditioning aren't separate — they're integrated into your training pathway. This joined-up approach ensures every element of your program supports long-term performance and joint health.
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">At Sport Core Pilates, physiotherapy and strength & conditioning aren't separate add ons — they are integrated within the SCP method to ensure safe progression, durability, long-term performance and joint health.
+
             </p>
           </div>
         </section>
