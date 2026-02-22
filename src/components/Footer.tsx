@@ -67,8 +67,9 @@ const Footer = () => {
                 </a>
               </li>
               {[
-                { label: "SCP Method", href: "/scp-method" },
-                { label: "The Studio", href: "#" },
+              { label: "SCP Method", href: "/scp-method" },
+              { label: "Services", href: "/services" },
+              { label: "The Studio", href: "#" },
                 { label: "Start Here", href: "/start-here" },
                 { label: "Contact", href: "#" },
               ].map((item) =>
