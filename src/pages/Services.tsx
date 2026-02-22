@@ -26,6 +26,22 @@ const Services = () => {
           </div>
         </section>
 
+        {/* Pilates First */}
+        <section className="section-padding bg-card">
+          <div className="max-w-5xl mx-auto">
+            <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
+              Pilates First
+            </span>
+            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
+              The Foundation Of Everything{" "}
+              <span className="text-gradient-yellow">We Do</span>
+            </h2>
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
+              At Sport Core Pilates, Pilates is the core training system. Physiotherapy and strength & conditioning exist to support and enhance your Performance and Pilates progression.
+            </p>
+          </div>
+        </section>
+
         {/* Physiotherapy */}
         <section className="section-padding bg-card">
           <div className="max-w-5xl mx-auto">
