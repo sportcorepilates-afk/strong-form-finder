@@ -81,8 +81,8 @@ const Services = () => {
               Get Started
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
-              Ready to{" "}
-              <span className="text-gradient-yellow">Train Smarter?</span>
+              Train With Structure.{" "}
+              <span className="text-gradient-yellow">Perform With Confidence.</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
               Begin with a structured assessment and discover how our integrated services can support your goals.
