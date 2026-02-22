@@ -35,7 +35,7 @@ const Navbar = () => {
   return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-background/95 backdrop-blur-md border-b border-border" : "bg-transparent"}`}>
       <nav className="flex items-center justify-between px-6 md:px-12 lg:px-20 py-4">
         {/* Logo */}
-        <a href="#" className="flex items-center">
+        <a href="/" className="flex items-center">
           <img src={scpLogo} alt="Sport Core Pilates" className="h-14 md:h-16 w-auto rounded-lg" />
         </a>
 

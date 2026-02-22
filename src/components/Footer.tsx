@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <a href="#" className="flex items-center">
+            <a href="/" className="flex items-center">
               <img src={scpLogo} alt="Sport Core Pilates" className="h-10 w-auto" />
             </a>
             <p className="font-body text-muted-foreground text-sm mt-4 leading-relaxed">
