@@ -53,7 +53,7 @@ const About = () => {
               <span className="text-gradient-yellow">Structured Assessment</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              Every programme begins with a structured assessment — not assumptions. By identifying individual movement patterns, limitations, and goals, we build targeted progressions that deliver measurable results. This evidence-based approach is what separates Sport Core Pilates from traditional studio models.
+              What differentiates SCP is simple: strength and conditioning principles are integrated into Pilates training - not added as a separate layer. Combined with structured evaluation through the SCP-PX framework, every session is purposeful, progressive and aligned with your performance goals.
             </p>
           </div>
         </section>
