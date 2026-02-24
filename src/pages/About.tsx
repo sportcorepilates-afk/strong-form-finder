@@ -49,8 +49,8 @@ const About = () => {
               What Sets Us Apart
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
-              A Structured, Assessment-Led{" "}
-              <span className="text-gradient-yellow">System</span>
+              Integrated Strength.{" "}
+              <span className="text-gradient-yellow">Structured Assessment</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
               Every programme begins with a structured assessment — not assumptions. By identifying individual movement patterns, limitations, and goals, we build targeted progressions that deliver measurable results. This evidence-based approach is what separates Sport Core Pilates from traditional studio models.
