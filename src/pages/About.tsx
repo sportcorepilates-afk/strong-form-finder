@@ -53,7 +53,7 @@ const About = () => {
               <span className="text-gradient-yellow">System</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              {/* Body text placeholder */}
+              Every programme begins with a structured assessment — not assumptions. By identifying individual movement patterns, limitations, and goals, we build targeted progressions that deliver measurable results. This evidence-based approach is what separates Sport Core Pilates from traditional studio models.
             </p>
           </div>
         </section>
