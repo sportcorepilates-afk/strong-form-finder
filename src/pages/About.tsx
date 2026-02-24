@@ -37,7 +37,7 @@ const About = () => {
               <span className="text-gradient-yellow">For Performance</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              Sport Core Pilates redefines what Pilates can be — moving beyond rehabilitation and flexibility into a structured, performance-driven system. Our philosophy centres on building resilient, capable bodies through intelligent programming, progressive overload principles, and movement precision that translates directly to sport and life.
+              Sport Core Pilates was built on a simple belief: Pilates is a foundational performance system. When structured and progressed intelligently, it develops strength, control, and movement resilience that transfers beyond the studio. At SCP, Pilates is positioned as a central training method — not just for recovery, but for building long-term durability and athletic capability.
             </p>
           </div>
         </section>
