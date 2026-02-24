@@ -37,7 +37,7 @@ const About = () => {
               <span className="text-gradient-yellow">For Performance</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              {/* Body text placeholder */}
+              Sport Core Pilates redefines what Pilates can be — moving beyond rehabilitation and flexibility into a structured, performance-driven system. Our philosophy centres on building resilient, capable bodies through intelligent programming, progressive overload principles, and movement precision that translates directly to sport and life.
             </p>
           </div>
         </section>
