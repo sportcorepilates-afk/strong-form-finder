@@ -73,17 +73,17 @@ const About = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { name: "Name", role: "Role Title", bio: "Short biography and background." },
-                { name: "Name", role: "Role Title", bio: "Short biography and background." },
-                { name: "Name", role: "Role Title", bio: "Short biography and background." },
-              ].map((leader, index) => (
-                <div key={index} className="bg-background border border-border rounded-lg p-6 flex flex-col items-center text-center">
+              { name: "Name", role: "Role Title", bio: "Short biography and background." },
+              { name: "Name", role: "Role Title", bio: "Short biography and background." },
+              { name: "Name", role: "Role Title", bio: "Short biography and background." }].
+              map((leader, index) =>
+              <div key={index} className="bg-background border border-border rounded-lg p-6 flex flex-col items-center text-center">
                   <div className="w-24 h-24 rounded-full bg-muted mb-4" />
                   <h3 className="font-heading text-lg text-foreground mb-1">{leader.name}</h3>
                   <span className="font-heading text-xs uppercase tracking-[0.2em] text-primary mb-3">{leader.role}</span>
                   <p className="font-body text-muted-foreground text-sm leading-relaxed">{leader.bio}</p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -98,8 +98,8 @@ const About = () => {
               A New Standard for{" "}
               <span className="text-gradient-yellow">Performance-Focused Pilates</span>
             </h2>
-            <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
-              Whether you're an athlete, a fitness enthusiast, or someone ready to move better for life — Sport Core Pilates is where your next chapter begins. Purpose-built programming, world-class instruction, and a system designed to stand the test of time.
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">Whether you're an athlete, an active individual or simply ready to move better for life — Sport Core Pilates provides a structured pathway forward. Purpose - built programming, expert instruction, and a system designed for long - term strength and durability define everything we do.                                                                          
+
             </p>
             <a className="btn-strong animate-pulse-glow" href="/start-here">
               Start Here
@@ -108,8 +108,8 @@ const About = () => {
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>);
+
 };
 
 export default About;
