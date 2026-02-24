@@ -95,8 +95,8 @@ const About = () => {
               The Future of Pilates
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
-              Built for Longevity.{" "}
-              <span className="text-gradient-yellow">Designed for Performance.</span>
+              A New Standard for{" "}
+              <span className="text-gradient-yellow">Performance-Focused Pilates</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
               Whether you're an athlete, a fitness enthusiast, or someone ready to move better for life — Sport Core Pilates is where your next chapter begins. Purpose-built programming, world-class instruction, and a system designed to stand the test of time.
