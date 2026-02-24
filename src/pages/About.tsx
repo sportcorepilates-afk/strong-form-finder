@@ -68,9 +68,22 @@ const About = () => {
               Built With{" "}
               <span className="text-gradient-yellow">Strategic Vision</span>
             </h2>
-            {/* Leadership profiles placeholder */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-              {/* Profile cards can be added here */}
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-12">
+              Sport Core Pilates is led by a team with deep expertise in movement science, business strategy, and franchise development — united by a shared commitment to elevating the Pilates industry.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[
+                { name: "Name", role: "Role Title", bio: "Short biography and background." },
+                { name: "Name", role: "Role Title", bio: "Short biography and background." },
+                { name: "Name", role: "Role Title", bio: "Short biography and background." },
+              ].map((leader, index) => (
+                <div key={index} className="bg-background border border-border rounded-lg p-6 flex flex-col items-center text-center">
+                  <div className="w-24 h-24 rounded-full bg-muted mb-4" />
+                  <h3 className="font-heading text-lg text-foreground mb-1">{leader.name}</h3>
+                  <span className="font-heading text-xs uppercase tracking-[0.2em] text-primary mb-3">{leader.role}</span>
+                  <p className="font-body text-muted-foreground text-sm leading-relaxed">{leader.bio}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
