@@ -86,7 +86,7 @@ const About = () => {
               <span className="text-gradient-yellow">Designed for Performance.</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
-              {/* Short paragraph placeholder */}
+              Whether you're an athlete, a fitness enthusiast, or someone ready to move better for life — Sport Core Pilates is where your next chapter begins. Purpose-built programming, world-class instruction, and a system designed to stand the test of time.
             </p>
             <a className="btn-strong animate-pulse-glow" href="/start-here">
               Start Here
