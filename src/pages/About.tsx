@@ -52,8 +52,8 @@ const About = () => {
               Integrated Strength.{" "}
               <span className="text-gradient-yellow">Structured Assessment</span>
             </h2>
-            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              What differentiates SCP is simple: strength and conditioning principles are integrated into Pilates training - not added as a separate layer. Combined with structured evaluation through the SCP-PX framework, every session is purposeful, progressive and aligned with your performance goals.
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">What differentiates SCP is simple: strength and conditioning principles are integrated into Pilates training - tailored to the specific demands of your sport or activity. Combined with structured evaluation through the SCP-PX framework, every session is purposeful, progressive and aligned with your performance goals.
+
             </p>
           </div>
         </section>
@@ -73,7 +73,7 @@ const About = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-{ name: "Gaurav Mashruwala", role: "Co-Founder & CEO", bio: "Gaurav leads the strategic direction and growth of Sport Core Pilates (SCP). With over two decades of experience in media, business leadership and building scalable intellectual properties, he brings a performance - driven mindset to building SCP as a structured, system led pilates ecosystem. His focus is simple - to position Pilates as a central method for long-term strength, intelligent training and athletic durability." },
+              { name: "Gaurav Mashruwala", role: "Co-Founder & CEO", bio: "Short biography and background." },
               { name: "Name", role: "Role Title", bio: "Short biography and background." },
               { name: "Name", role: "Role Title", bio: "Short biography and background." }].
               map((leader, index) =>
