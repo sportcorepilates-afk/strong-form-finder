@@ -73,7 +73,7 @@ const About = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-{ name: "Gaurav Mashruwala", role: "Role Title", bio: "Short biography and background." },
+{ name: "Gaurav Mashruwala", role: "Co-Founder & CEO", bio: "Short biography and background." },
               { name: "Name", role: "Role Title", bio: "Short biography and background." },
               { name: "Name", role: "Role Title", bio: "Short biography and background." }].
               map((leader, index) =>
