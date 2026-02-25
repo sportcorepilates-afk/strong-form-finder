@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import gauravPhoto from "@/assets/gaurav-photo.jpg";
 
 const About = () => {
   return (
@@ -73,11 +74,15 @@ const About = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-              { name: "Gaurav Mashruwala", role: "Co-Founder & CEO", bio: "Gaurav leads the strategic direction and growth of Sport Core Pilates (SCP). With over two decades of experience in media, business leadership, and building scalable intellectual property, he brings a performance-driven mindset to developing SCP as a structured, system-led Pilates ecosystem. His focus is simple — to position Pilates as a central method for long-term strength, intelligent training, and athletic durability." },
-              { name: "Dr. Moushumi Kuvawala", role: "Role Title", bio: "Short biography and background." }].
+              { name: "Gaurav Mashruwala", role: "Co-Founder & CEO", image: gauravPhoto, bio: "Gaurav leads the strategic direction and growth of Sport Core Pilates (SCP). With over two decades of experience in media, business leadership, and building scalable intellectual property, he brings a performance-driven mindset to developing SCP as a structured, system-led Pilates ecosystem. His focus is simple — to position Pilates as a central method for long-term strength, intelligent training, and athletic durability." },
+              { name: "Dr. Moushumi Kuvawala", role: "Role Title", image: null, bio: "Short biography and background." }].
               map((leader, index) =>
               <div key={index} className="bg-background border border-border rounded-lg p-6 flex flex-col items-center text-center">
-                  <div className="w-24 h-24 rounded-full bg-muted mb-4" />
+                  {leader.image ? (
+                    <img src={leader.image} alt={leader.name} className="w-24 h-24 rounded-full object-cover mb-4" />
+                  ) : (
+                    <div className="w-24 h-24 rounded-full bg-muted mb-4" />
+                  )}
                   <h3 className="font-heading text-lg text-foreground mb-1">{leader.name}</h3>
                   <span className="font-heading text-xs uppercase tracking-[0.2em] text-primary mb-3">{leader.role}</span>
                   <p className="font-body text-muted-foreground text-sm leading-relaxed">{leader.bio}</p>
