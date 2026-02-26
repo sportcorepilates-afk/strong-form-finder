@@ -9,7 +9,7 @@ const navLinks = [{
   href: "/scp-method"
 }, {
   label: "The Studio",
-  href: "/#locations"
+  href: "/the-studio"
 }, {
   label: "Services",
   href: "/services"

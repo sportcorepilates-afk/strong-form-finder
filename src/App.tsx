@@ -8,6 +8,7 @@ import StartHere from "./pages/StartHere";
 import About from "./pages/About";
 import SCPMethod from "./pages/SCPMethod";
 import Services from "./pages/Services";
+import TheStudio from "./pages/TheStudio";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/scp-method" element={<SCPMethod />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/the-studio" element={<TheStudio />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
