@@ -77,7 +77,7 @@ const TheStudio = () => {
         <section className="section-padding bg-background">
           <div className="max-w-5xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
-              Our Approach
+              ​How We Train  
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
               How We{" "}
