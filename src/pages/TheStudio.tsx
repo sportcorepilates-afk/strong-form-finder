@@ -60,15 +60,15 @@ const TheStudio = () => {
               The Environment  
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
-              Built for{" "}
-              <span className="text-gradient-yellow">Focussed Performance</span>
+              The{" "}
+              <span className="text-gradient-yellow">Environment</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              Our studio is designed with intention — from the equipment
-              selection to the spatial layout. Every element supports focused,
-              distraction-free training where you can push boundaries safely.
-              Premium reformers, controlled lighting, and a clean aesthetic
-              create an environment where serious work happens.
+              Every detail of the SCP studio is designed to support structured, coach led training. From equipment selection to layout and session flow, the space prioritises movement quality, controlled progression, and professional supervision. This is not a drop in the fitness environment - it is a performance training space built with purpose.
+            
+
+
+
             </p>
           </div>
         </section>
