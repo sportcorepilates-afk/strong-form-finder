@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 const teamMembers = [
 {
-  name: "Dr. Moushumi Kuvawala (P.T.)",
+  name: "Team Member Name",
   role: "Role Title",
   image: null,
   bio: "Short biography and background."
@@ -142,7 +142,7 @@ const TheStudio = () => {
         <section className="section-padding bg-background text-center">
           <div className="max-w-3xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
-              Your Next Step
+              ​Train with Purpose   
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
               Train With{" "}
