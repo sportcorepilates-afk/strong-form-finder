@@ -3,25 +3,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const teamMembers = [
-  {
-    name: "Team Member Name",
-    role: "Role Title",
-    image: null,
-    bio: "Short biography and background.",
-  },
-  {
-    name: "Team Member Name",
-    role: "Role Title",
-    image: null,
-    bio: "Short biography and background.",
-  },
-  {
-    name: "Team Member Name",
-    role: "Role Title",
-    image: null,
-    bio: "Short biography and background.",
-  },
-];
+{
+  name: "Team Member Name",
+  role: "Role Title",
+  image: null,
+  bio: "Short biography and background."
+},
+{
+  name: "Team Member Name",
+  role: "Role Title",
+  image: null,
+  bio: "Short biography and background."
+},
+{
+  name: "Team Member Name",
+  role: "Role Title",
+  image: null,
+  bio: "Short biography and background."
+}];
+
 
 const TheStudio = () => {
   return (
@@ -30,8 +30,8 @@ const TheStudio = () => {
         <title>The Studio | Sport Core Pilates</title>
         <meta
           name="description"
-          content="Explore the performance-focused training environment designed for precision, progression and long-term durability."
-        />
+          content="Explore the performance-focused training environment designed for precision, progression and long-term durability." />
+
       </Helmet>
       <Navbar />
       <main>
@@ -57,7 +57,7 @@ const TheStudio = () => {
         <section className="section-padding bg-card">
           <div className="max-w-5xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
-              The Space
+              The Environment  
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
               The{" "}
@@ -109,20 +109,20 @@ const TheStudio = () => {
               conditioning knowledge to deliver results-driven coaching.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {teamMembers.map((member, index) => (
-                <div
-                  key={index}
-                  className="bg-background border border-border rounded-lg p-6 flex flex-col items-center text-center"
-                >
-                  {member.image ? (
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-24 h-24 rounded-full object-cover mb-4"
-                    />
-                  ) : (
-                    <div className="w-24 h-24 rounded-full bg-muted mb-4" />
-                  )}
+              {teamMembers.map((member, index) =>
+              <div
+                key={index}
+                className="bg-background border border-border rounded-lg p-6 flex flex-col items-center text-center">
+
+                  {member.image ?
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-24 h-24 rounded-full object-cover mb-4" /> :
+
+
+                <div className="w-24 h-24 rounded-full bg-muted mb-4" />
+                }
                   <h3 className="font-heading text-lg text-foreground mb-1">
                     {member.name}
                   </h3>
@@ -133,7 +133,7 @@ const TheStudio = () => {
                     {member.bio}
                   </p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -160,8 +160,8 @@ const TheStudio = () => {
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>);
+
 };
 
 export default TheStudio;
