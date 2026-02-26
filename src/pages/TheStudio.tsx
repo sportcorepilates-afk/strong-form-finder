@@ -80,8 +80,8 @@ const TheStudio = () => {
               ​How We Train  
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
-              How We{" "}
-              <span className="text-gradient-yellow">Train</span>
+              Structured Formats.{" "}
+              <span className="text-gradient-yellow">Performance Supervised.</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
               Training at Sport Core Pilates is structured, progressive, and
