@@ -60,8 +60,8 @@ const TheStudio = () => {
               The Environment  
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
-              The{" "}
-              <span className="text-gradient-yellow">Environment</span>
+              Built for{" "}
+              <span className="text-gradient-yellow">Focussed Performance</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
               Our studio is designed with intention — from the equipment
