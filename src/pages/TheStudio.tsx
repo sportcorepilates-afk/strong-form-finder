@@ -149,9 +149,9 @@ const TheStudio = () => {
               <span className="text-gradient-yellow">Purpose</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
-              Experience a training environment built for performance. Whether
-              you're an athlete or an active individual ready to move better —
-              this is where it starts.
+              ​Begin with a structured assessment and step into a training environment built for performance and longevity.              
+            
+
             </p>
             <a className="btn-strong animate-pulse-glow" href="/start-here">
               Start Here
