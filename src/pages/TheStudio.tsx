@@ -145,8 +145,8 @@ const TheStudio = () => {
               ​Train with Purpose   
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
-              Train With{" "}
-              <span className="text-gradient-yellow">Purpose</span>
+              Experience the{" "}
+              <span className="text-gradient-yellow">SCP Environment</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
               ​Begin with a structured assessment and step into a training environment built for performance and longevity.              
