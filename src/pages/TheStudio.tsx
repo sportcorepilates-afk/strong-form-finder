@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 const teamMembers = [
 {
-  name: "Team Member Name",
+  name: "Dr. Moushumi Kuvawala (P.T.)",
   role: "Role Title",
   image: null,
   bio: "Short biography and background."
