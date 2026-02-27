@@ -80,8 +80,8 @@ const TheStudio = () => {
               ​How We Train  
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
-              How We{" "}
-              <span className="text-gradient-yellow">Train</span>
+              Structured Formats.{" "}
+              <span className="text-gradient-yellow">Performance Supervised.</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
               ​SCP sessions are delivered through structured training formats designed for progression and technical supervision. Group training creates a focused performance environment, while private and semi-private sessions allow for deeper personalization within the same structured system. Every format remains aligned with your assessment and training pathway.                             
