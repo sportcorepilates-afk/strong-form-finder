@@ -16,7 +16,7 @@ const sections = [
   {
     title: "Membership, Payments & Packages",
     content:
-      "All fees for classes, memberships, and services are due at the time of purchase unless otherwise agreed upon. Prices are subject to change with reasonable notice. Refunds and credits are issued at the sole discretion of Sport Core Pilates and in accordance with our refund policy.",
+      "All session packages must be paid in advance unless otherwise agreed.\nPackages are valid for a specified duration and must be used within that validity period. Unused sessions will expire upon completion of the package validity period.\nAll purchases are non-transferable and non-refundable unless required by applicable law.",
   },
   {
     title: "Booking and Cancellation Policy",
@@ -98,7 +98,7 @@ const TermsAndConditions = () => {
                   <h2 className="font-heading text-lg md:text-xl text-foreground mb-3">
                     {index + 1}. {section.title}
                   </h2>
-                  <p className="font-body text-muted-foreground text-base leading-relaxed">
+                  <p className="font-body text-muted-foreground text-base leading-relaxed whitespace-pre-line">
                     {section.content}
                   </p>
                 </div>
