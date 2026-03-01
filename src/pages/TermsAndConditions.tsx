@@ -21,7 +21,7 @@ const sections = [
   {
     title: "Booking and Cancellation Policy",
     content:
-      "Clients must book sessions in advance through our designated booking system. Cancellations must be made at least 12 hours prior to the scheduled session. Late cancellations or no-shows may result in forfeiture of the session or applicable fees.",
+      "Clients must book sessions 24 hours in advance. Cancellations must be made at least 24 hours prior to the scheduled session. Late cancellations or no-shows may result in forfeiture of the session or applicable fees.\nSpecific cancellation timelines may be communicated separately.",
   },
   {
     title: "Health and Safety",
