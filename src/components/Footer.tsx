@@ -87,10 +87,14 @@ const Footer = () => {
 
             </h4>
             <ul className="space-y-2">
-              {["Terms & Conditions", "Privacy Policy", "Gift Cards"].map((item) =>
-              <li key={item}>
-                  <a href="#" className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
-                    {item}
+            {[
+              { label: "Terms & Conditions", href: "/terms-and-conditions" },
+              { label: "Privacy Policy", href: "#" },
+              { label: "Gift Cards", href: "#" },
+            ].map((item) =>
+            <li key={item.label}>
+                  <a href={item.href} className="font-body text-muted-foreground text-sm hover:text-primary transition-colors">
+                    {item.label}
                   </a>
                 </li>
               )}
