@@ -26,7 +26,7 @@ const sections = [
   {
     title: "Health and Safety",
     content:
-      "Clients participate in all classes and sessions at their own risk. You are responsible for informing your instructor of any medical conditions, injuries, or limitations prior to participation. Sport Core Pilates reserves the right to refuse service to anyone whose participation may pose a risk to themselves or others.",
+      "Clients must disclose any relevant medical conditions, injuries, or physical limitations prior to participation.\nParticipation in training sessions is voluntary. While all sessions are professionally supervised, clients assume responsibility for exercising within their personal physical capacity.\nPhysiotherapy services are delivered in accordance with applicable professional standards in India.\nClients participate in all classes and sessions at their own risk. Sport Core Pilates reserves the right to refuse service to anyone whose participation may pose a risk to themselves or others.",
   },
   {
     title: "Assumption of Risk and Liability Waiver",
