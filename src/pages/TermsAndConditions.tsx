@@ -56,7 +56,7 @@ const sections = [
   {
     title: "Governing Law",
     content:
-      "These Terms and Conditions are governed by and construed in accordance with the laws of the jurisdiction in which Sport Core Pilates operates. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts in that jurisdiction.",
+      "These Terms and Conditions are governed by and construed in accordance with the laws of India.",
   },
   {
     title: "Contact",
