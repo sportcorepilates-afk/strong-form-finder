@@ -36,7 +36,7 @@ const sections = [
   {
     title: "Intellectual Property",
     content:
-      "All content on the Sport Core Pilates website, including text, graphics, logos, images, and the SCP Method, is the intellectual property of Sport Core Pilates. Unauthorized use, reproduction, or distribution of any content is strictly prohibited.",
+      "All content (including text, graphics, logos, images), branding, training methodologies (including the SCP-PX framework and SCP) is the intellectual property of Sport Core Pilates. Unauthorized use, reproduction, or distribution of any content is strictly prohibited.",
   },
   {
     title: "Privacy",
