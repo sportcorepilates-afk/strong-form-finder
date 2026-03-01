@@ -86,8 +86,7 @@ const TermsAndConditions = () => {
               Terms &amp; Conditions
             </h1>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-16">
-              Please read these terms carefully before using Sport Core Pilates
-              services and website.
+              Introduction: Please read these terms carefully before using Sport Core Pilates services and website. These Terms &amp; Conditions govern your use of the Sport Core Pilates website and participation in training sessions, assessments, physiotherapy services, and related offerings. By accessing this website or engaging with our services, you agree to these terms.
             </p>
             <p className="font-body text-muted-foreground text-sm mb-16">
               Last Updated: March 1, 2026
