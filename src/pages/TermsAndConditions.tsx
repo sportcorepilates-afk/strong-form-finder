@@ -89,6 +89,9 @@ const TermsAndConditions = () => {
               Please read these terms carefully before using Sport Core Pilates
               services and website.
             </p>
+            <p className="font-body text-muted-foreground text-sm mb-16">
+              Last Updated: March 1, 2026
+            </p>
 
             <div className="space-y-12">
               {sections.map((section, index) => (
