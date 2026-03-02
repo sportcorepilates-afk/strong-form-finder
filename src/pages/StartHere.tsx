@@ -25,13 +25,13 @@ const StartHere = () => {
             START HERE
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12">
-            Begin your journey at Sport Core Pilates with a structured assessment and performance-focused onboarding process.
+            Begin your journey at Sport Core Pilates. Share your details below, and our team will connect with you to guide the next steps.     
           </p>
         </div>
       </section>
       <Footer />
-    </main>
-  );
+    </main>);
+
 };
 
 export default StartHere;
