@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 const sections = [
   {
-    title: "Information We Collect",
+    title: "Consent & Information We Collect",
     content:
       "We may collect personal information that you voluntarily provide when booking sessions, subscribing to our communications, or contacting us. This may include your name, email address, phone number, health and medical information relevant to your training, and payment details.",
   },
