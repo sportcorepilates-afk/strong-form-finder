@@ -89,7 +89,7 @@ const Footer = () => {
             <ul className="space-y-2">
             {[
               { label: "Terms & Conditions", href: "/terms-and-conditions" },
-              { label: "Privacy Policy", href: "#" },
+              { label: "Privacy Policy", href: "/privacy-policy" },
               { label: "Gift Cards", href: "#" },
             ].map((item) =>
             <li key={item.label}>
@@ -110,7 +110,7 @@ const Footer = () => {
             © 2025 Sport Core Pilates. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="font-body text-muted-foreground text-xs hover:text-primary transition-colors">
+            <a href="/privacy-policy" className="font-body text-muted-foreground text-xs hover:text-primary transition-colors">
               Privacy Policy
             </a>
             <a href="#" className="font-body text-muted-foreground text-xs hover:text-primary transition-colors">
