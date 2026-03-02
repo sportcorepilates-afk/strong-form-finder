@@ -6,7 +6,7 @@ const sections = [
   {
     title: "Consent & Information We Collect",
     content:
-      "We may collect personal information that you voluntarily provide when booking sessions, subscribing to our communications, or contacting us. This may include your name, email address, phone number, health and medical information relevant to your training, and payment details.",
+      "By mere use of the Website, you expressly consent to Sport Core Pilate's use and disclosure of your Personal Information in accordance with this Policy. If you do not agree with the terms of this Policy, please do not use this Website.\nWe may collect personal information that you voluntarily provide when booking sessions, subscribing to our communications, or contacting us. This may include your name, email address, phone number, health and medical information relevant to your training, and payment details.",
   },
   {
     title: "How We Use Your Information",
