@@ -11,7 +11,7 @@ const sections = [
   {
     title: "How We Use Your Information",
     content:
-      "We use the information we collect to:\n• Provide and manage our Pilates training services\n• Process bookings and payments\n• Communicate with you about sessions, schedules, and updates\n• Ensure your safety during training by understanding relevant health conditions\n• Improve our services and website experience\n• Send promotional communications (only with your consent)",
+      "We use the information we collect to:\n• Provide and manage our Pilates training services\n• Process bookings and payments\n• Communicate with you about sessions, schedules, and updates\n• Ensure your safety during training by understanding relevant health conditions. Any health-related information shared with us is treated confidentially and used solely to ensure safe and appropriate training delivery.\n• Improve our services and website experience\n• Send promotional communications (only with your consent)",
   },
   {
     title: "Information Sharing",
