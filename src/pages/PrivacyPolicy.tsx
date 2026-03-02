@@ -36,7 +36,7 @@ const sections = [
   {
     title: "Third-Party Links",
     content:
-      "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those websites. We encourage you to review the privacy policies of any third-party sites you visit.",
+      "We may use third-party service providers (such as booking systems, payment processors, or email platforms). These providers operate under their own privacy policies. Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those websites. We encourage you to review the privacy policies of any third-party sites you visit.",
   },
   {
     title: "Children's Privacy",
