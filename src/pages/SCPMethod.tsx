@@ -81,7 +81,7 @@ const SCPMethod = () => {
                 description: "Understanding the physical demands of your sport or lifestyle to tailor progression."
               }].
               map((pillar) =>
-              <div key={pillar.title} className="bg-card border border-border p-8 group hover:border-primary/40 transition-colors duration-300">
+              <div key={pillar.title} className="bg-card border border-border p-8 xl:p-10 group hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
                   <pillar.icon className="w-8 h-8 text-primary mb-6" />
                   <h3 className="font-heading text-lg text-foreground mb-3 tracking-wide">
                     {pillar.title}
