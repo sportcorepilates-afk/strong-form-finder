@@ -28,7 +28,7 @@ const Services = () => {
 
         {/* Pilates First */}
         <section className="section-padding bg-card">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-5xl xl:max-w-6xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
               Pilates First
             </span>
