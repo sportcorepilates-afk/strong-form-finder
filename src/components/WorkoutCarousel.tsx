@@ -49,8 +49,8 @@ const WorkoutCarousel = () => {
         </div>
 
         {/* Workout Cards */}
-        <div className="grid grid-cols-1 gap-6">
-          {workouts.map((workout, i) => <div key={workout.title} className={`group relative overflow-hidden cursor-pointer transition-all duration-500 ${active === i ? "lg:scale-105" : "lg:scale-100 lg:opacity-80"}`} onMouseEnter={() => setActive(i)} onClick={() => setActive(i)}>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 lg:gap-5">
+          {workouts.map((workout, i) => <div key={workout.title} className={`group relative overflow-hidden cursor-pointer transition-all duration-500 ${active === i ? "lg:ring-2 lg:ring-primary/40 lg:scale-[1.02]" : "lg:opacity-75 hover:lg:opacity-100"}`} onMouseEnter={() => setActive(i)} onClick={() => setActive(i)}>
               {/* Image */}
               <div className="aspect-[3/4] relative overflow-hidden">
                 <img src={workout.image} alt={workout.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
