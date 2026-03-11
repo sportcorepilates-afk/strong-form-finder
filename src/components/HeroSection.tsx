@@ -3,7 +3,7 @@ const HeroSection = () => {
   return <section className="relative h-screen w-full overflow-hidden flex items-end">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="Sport Core Pilates studio" className="w-full h-full object-cover" loading="eager" />
+        <img src={heroBg} alt="Sport Core Pilates studio" className="w-full h-full object-cover" loading="eager" decoding="async" fetchPriority="high" />
         <div className="hero-overlay absolute inset-0" />
       </div>
 
