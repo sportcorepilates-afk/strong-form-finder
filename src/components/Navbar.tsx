@@ -33,14 +33,14 @@ const Navbar = () => {
     };
   }, [mobileOpen]);
   return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-background/95 backdrop-blur-md border-b border-border" : "bg-transparent"}`}>
-      <nav className="flex items-center justify-between px-6 md:px-12 lg:px-20 py-4">
+      <nav className="flex items-center justify-between px-6 md:px-12 lg:px-20 xl:px-28 2xl:px-36 py-4 max-w-[1920px] mx-auto w-full">
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img src={scpLogo} alt="Sport Core Pilates" className="h-14 md:h-16 w-auto rounded-lg" />
         </a>
 
         {/* Desktop Nav */}
-        <div className="hidden lg:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-8 xl:gap-12">
           {navLinks.map(link => <a key={link.label} href={link.href} className="font-heading text-sm uppercase tracking-[0.15em] text-muted-foreground hover:text-primary transition-colors duration-300">
               {link.label}
             </a>)}

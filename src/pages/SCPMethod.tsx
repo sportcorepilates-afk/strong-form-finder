@@ -36,7 +36,7 @@ const SCPMethod = () => {
 
         {/* Our Approach */}
         <section className="section-padding bg-card">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-5xl xl:max-w-6xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
               Our Approach
             </span>
@@ -52,7 +52,7 @@ const SCPMethod = () => {
 
         {/* SCP-PX Framework */}
         <section className="section-padding bg-background">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-5xl xl:max-w-6xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
               Assessment
             </span>
@@ -81,7 +81,7 @@ const SCPMethod = () => {
                 description: "Understanding the physical demands of your sport or lifestyle to tailor progression."
               }].
               map((pillar) =>
-              <div key={pillar.title} className="bg-card border border-border p-8 group hover:border-primary/40 transition-colors duration-300">
+              <div key={pillar.title} className="bg-card border border-border p-8 xl:p-10 group hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
                   <pillar.icon className="w-8 h-8 text-primary mb-6" />
                   <h3 className="font-heading text-lg text-foreground mb-3 tracking-wide">
                     {pillar.title}
@@ -97,7 +97,7 @@ const SCPMethod = () => {
 
         {/* Structured Progression */}
         <section className="section-padding bg-card">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-5xl xl:max-w-6xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
               Progression
             </span>
@@ -113,7 +113,7 @@ const SCPMethod = () => {
 
         {/* Integrated Support */}
         <section className="section-padding bg-background">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-5xl xl:max-w-6xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
               Integrated Support
             </span>

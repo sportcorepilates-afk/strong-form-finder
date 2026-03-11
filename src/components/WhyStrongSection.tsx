@@ -36,13 +36,13 @@ const features = [
 const WhyStrongSection = () => {
   return (
     <section id="about" className="section-padding bg-background">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl xl:max-w-[1400px] mx-auto">
         {/* Header */}
         <div className="text-center mb-16 md:mb-20">
           <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">
             Why Sport Core Pilates?
           </p>
-          <h2 className="font-display text-4xl lg:text-7xl text-foreground mb-6 md:text-5xl">SCP IS WHERE PILATES MEETS
+          <h2 className="font-display text-4xl md:text-5xl lg:text-7xl xl:text-8xl text-foreground mb-6">SCP IS WHERE PILATES MEETS
             <br />
             <span className="text-gradient-yellow">STRUCTURED PERFORMANCE</span>
           </h2>
@@ -56,7 +56,7 @@ const WhyStrongSection = () => {
           {features.map((feature, i) =>
           <div
             key={feature.title}
-            className="group p-8 bg-card border border-border hover:border-primary/30 transition-all duration-500 hover:-translate-y-1"
+            className="group p-8 xl:p-10 bg-card border border-border hover:border-primary/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5"
             style={{ animationDelay: `${i * 0.1}s` }}>
 
               <feature.icon className="w-6 h-6 text-primary mb-4" />

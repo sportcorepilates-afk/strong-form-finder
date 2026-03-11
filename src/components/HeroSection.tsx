@@ -3,13 +3,13 @@ const HeroSection = () => {
   return <section className="relative h-screen w-full overflow-hidden flex items-end">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="Sport Core Pilates studio" className="w-full h-full object-cover" loading="eager" />
+        <img src={heroBg} alt="Sport Core Pilates studio" className="w-full h-full object-cover" loading="eager" decoding="async" fetchPriority="high" />
         <div className="hero-overlay absolute inset-0" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 w-full px-6 md:px-12 lg:px-20 pb-16 md:pb-24 lg:pb-32">
-        <div className="max-w-3xl">
+      <div className="relative z-10 w-full px-6 md:px-12 lg:px-20 xl:px-28 2xl:px-36 pb-16 md:pb-24 lg:pb-32">
+        <div className="max-w-3xl xl:max-w-4xl">
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-foreground leading-[0.9] mb-6 animate-fade-in-up">
             PILATES FIRST.
             <br />
