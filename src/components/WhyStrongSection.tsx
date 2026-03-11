@@ -36,7 +36,7 @@ const features = [
 const WhyStrongSection = () => {
   return (
     <section id="about" className="section-padding bg-background">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl xl:max-w-[1400px] mx-auto">
         {/* Header */}
         <div className="text-center mb-16 md:mb-20">
           <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">
