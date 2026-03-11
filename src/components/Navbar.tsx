@@ -40,7 +40,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop Nav */}
-        <div className="hidden lg:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-8 xl:gap-12">
           {navLinks.map(link => <a key={link.label} href={link.href} className="font-heading text-sm uppercase tracking-[0.15em] text-muted-foreground hover:text-primary transition-colors duration-300">
               {link.label}
             </a>)}

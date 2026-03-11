@@ -56,7 +56,7 @@ const WhyStrongSection = () => {
           {features.map((feature, i) =>
           <div
             key={feature.title}
-            className="group p-8 bg-card border border-border hover:border-primary/30 transition-all duration-500 hover:-translate-y-1"
+            className="group p-8 xl:p-10 bg-card border border-border hover:border-primary/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5"
             style={{ animationDelay: `${i * 0.1}s` }}>
 
               <feature.icon className="w-6 h-6 text-primary mb-4" />

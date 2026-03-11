@@ -36,7 +36,7 @@ const workouts = [{
 const WorkoutCarousel = () => {
   const [active, setActive] = useState(0);
   return <section id="workouts" className="section-padding bg-secondary">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl xl:max-w-[1400px] mx-auto">
         {/* Header */}
         <div className="mb-12 md:mb-16">
           <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">HOW WE TRAIN

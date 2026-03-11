@@ -104,8 +104,8 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="px-6 md:px-12 lg:px-20 py-6 border-t border-border">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div className="px-6 md:px-12 lg:px-20 xl:px-28 2xl:px-36 py-6 border-t border-border">
+        <div className="max-w-7xl xl:max-w-[1400px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-muted-foreground text-xs">
             © 2025 Sport Core Pilates. All rights reserved.
           </p>
