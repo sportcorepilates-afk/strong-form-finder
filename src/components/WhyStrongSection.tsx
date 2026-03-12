@@ -1,77 +1,84 @@
 import { Dumbbell, Heart, Zap, Timer, Users, TrendingUp } from "lucide-react";
 
 const features = [
-{
-  icon: Zap,
-  title: "Assessment-Led",
-  description: "Every client begins with structured movement evaluation through our proprietary SCP-PX framework."
-},
-{
-  icon: Heart,
-  title: "Precision-Based",
-  description: "Quality of movement comes before load or intensity."
-},
-{
-  icon: Dumbbell,
-  title: "Performance-Focused",
-  description: "Build strength, balance, and efficient force transfer to improve performance and reduce injury risk."
-},
-{
-  icon: Timer,
-  title: "Structured Progression",
-  description: "Clear training pathways that evolve as your capacity improves."
-},
-{
-  icon: Users,
-  title: "Coach Guided Performance",
-  description: "Structured sessions led by trained professionals focused on movement quality and long-term progression."
-},
-{
-  icon: TrendingUp,
-  title: "Low Impact. High Control",
-  description: "Develop strength and athletic capacity while protecting your joints."
-}];
-
+  {
+    icon: Zap,
+    title: "Assessment-Led",
+    description:
+      "Every client begins with structured movement evaluation through our proprietary SCP-PX framework.",
+  },
+  {
+    icon: Heart,
+    title: "Precision-Based",
+    description: "Quality of movement comes before load or intensity.",
+  },
+  {
+    icon: Dumbbell,
+    title: "Performance-Focused",
+    description:
+      "Build strength, balance, and efficient force transfer to improve performance and reduce injury risk.",
+  },
+  {
+    icon: Timer,
+    title: "Structured Progression",
+    description:
+      "Clear training pathways that evolve as your capacity improves.",
+  },
+  {
+    icon: Users,
+    title: "Coach Guided Performance",
+    description:
+      "Structured sessions led by trained professionals focused on movement quality and long-term progression.",
+  },
+  {
+    icon: TrendingUp,
+    title: "Low Impact. High Control",
+    description:
+      "Develop strength and athletic capacity while protecting your joints.",
+  },
+];
 
 const WhyStrongSection = () => {
   return (
     <section id="about" className="section-padding bg-background">
       <div className="max-w-7xl xl:max-w-[1400px] mx-auto">
         {/* Header */}
-        <div className="text-center mb-16 md:mb-20">
+        <div className="text-center mb-16 md:mb-20 lg:mb-24">
           <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">
             Why Sport Core Pilates?
           </p>
-          <h2 className="font-display text-4xl md:text-5xl lg:text-7xl xl:text-8xl text-foreground mb-6">SCP IS WHERE PILATES MEETS
+          <h2 className="font-display text-4xl md:text-5xl lg:text-7xl xl:text-8xl text-foreground mb-6 lg:mb-8">
+            SCP IS WHERE PILATES MEETS
             <br />
             <span className="text-gradient-yellow">STRUCTURED PERFORMANCE</span>
           </h2>
-          <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
-            Built on precision and assessment, SCP strengthens your body for sport, longevity and real-world performance.        
+          <p className="font-body text-muted-foreground text-lg lg:text-xl max-w-2xl lg:max-w-3xl mx-auto leading-relaxed">
+            Built on precision and assessment, SCP strengthens your body for
+            sport, longevity and real-world performance.
           </p>
         </div>
 
         {/* Feature Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {features.map((feature, i) =>
-          <div
-            key={feature.title}
-            className="group p-8 xl:p-10 bg-card border border-border hover:border-primary/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5"
-            style={{ animationDelay: `${i * 0.1}s` }}>
-
-              <feature.icon className="w-6 h-6 text-primary mb-4" />
-              <h3 className="font-heading text-xl uppercase tracking-wider text-foreground mb-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
+          {features.map((feature, i) => (
+            <div
+              key={feature.title}
+              className="group p-8 xl:p-10 bg-card border border-border hover:border-primary/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5 cursor-default"
+              style={{ animationDelay: `${i * 0.1}s` }}
+            >
+              <feature.icon className="w-6 h-6 lg:w-7 lg:h-7 text-primary mb-4 transition-transform duration-300 group-hover:scale-110" />
+              <h3 className="font-heading text-xl lg:text-2xl uppercase tracking-wider text-foreground mb-3">
                 {feature.title}
               </h3>
-              <p className="font-body text-muted-foreground text-sm leading-relaxed">
+              <p className="font-body text-muted-foreground text-sm lg:text-base leading-relaxed">
                 {feature.description}
               </p>
             </div>
-          )}
+          ))}
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 };
 
 export default WhyStrongSection;
