@@ -1,6 +1,25 @@
 import { useEffect } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Button } from "@/components/ui/button";
+import { toast } from "@/hooks/use-toast";
+
+const formSchema = z.object({
+  fullName: z.string().trim().min(1, "Full name is required").max(100),
+  phone: z.string().trim().min(1, "Phone number is required").max(20),
+  email: z.string().trim().email("Please enter a valid email").max(255),
+  service: z.enum(["pilates", "physiotherapy", "both"], { required_error: "Please select an option" }),
+  goal: z.string().trim().min(1, "Please tell us about your goal or concern").max(1000),
+});
+
+type FormValues = z.infer<typeof formSchema>;
 
 const StartHere = () => {
   useEffect(() => {
@@ -16,22 +35,99 @@ const StartHere = () => {
     }
   }, []);
 
+  const form = useForm<FormValues>({
+    resolver: zodResolver(formSchema),
+    defaultValues: { fullName: "", phone: "", email: "", goal: "" },
+  });
+
+  const onSubmit = (data: FormValues) => {
+    console.log("Form submitted:", { ...data, email: "[redacted]" });
+    toast({ title: "Submitted!", description: "We'll be in touch shortly." });
+    form.reset();
+  };
+
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
+      {/* Hero */}
       <section className="pt-32 pb-20 px-6 md:px-12 lg:px-20">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl tracking-tight text-foreground mb-6">
             START HERE
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12">
-            Begin your journey at Sport Core Pilates. Share your details below, and our team will connect with you to guide the next steps.     
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+            Begin your journey at Sport Core Pilates. Share your details below, and our team will connect with you to guide the next steps.
           </p>
         </div>
       </section>
-      <Footer />
-    </main>);
 
+      {/* Form */}
+      <section className="pb-20 px-6 md:px-12 lg:px-20">
+        <div className="max-w-xl mx-auto">
+          <h2 className="font-display text-2xl md:text-3xl text-foreground mb-8">Let's Get Started</h2>
+          <Form {...form}>
+            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+              <FormField control={form.control} name="fullName" render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Full Name</FormLabel>
+                  <FormControl><Input placeholder="Your full name" {...field} /></FormControl>
+                  <FormMessage />
+                </FormItem>
+              )} />
+
+              <FormField control={form.control} name="phone" render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Phone Number</FormLabel>
+                  <FormControl><Input type="tel" placeholder="Your phone number" {...field} /></FormControl>
+                  <FormMessage />
+                </FormItem>
+              )} />
+
+              <FormField control={form.control} name="email" render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Email</FormLabel>
+                  <FormControl><Input type="email" placeholder="Your email address" {...field} /></FormControl>
+                  <FormMessage />
+                </FormItem>
+              )} />
+
+              <FormField control={form.control} name="service" render={({ field }) => (
+                <FormItem className="space-y-3">
+                  <FormLabel>How would you like to begin?</FormLabel>
+                  <FormControl>
+                    <RadioGroup onValueChange={field.onChange} value={field.value} className="flex flex-col space-y-2">
+                      {[
+                        { value: "pilates", label: "Pilates Training" },
+                        { value: "physiotherapy", label: "Physiotherapy" },
+                        { value: "both", label: "Both" },
+                      ].map((opt) => (
+                        <label key={opt.value} className="flex items-center space-x-3 cursor-pointer">
+                          <RadioGroupItem value={opt.value} />
+                          <span className="text-sm font-medium text-foreground">{opt.label}</span>
+                        </label>
+                      ))}
+                    </RadioGroup>
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )} />
+
+              <FormField control={form.control} name="goal" render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Briefly tell us about your goal or concern</FormLabel>
+                  <FormControl><Textarea placeholder="E.g. recovering from a back injury, improving athletic performance..." className="min-h-[100px]" {...field} /></FormControl>
+                  <FormMessage />
+                </FormItem>
+              )} />
+
+              <Button type="submit" size="lg" className="w-full">Submit</Button>
+            </form>
+          </Form>
+        </div>
+      </section>
+      <Footer />
+    </main>
+  );
 };
 
 export default StartHere;
