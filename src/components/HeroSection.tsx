@@ -1,9 +1,20 @@
 import heroBg from "@/assets/hero-bg.jpg";
+
 const HeroSection = () => {
-  return <section className="relative h-screen w-full overflow-hidden flex items-end">
+  return (
+    <section className="relative h-screen w-full overflow-hidden flex items-end">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="Sport Core Pilates studio" className="w-full h-full object-cover" loading="eager" decoding="async" fetchPriority="high" />
+        <img
+          src={heroBg}
+          alt="Sport Core Pilates studio"
+          className="w-full h-full object-cover"
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
+          width={1920}
+          height={1080}
+        />
         <div className="hero-overlay absolute inset-0" />
       </div>
 
@@ -15,33 +26,41 @@ const HeroSection = () => {
             <br />
             <span className="text-gradient-yellow">PERFORMANCE DRIVEN.</span>
           </h1>
-          <p className="font-body text-muted-foreground text-base md:text-lg max-w-lg mb-8 animate-fade-in-up" style={{
-          animationDelay: "0.4s"
-        }}>Performance - focused Pilates for active adults and athletes who want to move better, train stronger and stay injury - resilient.      
-
-        </p>
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{
-          animationDelay: "0.6s"
-        }}>
+          <p
+            className="font-body text-muted-foreground text-base md:text-lg lg:text-xl max-w-lg lg:max-w-xl mb-8 lg:mb-10 leading-relaxed animate-fade-in-up"
+            style={{ animationDelay: "0.4s" }}
+          >
+            Performance-focused Pilates for active adults and athletes who want
+            to move better, train stronger and stay injury-resilient.
+          </p>
+          <div
+            className="flex flex-col sm:flex-row gap-4 animate-fade-in-up"
+            style={{ animationDelay: "0.6s" }}
+          >
             <a className="btn-strong animate-pulse-glow" href="/start-here">
-              ​Start Here   
+              Start Here
             </a>
             <a className="btn-outline-strong" href="/scp-method">
-              ​SCP METHOD     
+              SCP Method
             </a>
           </div>
         </div>
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 animate-fade-in" style={{
-      animationDelay: "1s"
-    }}>
-        <span className="font-heading text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Scroll</span>
+      <div
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 animate-fade-in"
+        style={{ animationDelay: "1s" }}
+      >
+        <span className="font-heading text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+          Scroll
+        </span>
         <div className="w-px h-8 bg-muted-foreground/40 relative overflow-hidden">
           <div className="w-full h-1/2 bg-primary absolute top-0 animate-bounce" />
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroSection;

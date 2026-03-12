@@ -2,58 +2,89 @@ import { useState } from "react";
 import workoutRow from "@/assets/workout-row.jpg";
 import workoutRide from "@/assets/workout-ride.jpg";
 import workoutReform from "@/assets/workout-reform.jpg";
-const workouts = [{
-  title: "SCP Foundation",
-  subtitle: "Movement Foundations",
-  image: workoutReform,
-  description: "A structured introduction to performance - focused Pilates. Build movement quality, core strength, and control before progressing to advanced training formats.",
-  duration: "45 min"
-}, {
-  title: "SCP Control",
-  subtitle: "PROGRESSIVE TRAINING",
-  image: workoutRow,
-  description: "Designed for experienced Pilates clients, focusing on refined control, strength progression, and elevated movement precision.",
-  duration: "45 min"
-}, {
-  title: "SCP PERFORMANCE",
-  subtitle: "SPORT - SPECIFIC",
-  image: workoutRide,
-  description: "Pilates integrated with structured strength and conditioning principles, tailored to the specific demands of your sport.",
-  duration: "45 min"
-}, {
-  title: "SCP Restore",
-  subtitle: "Recovery & Return",
-  image: workoutReform,
-  description: "For clients transitioning from physiotherapy or recovering from injury, focusing on controlled rebuilding of strength and movement capacity.",
-  duration: "45 min"
-}, {
-  title: "Private Training",
-  subtitle: "Personalised Training",
-  image: workoutRow,
-  description: "One-on-one or semi-private (1:2) sessions tailored to your individual goals, movement needs, and performance aspirations.",
-  duration: "60 min"
-}];
+
+const workouts = [
+  {
+    title: "SCP Foundation",
+    subtitle: "Movement Foundations",
+    image: workoutReform,
+    description:
+      "A structured introduction to performance-focused Pilates. Build movement quality, core strength, and control before progressing to advanced training formats.",
+    duration: "45 min",
+  },
+  {
+    title: "SCP Control",
+    subtitle: "Progressive Training",
+    image: workoutRow,
+    description:
+      "Designed for experienced Pilates clients, focusing on refined control, strength progression, and elevated movement precision.",
+    duration: "45 min",
+  },
+  {
+    title: "SCP Performance",
+    subtitle: "Sport-Specific",
+    image: workoutRide,
+    description:
+      "Pilates integrated with structured strength and conditioning principles, tailored to the specific demands of your sport.",
+    duration: "45 min",
+  },
+  {
+    title: "SCP Restore",
+    subtitle: "Recovery & Return",
+    image: workoutReform,
+    description:
+      "For clients transitioning from physiotherapy or recovering from injury, focusing on controlled rebuilding of strength and movement capacity.",
+    duration: "45 min",
+  },
+  {
+    title: "Private Training",
+    subtitle: "Personalised Training",
+    image: workoutRow,
+    description:
+      "One-on-one or semi-private (1:2) sessions tailored to your individual goals, movement needs, and performance aspirations.",
+    duration: "60 min",
+  },
+];
+
 const WorkoutCarousel = () => {
   const [active, setActive] = useState(0);
-  return <section id="workouts" className="section-padding bg-secondary">
+
+  return (
+    <section id="workouts" className="section-padding bg-secondary">
       <div className="max-w-7xl xl:max-w-[1400px] mx-auto">
         {/* Header */}
-        <div className="mb-12 md:mb-16">
-          <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">HOW WE TRAIN
-
-        </p>
-          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground">CLASSES  ​
-​<br />
-            <span className="text-gradient-yellow">​</span>
+        <div className="mb-12 md:mb-16 lg:mb-20">
+          <p className="font-heading text-primary text-sm uppercase tracking-[0.3em] mb-4 font-bold">
+            HOW WE TRAIN
+          </p>
+          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground">
+            CLASSES
           </h2>
         </div>
 
         {/* Workout Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 lg:gap-5">
-          {workouts.map((workout, i) => <div key={workout.title} className={`group relative overflow-hidden cursor-pointer transition-all duration-500 ${active === i ? "lg:ring-2 lg:ring-primary/40 lg:scale-[1.02]" : "lg:opacity-75 hover:lg:opacity-100"}`} onMouseEnter={() => setActive(i)} onClick={() => setActive(i)}>
+          {workouts.map((workout, i) => (
+            <div
+              key={workout.title}
+              className={`group relative overflow-hidden cursor-pointer transition-all duration-500 ${
+                active === i
+                  ? "lg:ring-2 lg:ring-primary/40 lg:scale-[1.02]"
+                  : "lg:opacity-75 hover:lg:opacity-100"
+              }`}
+              onMouseEnter={() => setActive(i)}
+              onClick={() => setActive(i)}
+            >
               {/* Image */}
               <div className="aspect-[3/4] relative overflow-hidden">
-                <img src={workout.image} alt={workout.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+                <img
+                  src={workout.image}
+                  alt={workout.title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  loading="lazy"
+                  width={400}
+                  height={533}
+                />
                 <div className="card-overlay absolute inset-0" />
                 <div className="card-overlay absolute inset-0" />
 
@@ -65,7 +96,13 @@ const WorkoutCarousel = () => {
                   <h3 className="font-display text-2xl md:text-3xl text-foreground mb-3">
                     {workout.title}
                   </h3>
-                  <p className={`font-body text-muted-foreground text-sm leading-relaxed transition-all duration-500 ${active === i ? "max-h-24 opacity-100" : "max-h-0 opacity-0 lg:max-h-0 lg:opacity-0"}`}>
+                  <p
+                    className={`font-body text-muted-foreground text-sm leading-relaxed transition-all duration-500 ${
+                      active === i
+                        ? "max-h-24 opacity-100"
+                        : "max-h-0 opacity-0 lg:max-h-0 lg:opacity-0"
+                    }`}
+                  >
                     {workout.description}
                   </p>
                   <div className="flex items-center gap-3 mt-4 font-bold">
@@ -76,16 +113,19 @@ const WorkoutCarousel = () => {
                   </div>
                 </div>
               </div>
-            </div>)}
+            </div>
+          ))}
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-12">
-          <a className="btn-strong" href="/start-here">START HERE
-
-        </a>
+        <div className="text-center mt-12 lg:mt-16">
+          <a className="btn-strong" href="/start-here">
+            START HERE
+          </a>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default WorkoutCarousel;
