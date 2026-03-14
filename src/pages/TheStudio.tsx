@@ -61,7 +61,7 @@ const TheStudio = () => {
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
               Built for{" "}
-              <span className="text-gradient-yellow">Focussed Performance</span>
+              <span className="text-gradient-yellow">Focused Performance</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
               Every detail of the SCP studio is designed to support structured, coach led training. From equipment selection to layout and session flow, the space prioritises movement quality, controlled progression, and professional supervision. This is not a drop in the fitness environment - it is a performance training space built with purpose.
