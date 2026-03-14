@@ -100,7 +100,7 @@ const Footer = () => {
                 { label: "Services", href: "/services" },
                 { label: "The Studio", href: "/the-studio" },
                 { label: "Start Here", href: "/start-here" },
-                { label: "Contact", href: "#" },
+                { label: "Contact", href: "/contact" },
               ].map((item) => (
                 <li key={item.label}>
                   <a
