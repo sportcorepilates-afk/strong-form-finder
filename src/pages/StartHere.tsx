@@ -23,6 +23,8 @@ const formSchema = z.object({
 type FormValues = z.infer<typeof formSchema>;
 
 const StartHere = () => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   useEffect(() => {
     document.title = "Start Here | Sport Core Pilates";
     const meta = document.querySelector('meta[name="description"]');
@@ -41,10 +43,30 @@ const StartHere = () => {
     defaultValues: { fullName: "", phone: "", email: "", goal: "" },
   });
 
-  const onSubmit = (data: FormValues) => {
-    console.log("Form submitted:", { ...data, email: "[redacted]" });
-    toast({ title: "Submitted!", description: "We'll be in touch shortly." });
-    form.reset();
+  const onSubmit = async (data: FormValues) => {
+    setIsSubmitting(true);
+    try {
+      const { data: resData, error } = await supabase.functions.invoke("send-contact-email", {
+        body: data,
+      });
+
+      if (error) throw error;
+
+      toast({
+        title: "Thank you!",
+        description: "Thank you for connecting with Sport Core Pilates. Our team will connect with you to guide the next steps.",
+      });
+      form.reset();
+    } catch (err) {
+      console.error("Submission error:", err);
+      toast({
+        title: "Something went wrong",
+        description: "Please try again or contact us directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
