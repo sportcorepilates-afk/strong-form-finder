@@ -143,7 +143,9 @@ const StartHere = () => {
                 </FormItem>
               )} />
 
-              <Button type="submit" size="lg" className="w-full">Submit</Button>
+              <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
+                {isSubmitting ? "Submitting..." : "Submit"}
+              </Button>
             </form>
           </Form>
         </div>
