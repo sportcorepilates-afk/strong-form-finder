@@ -12,6 +12,7 @@ import TheStudio from "./pages/TheStudio";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
+import SCPFoundation from "./pages/SCPFoundation";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
