@@ -9,8 +9,8 @@ const SCPFoundation = () => {
         <title>SCP Foundation | Sport Core Pilates</title>
         <meta
           name="description"
-          content="An introductory Pilates class focused on movement quality, control, and building a strong foundation for structured training."
-        />
+          content="An introductory Pilates class focused on movement quality, control, and building a strong foundation for structured training." />
+        
       </Helmet>
       <Navbar />
       <main>
@@ -43,7 +43,7 @@ const SCPFoundation = () => {
                 SCP Foundation is our introductory Pilates class designed for those beginning their training journey or returning after a break. The class focuses on establishing proper movement patterns, developing core stability, and building the body awareness needed for structured progression.
               </p>
               <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed">
-                Using reformer-based exercises and guided instruction, each session is designed to build competence and confidence — ensuring you move with quality before adding complexity. This is where your SCP journey begins.
+                Using reformer and equipment-based exercises and guided instruction, each session is designed to build competence and confidence — ensuring you move with quality before adding complexity. This is where your SCP journey begins.
               </p>
             </div>
           </div>
@@ -60,23 +60,23 @@ const SCPFoundation = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                {
-                  title: "Beginners",
-                  text: "New to Pilates or reformer training and looking for a structured, supportive starting point.",
-                },
-                {
-                  title: "Returning Clients",
-                  text: "Coming back after time away and wanting to rebuild your movement foundations with confidence.",
-                },
-                {
-                  title: "Active Individuals",
-                  text: "Experienced in other forms of training but new to the SCP methodology and assessment-led approach.",
-                },
-              ].map((item) => (
-                <div
-                  key={item.title}
-                  className="bg-card border border-border p-8"
-                >
+              {
+                title: "Beginners",
+                text: "New to Pilates or reformer training and looking for a structured, supportive starting point."
+              },
+              {
+                title: "Returning Clients",
+                text: "Coming back after time away and wanting to rebuild your movement foundations with confidence."
+              },
+              {
+                title: "Active Individuals",
+                text: "Experienced in other forms of training but new to the SCP methodology and assessment-led approach."
+              }].
+              map((item) =>
+              <div
+                key={item.title}
+                className="bg-card border border-border p-8">
+                
                   <h3 className="font-heading text-sm uppercase tracking-[0.2em] text-primary mb-3">
                     {item.title}
                   </h3>
@@ -84,7 +84,7 @@ const SCPFoundation = () => {
                     {item.text}
                   </p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -100,31 +100,31 @@ const SCPFoundation = () => {
             </h2>
             <div className="space-y-6">
               {[
-                {
-                  step: "01",
-                  title: "Warm-Up & Activation",
-                  text: "Guided mobility and activation drills to prepare your body for the session ahead.",
-                },
-                {
-                  step: "02",
-                  title: "Foundation Movements",
-                  text: "Reformer-based exercises focusing on alignment, core engagement, and movement control.",
-                },
-                {
-                  step: "03",
-                  title: "Progressive Challenge",
-                  text: "Structured progressions that build strength and coordination at a pace suited to your ability.",
-                },
-                {
-                  step: "04",
-                  title: "Cool-Down & Recovery",
-                  text: "Stretching and breathwork to support recovery and reinforce the movement patterns practised.",
-                },
-              ].map((item) => (
-                <div
-                  key={item.step}
-                  className="flex gap-6 md:gap-8 items-start border-b border-border pb-6 last:border-0 last:pb-0"
-                >
+              {
+                step: "01",
+                title: "Warm-Up & Activation",
+                text: "Guided mobility and activation drills to prepare your body for the session ahead."
+              },
+              {
+                step: "02",
+                title: "Foundation Movements",
+                text: "Reformer-based exercises focusing on alignment, core engagement, and movement control."
+              },
+              {
+                step: "03",
+                title: "Progressive Challenge",
+                text: "Structured progressions that build strength and coordination at a pace suited to your ability."
+              },
+              {
+                step: "04",
+                title: "Cool-Down & Recovery",
+                text: "Stretching and breathwork to support recovery and reinforce the movement patterns practised."
+              }].
+              map((item) =>
+              <div
+                key={item.step}
+                className="flex gap-6 md:gap-8 items-start border-b border-border pb-6 last:border-0 last:pb-0">
+                
                   <span className="font-display text-3xl md:text-4xl text-primary/30 shrink-0">
                     {item.step}
                   </span>
@@ -137,7 +137,7 @@ const SCPFoundation = () => {
                     </p>
                   </div>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -153,21 +153,21 @@ const SCPFoundation = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
-                "Improved movement quality and body awareness",
-                "Stronger core stability and postural control",
-                "Confidence to progress to SCP Control and beyond",
-                "A clear understanding of the SCP training methodology",
-              ].map((benefit) => (
-                <div
-                  key={benefit}
-                  className="flex items-start gap-4 bg-card border border-border p-6"
-                >
+              "Improved movement quality and body awareness",
+              "Stronger core stability and postural control",
+              "Confidence to progress to SCP Control and beyond",
+              "A clear understanding of the SCP training methodology"].
+              map((benefit) =>
+              <div
+                key={benefit}
+                className="flex items-start gap-4 bg-card border border-border p-6">
+                
                   <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
                   <p className="font-body text-muted-foreground text-sm md:text-base leading-relaxed">
                     {benefit}
                   </p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -191,8 +191,8 @@ const SCPFoundation = () => {
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>);
+
 };
 
 export default SCPFoundation;
