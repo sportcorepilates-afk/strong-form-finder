@@ -155,8 +155,8 @@ const SCPFoundation = () => {
               {[
               "Improved movement quality and body awareness",
               "Stronger core stability and postural control",
-              "Confidence to progress to SCP Control and beyond",
-              "A clear understanding of the SCP training methodology"].
+              "Increased strength through controlled movement",
+              "A clear pathway into structured higher-level training"].
               map((benefit) =>
               <div
                 key={benefit}
