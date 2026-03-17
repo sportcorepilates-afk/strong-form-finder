@@ -96,7 +96,7 @@ const SCPFoundation = () => {
               What To Expect       
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-10">
-              Structured, coach led <span className="text-gradient-yellow">sessions</span>
+              What To <span className="text-gradient-yellow">Expect</span>
             </h2>
             <div className="space-y-6">
               {[
@@ -155,8 +155,8 @@ const SCPFoundation = () => {
               {[
               "Improved movement quality and body awareness",
               "Stronger core stability and postural control",
-              "Increased strength through controlled movement",
-              "A clear pathway into structured higher-level training"].
+              "Confidence to progress to SCP Control and beyond",
+              "A clear understanding of the SCP training methodology"].
               map((benefit) =>
               <div
                 key={benefit}
@@ -176,7 +176,7 @@ const SCPFoundation = () => {
         <section className="section-padding bg-card text-center">
           <div className="max-w-3xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
-              Ready To Begin?
+              ​Start Your Journey    
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
               Build Your <span className="text-gradient-yellow">Foundation</span>
