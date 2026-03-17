@@ -53,7 +53,7 @@ const SCPFoundation = () => {
         <section className="section-padding bg-background">
           <div className="max-w-5xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
-              Who It's For
+              Who It's For?
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-10">
               Is This Class <span className="text-gradient-yellow">For You</span>?
