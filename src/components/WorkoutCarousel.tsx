@@ -118,8 +118,9 @@ const WorkoutCarousel = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            </Wrapper>
+            );
+          })}
         </div>
 
         {/* CTA */}
