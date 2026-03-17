@@ -11,6 +11,7 @@ const workouts = [
     description:
       "A structured introduction to performance-focused Pilates. Build movement quality, core strength, and control before progressing to advanced training formats.",
     duration: "45 min",
+    href: "/scp-foundation",
   },
   {
     title: "SCP Control",
