@@ -11,6 +11,7 @@ const workouts = [
     description:
       "A structured introduction to performance-focused Pilates. Build movement quality, core strength, and control before progressing to advanced training formats.",
     duration: "45 min",
+    href: "/scp-foundation",
   },
   {
     title: "SCP Control",
@@ -64,10 +65,14 @@ const WorkoutCarousel = () => {
 
         {/* Workout Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 lg:gap-5">
-          {workouts.map((workout, i) => (
-            <div
+          {workouts.map((workout, i) => {
+            const Wrapper = workout.href ? "a" : "div";
+            const wrapperProps = workout.href ? { href: workout.href } : {};
+            return (
+            <Wrapper
               key={workout.title}
-              className={`group relative overflow-hidden cursor-pointer transition-all duration-500 ${
+              {...wrapperProps}
+              className={`group relative overflow-hidden cursor-pointer transition-all duration-500 block ${
                 active === i
                   ? "lg:ring-2 lg:ring-primary/40 lg:scale-[1.02]"
                   : "lg:opacity-75 hover:lg:opacity-100"
@@ -113,8 +118,9 @@ const WorkoutCarousel = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            </Wrapper>
+            );
+          })}
         </div>
 
         {/* CTA */}
