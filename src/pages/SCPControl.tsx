@@ -96,8 +96,8 @@ const SCPControl = () => {
               What To Expect
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-10">
-              Structured, Coach-Led{" "}
-              <span className="text-gradient-yellow">Sessions</span>
+              Progressive, Controlled{" "}
+              <span className="text-gradient-yellow">Training</span>
             </h2>
             <div className="space-y-6">
               {[
