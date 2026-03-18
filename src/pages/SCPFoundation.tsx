@@ -108,7 +108,7 @@ const SCPFoundation = () => {
               {
                 step: "02",
                 title: "Foundation Movements",
-                text: "Reformer-based exercises focusing on alignment, core engagement, and movement control."
+                text: "Reformer and equipment based exercises focusing on alignment, core engagement, and movement control."
               },
               {
                 step: "03",
