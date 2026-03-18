@@ -20,6 +20,7 @@ const workouts = [
     description:
       "Designed for experienced Pilates clients, focusing on refined control, strength progression, and elevated movement precision.",
     duration: "45 min",
+    href: "/scp-control",
   },
   {
     title: "SCP Performance",
