@@ -156,7 +156,7 @@ const SCPControl = () => {
               {[
               "Greater strength, control, and movement precision",
               "Enhanced core stability under increased demand",
-              "Structured progression towards SCP Performance",
+              "Improved coordination and full-body integration",
               "Improved coordination and full-body integration"].
               map((benefit) =>
               <div
