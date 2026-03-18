@@ -10,7 +10,7 @@ const workouts = [
     image: workoutReform,
     description:
       "A structured introduction to performance-focused Pilates. Build movement quality, core strength, and control before progressing to advanced training formats.",
-    duration: "45 min",
+    duration: "50 min",
     href: "/scp-foundation",
   },
   {
@@ -19,7 +19,7 @@ const workouts = [
     image: workoutRow,
     description:
       "Designed for experienced Pilates clients, focusing on refined control, strength progression, and elevated movement precision.",
-    duration: "45 min",
+    duration: "50 min",
     href: "/scp-control",
   },
   {
@@ -28,7 +28,7 @@ const workouts = [
     image: workoutRide,
     description:
       "Pilates integrated with structured strength and conditioning principles, tailored to the specific demands of your sport.",
-    duration: "45 min",
+    duration: "50 min",
   },
   {
     title: "SCP Restore",
@@ -36,7 +36,7 @@ const workouts = [
     image: workoutReform,
     description:
       "For clients transitioning from physiotherapy or recovering from injury, focusing on controlled rebuilding of strength and movement capacity.",
-    duration: "45 min",
+    duration: "50 min",
   },
   {
     title: "Private Training",
