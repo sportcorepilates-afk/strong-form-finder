@@ -156,8 +156,8 @@ const SCPControl = () => {
               {[
               "Greater strength, control, and movement precision",
               "Enhanced core stability under increased demand",
-              "Improved coordination and full-body integration",
-              "Readiness for more advanced or Sports specific training - SCP Performance"].
+              "Structured progression towards SCP Performance",
+              "Improved coordination and full-body integration"].
               map((benefit) =>
               <div
                 key={benefit}
@@ -183,7 +183,7 @@ const SCPControl = () => {
               Elevate Your <span className="text-gradient-yellow">Training</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
-              Push beyond the fundamentals and take your movement quality to the next level. Progress with purpose.
+              Push beyond the fundamentals and take your movement quality to the next level. Continue building strength, control, and movement precision within the SCP system.  
             </p>
             <a className="btn-strong" href="/start-here">
               Start Here
