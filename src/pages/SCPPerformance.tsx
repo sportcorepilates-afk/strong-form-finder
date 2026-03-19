@@ -183,7 +183,7 @@ const SCPPerformance = () => {
               Train for <span className="text-gradient-yellow">Performance</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
-              Take your training to the highest level. Integrate Pilates with sport-specific conditioning to move better, perform stronger, and stay resilient.
+              Take your training to the next step toward stronger more efficient movement. Integrate Pilates with sport-specific conditioning to move better, perform stronger, and stay resilient.
             </p>
             <a className="btn-strong" href="/start-here">
               Start Here
