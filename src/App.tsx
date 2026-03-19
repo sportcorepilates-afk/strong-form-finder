@@ -14,6 +14,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
 import SCPFoundation from "./pages/SCPFoundation";
 import SCPControl from "./pages/SCPControl";
+import SCPPerformance from "./pages/SCPPerformance";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
