@@ -66,7 +66,7 @@ const SCPPerformance = () => {
               },
               {
                 title: "Active Performers",
-                text: "Clients who have progressed through SCP Control and are ready to train at a higher intensity with sport-focused programming."
+                text: "High-level recreational athletes and active adults who want to optimise performance and long-term durability."
               },
               {
                 title: "Active Performers",
