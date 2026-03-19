@@ -14,6 +14,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
 import SCPFoundation from "./pages/SCPFoundation";
 import SCPControl from "./pages/SCPControl";
+import SCPPerformance from "./pages/SCPPerformance";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/scp-foundation" element={<SCPFoundation />} />
           <Route path="/scp-control" element={<SCPControl />} />
+          <Route path="/scp-performance" element={<SCPPerformance />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

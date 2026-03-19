@@ -29,6 +29,7 @@ const workouts = [
     description:
       "Pilates integrated with structured strength and conditioning principles, tailored to the specific demands of your sport.",
     duration: "50 min",
+    href: "/scp-performance",
   },
   {
     title: "SCP Restore",
