@@ -64,18 +64,18 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               {[
-                "SCP Foundation",
-                "SCP Control",
-                "SCP Performance",
-                "SCP Restore",
-                "Private Training",
+                { label: "SCP Foundation", href: "/scp-foundation" },
+                { label: "SCP Control", href: "/scp-control" },
+                { label: "SCP Performance", href: "/scp-performance" },
+                { label: "SCP Restore", href: "/#workouts" },
+                { label: "Private Training", href: "/#workouts" },
               ].map((item) => (
-                <li key={item}>
+                <li key={item.label}>
                   <a
                     className="font-body text-muted-foreground text-sm hover:text-primary transition-colors"
-                    href="/#workouts"
+                    href={item.href}
                   >
-                    {item}
+                    {item.label}
                   </a>
                 </li>
               ))}
