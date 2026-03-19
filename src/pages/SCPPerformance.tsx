@@ -43,7 +43,7 @@ const SCPPerformance = () => {
                 SCP Performance is a sport focussed training class that integrates strength and conditioning principles within a pilates framework. It is designed to improve how your body moves, generates force, and performs in you chosen sport or activity. This class applies advanced movement strategies tailored to the demands of your sport or training goals.
               </p>
               <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed">
-                Using reformer-based training combined with sport-specific conditioning principles, each session targets power, endurance, and resilience — helping you perform at your best while reducing injury risk.
+                Using reformer and equipment based training combined with sport-specific conditioning principles, each session targets power, endurance, and resilience — helping you perform at your best while reducing injury risk.
               </p>
             </div>
           </div>
