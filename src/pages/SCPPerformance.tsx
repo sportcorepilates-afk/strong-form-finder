@@ -65,7 +65,7 @@ const SCPPerformance = () => {
                 text: "Athletes looking to gain a competitive edge through sport-specific movement training and injury prevention strategies."
               },
               {
-                title: "Control Graduates",
+                title: "Active Individuals",
                 text: "Clients who have progressed through SCP Control and are ready to train at a higher intensity with sport-focused programming."
               },
               {
