@@ -35,6 +35,7 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/scp-foundation" element={<SCPFoundation />} />
           <Route path="/scp-control" element={<SCPControl />} />
+          <Route path="/scp-performance" element={<SCPPerformance />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
