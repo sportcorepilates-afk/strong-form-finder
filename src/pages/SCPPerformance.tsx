@@ -9,8 +9,8 @@ const SCPPerformance = () => {
         <title>SCP Performance | Sport Core Pilates</title>
         <meta
           name="description"
-          content="A Pilates-first training class that integrates strength and conditioning principles to improve sport performance, movement efficiency, and long-term durability."
-        />
+          content="A Pilates-first training class that integrates strength and conditioning principles to improve sport performance, movement efficiency, and long-term durability." />
+        
       </Helmet>
       <Navbar />
       <main>
@@ -40,7 +40,7 @@ const SCPPerformance = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
               <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed">
-                SCP Performance is the pinnacle of our class system — where Pilates meets structured strength and conditioning. Built for clients who have progressed through Foundation and Control, this class applies advanced movement strategies tailored to the demands of your sport or training goals.
+                SCP Performance is a sport focussed training class that integrates strength and conditioning principles within a pilates framework. It is designed to improve how your body moves, generates force, and performs in you chosen sport or activity. This class applies advanced movement strategies tailored to the demands of your sport or training goals.
               </p>
               <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed">
                 Using reformer-based training combined with sport-specific conditioning principles, each session targets power, endurance, and resilience — helping you perform at your best while reducing injury risk.
@@ -60,23 +60,23 @@ const SCPPerformance = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                {
-                  title: "Competitive Athletes",
-                  text: "Athletes looking to gain a competitive edge through sport-specific movement training and injury prevention strategies.",
-                },
-                {
-                  title: "Control Graduates",
-                  text: "Clients who have progressed through SCP Control and are ready to train at a higher intensity with sport-focused programming.",
-                },
-                {
-                  title: "Active Performers",
-                  text: "High-level recreational athletes and active adults who want to optimise performance and long-term durability.",
-                },
-              ].map((item) => (
-                <div
-                  key={item.title}
-                  className="bg-card border border-border p-8"
-                >
+              {
+                title: "Competitive Athletes",
+                text: "Athletes looking to gain a competitive edge through sport-specific movement training and injury prevention strategies."
+              },
+              {
+                title: "Control Graduates",
+                text: "Clients who have progressed through SCP Control and are ready to train at a higher intensity with sport-focused programming."
+              },
+              {
+                title: "Active Performers",
+                text: "High-level recreational athletes and active adults who want to optimise performance and long-term durability."
+              }].
+              map((item) =>
+              <div
+                key={item.title}
+                className="bg-card border border-border p-8">
+                
                   <h3 className="font-heading text-sm uppercase tracking-[0.2em] text-primary mb-3">
                     {item.title}
                   </h3>
@@ -84,7 +84,7 @@ const SCPPerformance = () => {
                     {item.text}
                   </p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -101,31 +101,31 @@ const SCPPerformance = () => {
             </h2>
             <div className="space-y-6">
               {[
-                {
-                  step: "01",
-                  title: "Sport-Specific Warm-Up",
-                  text: "Dynamic activation targeting the movement patterns and muscle groups most relevant to your sport or training demands.",
-                },
-                {
-                  step: "02",
-                  title: "Advanced Reformer & Conditioning",
-                  text: "High-intensity reformer work combined with strength and conditioning drills designed to build power, speed, and endurance.",
-                },
-                {
-                  step: "03",
-                  title: "Performance Sequences",
-                  text: "Complex, multi-plane movement sequences that challenge coordination, reactive stability, and sport-specific strength.",
-                },
-                {
-                  step: "04",
-                  title: "Recovery & Integration",
-                  text: "Targeted cool-down and mobility work to support recovery, reinforce movement quality, and prepare you for your next session.",
-                },
-              ].map((item) => (
-                <div
-                  key={item.step}
-                  className="flex gap-6 md:gap-8 items-start border-b border-border pb-6 last:border-0 last:pb-0"
-                >
+              {
+                step: "01",
+                title: "Sport-Specific Warm-Up",
+                text: "Dynamic activation targeting the movement patterns and muscle groups most relevant to your sport or training demands."
+              },
+              {
+                step: "02",
+                title: "Advanced Reformer & Conditioning",
+                text: "High-intensity reformer work combined with strength and conditioning drills designed to build power, speed, and endurance."
+              },
+              {
+                step: "03",
+                title: "Performance Sequences",
+                text: "Complex, multi-plane movement sequences that challenge coordination, reactive stability, and sport-specific strength."
+              },
+              {
+                step: "04",
+                title: "Recovery & Integration",
+                text: "Targeted cool-down and mobility work to support recovery, reinforce movement quality, and prepare you for your next session."
+              }].
+              map((item) =>
+              <div
+                key={item.step}
+                className="flex gap-6 md:gap-8 items-start border-b border-border pb-6 last:border-0 last:pb-0">
+                
                   <span className="font-display text-3xl md:text-4xl text-primary/30 shrink-0">
                     {item.step}
                   </span>
@@ -138,7 +138,7 @@ const SCPPerformance = () => {
                     </p>
                   </div>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -154,21 +154,21 @@ const SCPPerformance = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
-                "Enhanced sport-specific power, speed, and endurance",
-                "Greater injury resilience and long-term durability",
-                "Improved movement efficiency under high-intensity demands",
-                "Advanced full-body coordination and reactive stability",
-              ].map((benefit) => (
-                <div
-                  key={benefit}
-                  className="flex items-start gap-4 bg-card border border-border p-6"
-                >
+              "Enhanced sport-specific power, speed, and endurance",
+              "Greater injury resilience and long-term durability",
+              "Improved movement efficiency under high-intensity demands",
+              "Advanced full-body coordination and reactive stability"].
+              map((benefit) =>
+              <div
+                key={benefit}
+                className="flex items-start gap-4 bg-card border border-border p-6">
+                
                   <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
                   <p className="font-body text-muted-foreground text-sm md:text-base leading-relaxed">
                     {benefit}
                   </p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -192,8 +192,8 @@ const SCPPerformance = () => {
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>);
+
 };
 
 export default SCPPerformance;
