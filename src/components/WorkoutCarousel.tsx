@@ -32,12 +32,13 @@ const workouts = [
     href: "/scp-performance",
   },
   {
-    title: "SCP Restore",
-    subtitle: "Recovery & Return",
+    title: "SCP Reform",
+    subtitle: "Recovery & Rehabilitation",
     image: workoutReform,
     description:
-      "For clients transitioning from physiotherapy or recovering from injury, focusing on controlled rebuilding of strength and movement capacity.",
+      "A structured recovery pathway integrating Physiotherapy, Pilates and rehab Strength training to restore movement, reduce pain, and guide you safely back to performance.",
     duration: "50 min",
+    href: "/scp-reform",
   },
   {
     title: "Private Training",

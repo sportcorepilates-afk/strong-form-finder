@@ -67,7 +67,7 @@ const Footer = () => {
                 { label: "SCP Foundation", href: "/scp-foundation" },
                 { label: "SCP Control", href: "/scp-control" },
                 { label: "SCP Performance", href: "/scp-performance" },
-                { label: "SCP Restore", href: "/#workouts" },
+                { label: "SCP Reform", href: "/scp-reform" },
                 { label: "Private Training", href: "/#workouts" },
               ].map((item) => (
                 <li key={item.label}>
