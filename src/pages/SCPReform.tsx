@@ -67,7 +67,7 @@ const SCPReform = () => {
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-10">
               Built for your{" "}
-              <span className="text-gradient-yellow">recovery</span>
+              <span className="text-gradient-yellow">recovery</span> And Return
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
