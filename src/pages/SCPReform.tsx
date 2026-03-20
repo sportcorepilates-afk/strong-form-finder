@@ -9,8 +9,8 @@ const SCPReform = () => {
         <title>SCP Reform | Sport Core Pilates</title>
         <meta
           name="description"
-          content="A structured recovery pathway integrating Physiotherapy, Pilates and rehab Strength training to restore movement, reduce pain, and guide you safely back to performance."
-        />
+          content="A structured recovery pathway integrating Physiotherapy, Pilates and rehab Strength training to restore movement, reduce pain, and guide you safely back to performance." />
+        
       </Helmet>
       <Navbar />
       <main>
@@ -42,18 +42,18 @@ const SCPReform = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
               <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed">
-                SCP Reform is our structured recovery programme designed for
-                clients transitioning from physiotherapy or managing ongoing
-                pain and injury. The class bridges the gap between clinical
-                rehabilitation and performance training — combining
-                physiotherapy principles, reformer-based Pilates, and
-                progressive strength work.
+                SCP Reform is our structured recovery programme that begins with a physiotherapy assessment to understand your condition, movement limitations and readiness for training. These sessions are designed for clients transitioning from physiotherapy or managing ongoing pain and injury. The class bridges the gap between clinical rehabilitation and performance training — combining physiotherapy principles, reformer-based Pilates, and progressive strength work.
+              
+
+
+
+
               </p>
               <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed">
-                Each session is carefully programmed to rebuild movement
-                confidence, restore functional capacity, and guide you safely
-                back toward full training. SCP Reform is where recovery becomes
-                structured, purposeful, and progressive.
+                Once cleared by the Physiotherapist, each session is carefully programmed to rebuild movement confidence, restore functional capacity, and guide you safely back toward full training. Every step is aligned to ensure a safe and effective return to movement and long term performance.      
+              
+
+
               </p>
             </div>
           </div>
@@ -71,23 +71,23 @@ const SCPReform = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                {
-                  title: "Post-Physiotherapy Clients",
-                  text: "Individuals who have completed or are transitioning from physiotherapy and need a structured pathway back to full movement.",
-                },
-                {
-                  title: "Injury Recovery",
-                  text: "Clients managing chronic pain, post-surgical recovery, or recurring injuries who need controlled, progressive training.",
-                },
-                {
-                  title: "Returning Athletes",
-                  text: "Active individuals and athletes looking to safely rebuild strength and movement confidence after injury or time away.",
-                },
-              ].map((item) => (
-                <div
-                  key={item.title}
-                  className="bg-card border border-border p-8"
-                >
+              {
+                title: "Post-Physiotherapy Clients",
+                text: "Individuals who have completed or are transitioning from physiotherapy and need a structured pathway back to full movement."
+              },
+              {
+                title: "Injury Recovery",
+                text: "Clients managing chronic pain, post-surgical recovery, or recurring injuries who need controlled, progressive training."
+              },
+              {
+                title: "Returning Athletes",
+                text: "Active individuals and athletes looking to safely rebuild strength and movement confidence after injury or time away."
+              }].
+              map((item) =>
+              <div
+                key={item.title}
+                className="bg-card border border-border p-8">
+                
                   <h3 className="font-heading text-sm uppercase tracking-[0.2em] text-primary mb-3">
                     {item.title}
                   </h3>
@@ -95,7 +95,7 @@ const SCPReform = () => {
                     {item.text}
                   </p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -112,31 +112,31 @@ const SCPReform = () => {
             </h2>
             <div className="space-y-6">
               {[
-                {
-                  step: "01",
-                  title: "Assessment & Activation",
-                  text: "Targeted warm-up and movement screening to identify limitations and prepare your body for safe, effective work.",
-                },
-                {
-                  step: "02",
-                  title: "Reformer-Based Rehabilitation",
-                  text: "Controlled reformer and equipment exercises designed to restore movement patterns, improve joint stability, and reduce pain.",
-                },
-                {
-                  step: "03",
-                  title: "Progressive Strength Work",
-                  text: "Structured loading progressions that rebuild functional strength at a pace matched to your recovery stage.",
-                },
-                {
-                  step: "04",
-                  title: "Recovery & Integration",
-                  text: "Guided cool-down focusing on tissue recovery, mobility maintenance, and reinforcing the movement gains from each session.",
-                },
-              ].map((item) => (
-                <div
-                  key={item.step}
-                  className="flex gap-6 md:gap-8 items-start border-b border-border pb-6 last:border-0 last:pb-0"
-                >
+              {
+                step: "01",
+                title: "Assessment & Activation",
+                text: "Targeted warm-up and movement screening to identify limitations and prepare your body for safe, effective work."
+              },
+              {
+                step: "02",
+                title: "Reformer-Based Rehabilitation",
+                text: "Controlled reformer and equipment exercises designed to restore movement patterns, improve joint stability, and reduce pain."
+              },
+              {
+                step: "03",
+                title: "Progressive Strength Work",
+                text: "Structured loading progressions that rebuild functional strength at a pace matched to your recovery stage."
+              },
+              {
+                step: "04",
+                title: "Recovery & Integration",
+                text: "Guided cool-down focusing on tissue recovery, mobility maintenance, and reinforcing the movement gains from each session."
+              }].
+              map((item) =>
+              <div
+                key={item.step}
+                className="flex gap-6 md:gap-8 items-start border-b border-border pb-6 last:border-0 last:pb-0">
+                
                   <span className="font-display text-3xl md:text-4xl text-primary/30 shrink-0">
                     {item.step}
                   </span>
@@ -149,7 +149,7 @@ const SCPReform = () => {
                     </p>
                   </div>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -165,21 +165,21 @@ const SCPReform = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
-                "Restored movement quality and reduced pain",
-                "Rebuilt strength and functional capacity after injury",
-                "A structured pathway from rehabilitation to performance training",
-                "Confidence to return to sport and full training safely",
-              ].map((benefit) => (
-                <div
-                  key={benefit}
-                  className="flex items-start gap-4 bg-card border border-border p-6"
-                >
+              "Restored movement quality and reduced pain",
+              "Rebuilt strength and functional capacity after injury",
+              "A structured pathway from rehabilitation to performance training",
+              "Confidence to return to sport and full training safely"].
+              map((benefit) =>
+              <div
+                key={benefit}
+                className="flex items-start gap-4 bg-card border border-border p-6">
+                
                   <span className="w-2 h-2 rounded-full bg-primary shrink-0 mt-2" />
                   <p className="font-body text-muted-foreground text-sm md:text-base leading-relaxed">
                     {benefit}
                   </p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -204,8 +204,8 @@ const SCPReform = () => {
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>);
+
 };
 
 export default SCPReform;
