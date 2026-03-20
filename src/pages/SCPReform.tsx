@@ -71,8 +71,8 @@ const SCPReform = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
               {
-                title: "Post-Physiotherapy Clients",
-                text: "Individuals who have completed or are transitioning from physiotherapy and need a structured pathway back to full movement."
+                title: "Physiotherapy Clients",
+                text: "Individuals experiencing pain, injury, or movement limitations.\nClients managing chronic pain, post-surgical recovery, or recurring injuries who need controlled, progressive training."
               },
               {
                 title: "Injury Recovery",
