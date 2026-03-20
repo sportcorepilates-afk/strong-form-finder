@@ -42,7 +42,7 @@ const SCPReform = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
               <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed">
-                SCP Reform is our structured recovery programme that begins with a physiotherapy assessment to understand your condition, movement limitations and readiness for training. These sessions are designed for clients transitioning from physiotherapy or managing ongoing pain and injury. The class bridges the gap between clinical rehabilitation and performance training — combining physiotherapy principles, reformer-based Pilates, and progressive strength work.
+                SCP Reform is our structured recovery programme that begins with a physiotherapy assessment to understand your condition, movement limitations and readiness for training. These sessions are designed for clients transitioning from physiotherapy or managing ongoing pain and injury. The programme bridges the gap between clinical rehabilitation and performance training — combining physiotherapy principles, reformer-based Pilates, and progressive strength work.
               
 
 
@@ -50,7 +50,7 @@ const SCPReform = () => {
 
               </p>
               <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed">
-                Once cleared by the Physiotherapist, each session is carefully programmed to rebuild movement confidence, restore functional capacity, and guide you safely back toward full training. Every step is aligned to ensure a safe and effective return to movement and long term performance.      
+                Once cleared by the Physiotherapist, each session is carefully designed to rebuild movement confidence, restore functional capacity, and guide you safely back toward full training. Every step is aligned to ensure a safe and effective return to movement and long term performance.      
               
 
 
