@@ -72,7 +72,7 @@ const SCPReform = () => {
               {[
               {
                 title: "Physiotherapy Clients",
-                text: "Individuals experiencing pain, injury, or movement limitations.\nIndividuals managing chronic pain, post-surgical recovery, or recurring injuries who need controlled, progressive training."
+                text: "Individuals who have completed or are transitioning from physiotherapy and need a structured pathway back to full movement."
               },
               {
                 title: "Injury Recovery",
