@@ -25,7 +25,7 @@ const SCPReform = () => {
             </h1>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
               A structured recovery pathway integrating Physiotherapy, Pilates
-              and rehab Strength training to restore movement, reduce pain, and
+              and Rehab Strength training to restore movement, reduce pain, and
               guide you safely back to performance.
             </p>
           </div>
