@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import scpLogo from "@/assets/scp-logo.png";
 
@@ -12,6 +13,27 @@ const navLinks = [
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const scrollToWorkouts = useCallback(() => {
+    const el = document.getElementById("workouts");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
+  const handleClassesClick = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    if (location.pathname === "/") {
+      scrollToWorkouts();
+    } else {
+      navigate("/");
+      setTimeout(() => {
+        document.getElementById("workouts")?.scrollIntoView({ behavior: "smooth" });
+      }, 300);
+    }
+  }, [location.pathname, navigate, scrollToWorkouts]);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -54,6 +76,7 @@ const Navbar = () => {
             <a
               key={link.label}
               href={link.href}
+              onClick={link.href === "/#workouts" ? handleClassesClick : undefined}
               className="nav-link-desktop"
             >
               {link.label}
@@ -91,7 +114,10 @@ const Navbar = () => {
             <a
               key={link.label}
               href={link.href}
-              onClick={() => setMobileOpen(false)}
+              onClick={(e) => {
+                setMobileOpen(false);
+                if (link.href === "/#workouts") handleClassesClick(e);
+              }}
               className="font-display text-4xl tracking-[0.1em] text-foreground hover:text-primary transition-colors duration-300"
               style={{ animationDelay: `${i * 0.1}s` }}
             >
