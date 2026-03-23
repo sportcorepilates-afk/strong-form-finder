@@ -123,7 +123,7 @@ const SCPReform = () => {
               },
               {
                 step: "03",
-                title: "Progressive Strength Work",
+                title: "Guided Rehabilitation",
                 text: "Structured loading progressions that rebuild functional strength at a pace matched to your recovery stage."
               },
               {
