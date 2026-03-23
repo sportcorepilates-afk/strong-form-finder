@@ -47,6 +47,7 @@ const workouts = [
     description:
       "One-on-one or semi-private (1:2) sessions tailored to your individual goals, movement needs, and performance aspirations.",
     duration: "60 min",
+    href: "/private-training",
   },
 ];
 
