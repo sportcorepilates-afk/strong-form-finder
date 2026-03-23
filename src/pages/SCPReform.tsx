@@ -190,7 +190,7 @@ const SCPReform = () => {
               ​Begin Your Recovery
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-6">
-              Recover With <span className="text-gradient-yellow">Purpose</span>
+              Move Back to Strength & <span className="text-gradient-yellow">Performance</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10">
               Move beyond pain and back toward performance. SCP Reform gives you
