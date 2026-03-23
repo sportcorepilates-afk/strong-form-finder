@@ -165,7 +165,7 @@ const SCPReform = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
               "Restored movement quality and reduced pain",
-              "Rebuilt strength and functional capacity after injury",
+              "Restored strength and joint stability.",
               "A structured pathway from rehabilitation to performance training",
               "Confidence to return to sport and full training safely"].
               map((benefit) =>
