@@ -118,7 +118,7 @@ const SCPReform = () => {
               },
               {
                 step: "02",
-                title: "Reformer-Based Rehabilitation",
+                title: "Structured Recovery Plan",
                 text: "Controlled reformer and equipment exercises designed to restore movement patterns, improve joint stability, and reduce pain."
               },
               {
