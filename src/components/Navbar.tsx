@@ -13,6 +13,27 @@ const navLinks = [
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const scrollToWorkouts = useCallback(() => {
+    const el = document.getElementById("workouts");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
+  const handleClassesClick = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    if (location.pathname === "/") {
+      scrollToWorkouts();
+    } else {
+      navigate("/");
+      setTimeout(() => {
+        document.getElementById("workouts")?.scrollIntoView({ behavior: "smooth" });
+      }, 300);
+    }
+  }, [location.pathname, navigate, scrollToWorkouts]);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
