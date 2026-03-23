@@ -128,7 +128,7 @@ const SCPReform = () => {
               },
               {
                 step: "04",
-                title: "Recovery & Integration",
+                title: "Return to training ",
                 text: "Guided cool-down focusing on tissue recovery, mobility maintenance, and reinforcing the movement gains from each session."
               }].
               map((item) =>
