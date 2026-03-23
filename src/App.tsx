@@ -16,6 +16,7 @@ import SCPFoundation from "./pages/SCPFoundation";
 import SCPControl from "./pages/SCPControl";
 import SCPPerformance from "./pages/SCPPerformance";
 import SCPReform from "./pages/SCPReform";
+import PrivateTraining from "./pages/PrivateTraining";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
