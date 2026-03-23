@@ -76,6 +76,7 @@ const Navbar = () => {
             <a
               key={link.label}
               href={link.href}
+              onClick={link.href === "/#workouts" ? handleClassesClick : undefined}
               className="nav-link-desktop"
             >
               {link.label}
