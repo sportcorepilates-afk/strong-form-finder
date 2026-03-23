@@ -114,7 +114,7 @@ const SCPReform = () => {
               {
                 step: "01",
                 title: "Assessment & Activation",
-                text: "Targeted warm-up and movement screening to identify limitations and prepare your body for safe, effective work."
+                text: "Your journey begins with a Physiotherapy assessment to understand your condition, movement limitations and readiness for training."
               },
               {
                 step: "02",
