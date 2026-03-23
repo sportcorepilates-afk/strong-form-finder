@@ -114,7 +114,10 @@ const Navbar = () => {
             <a
               key={link.label}
               href={link.href}
-              onClick={() => setMobileOpen(false)}
+              onClick={(e) => {
+                setMobileOpen(false);
+                if (link.href === "/#workouts") handleClassesClick(e);
+              }}
               className="font-display text-4xl tracking-[0.1em] text-foreground hover:text-primary transition-colors duration-300"
               style={{ animationDelay: `${i * 0.1}s` }}
             >
