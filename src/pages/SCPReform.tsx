@@ -124,7 +124,7 @@ const SCPReform = () => {
               {
                 step: "03",
                 title: "Guided Rehabilitation",
-                text: "Structured loading progressions that rebuild functional strength at a pace matched to your recovery stage."
+                text: "Once cleared, you move into coach-led sessions that may include Pilates, strength training or a combination of both, focussing on movement quality and gradual loading."
               },
               {
                 step: "04",
