@@ -113,7 +113,7 @@ const SCPReform = () => {
               {[
               {
                 step: "01",
-                title: "Assessment & Activation",
+                title: "Physiotherapy Assessment",
                 text: "Your journey begins with a Physiotherapy assessment to understand your condition, movement limitations and readiness for training."
               },
               {
