@@ -9,7 +9,15 @@ const SCPMethod = () => {
     <>
       <Helmet>
         <title>The SCP Method | Sport Core Pilates</title>
-        <meta name="description" content="Discover the SCP Method - a structured, assessment-led approach to performance-focussed Pilates training." />
+        <meta name="description" content="Discover the Sport Core Pilates method — a performance-driven approach to Pilates training for athletes and active adults." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/scp-method" />
+        <meta property="og:title" content="The SCP Method | Sport Core Pilates" />
+        <meta property="og:description" content="Discover the Sport Core Pilates method — a performance-driven approach to Pilates training for athletes and active adults." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/scp-method" />
       </Helmet>
       <Navbar />
       <main>

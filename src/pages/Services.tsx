@@ -7,7 +7,15 @@ const Services = () => {
     <>
       <Helmet>
         <title>Services | Sport Core Pilates</title>
-        <meta name="description" content="Explore the integrated services at Sport Core Pilates, including Physiotherapy and Strength and Conditioning support within a Pilates first performance framework." />
+        <meta name="description" content="Pilates training and physiotherapy services for injury recovery, athletic performance, and overall strength." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/services" />
+        <meta property="og:title" content="Services | Sport Core Pilates" />
+        <meta property="og:description" content="Pilates training and physiotherapy services for injury recovery, athletic performance, and overall strength." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/services" />
       </Helmet>
       <Navbar />
       <main>

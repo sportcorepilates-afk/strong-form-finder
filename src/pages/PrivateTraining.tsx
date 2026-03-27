@@ -7,10 +7,15 @@ const PrivateTraining = () => {
     <>
       <Helmet>
         <title>Private Training | Sport Core Pilates</title>
-        <meta
-          name="description"
-          content="One-on-one and semi-private training across Pilates, Strength and Conditioning, or Physiotherapy within a structured performance framework."
-        />
+        <meta name="description" content="One-on-one Pilates sessions tailored to your goals. Personalised attention for faster results." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/private-training" />
+        <meta property="og:title" content="Private Training | Sport Core Pilates" />
+        <meta property="og:description" content="One-on-one Pilates sessions tailored to your goals. Personalised attention for faster results." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/private-training" />
       </Helmet>
       <Navbar />
       <main>

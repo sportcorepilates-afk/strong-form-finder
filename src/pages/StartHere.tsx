@@ -76,6 +76,18 @@ const StartHere = () => {
 
   return (
     <main className="min-h-screen bg-background">
+      <Helmet>
+        <title>Start Here | Sport Core Pilates</title>
+        <meta name="description" content="Begin your journey at Sport Core Pilates. Share your details and our team will connect with you to guide the next steps." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/start-here" />
+        <meta property="og:title" content="Start Here | Sport Core Pilates" />
+        <meta property="og:description" content="Begin your journey at Sport Core Pilates. Share your details and our team will connect with you to guide the next steps." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/start-here" />
+      </Helmet>
       <Navbar />
       {/* Hero */}
       <section className="pt-32 pb-20 px-6 md:px-12 lg:px-20">

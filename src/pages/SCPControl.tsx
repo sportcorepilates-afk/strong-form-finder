@@ -7,10 +7,15 @@ const SCPControl = () => {
     <>
       <Helmet>
         <title>SCP Control | Sport Core Pilates</title>
-        <meta
-          name="description"
-          content="A progressive Pilates class focused on control, strength, and structured training beyond the fundamentals." />
-        
+        <meta name="description" content="Intermediate Pilates training focused on control, precision, and body awareness." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/scp-control" />
+        <meta property="og:title" content="SCP Control | Sport Core Pilates" />
+        <meta property="og:description" content="Intermediate Pilates training focused on control, precision, and body awareness." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/scp-control" />
       </Helmet>
       <Navbar />
       <main>

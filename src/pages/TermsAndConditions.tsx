@@ -69,11 +69,16 @@ const TermsAndConditions = () => {
   return (
     <>
       <Helmet>
-        <title>Terms and Conditions | Sport Core Pilates</title>
-        <meta
-          name="description"
-          content="Review the terms and conditions governing the use of Sport Core Pilates services and website"
-        />
+        <title>Terms &amp; Conditions | Sport Core Pilates</title>
+        <meta name="description" content="Terms and conditions for Sport Core Pilates services." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/terms-and-conditions" />
+        <meta property="og:title" content="Terms & Conditions | Sport Core Pilates" />
+        <meta property="og:description" content="Terms and conditions for Sport Core Pilates services." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/terms-and-conditions" />
       </Helmet>
       <Navbar />
       <main>
