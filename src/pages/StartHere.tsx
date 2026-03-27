@@ -14,7 +14,7 @@ import { supabase } from "@/integrations/supabase/client";
 
 const formSchema = z.object({
   fullName: z.string().trim().min(1, "Full name is required").max(100),
-  phone: z.string().trim().min(1, "Phone number is required").max(20),
+  phone: z.string().regex(/^\d{10}$/, "Please enter a valid 10-digit phone number"),
   email: z.string().trim().email("Please enter a valid email").max(255),
   service: z.enum(["pilates", "physiotherapy", "both"], { required_error: "Please select an option" }),
   goal: z.string().trim().min(1, "Please tell us about your goal or concern").max(1000),
