@@ -7,8 +7,16 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Sport Core Pilates</title>
-        <meta name="description" content="Learn about Sport Core Pilates, our philosophy, and our performance-led approach to Pilates training." />
+        <title>About Us | Sport Core Pilates</title>
+        <meta name="description" content="Learn about Sport Core Pilates — Mumbai's performance-focused Pilates studio for athletes and active adults." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/about" />
+        <meta property="og:title" content="About Us | Sport Core Pilates" />
+        <meta property="og:description" content="Learn about Sport Core Pilates — Mumbai's performance-focused Pilates studio for athletes and active adults." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/about" />
       </Helmet>
       <Navbar />
       <main>

@@ -8,10 +8,15 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Contact Us | Sport Core Pilates</title>
-        <meta
-          name="description"
-          content="Get in touch with Sport Core Pilates for training, physiotherapy, or general enquiries."
-        />
+        <meta name="description" content="Get in touch with Sport Core Pilates. Located in Mumbai. Call, email, or visit us." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/contact" />
+        <meta property="og:title" content="Contact Us | Sport Core Pilates" />
+        <meta property="og:description" content="Get in touch with Sport Core Pilates. Located in Mumbai. Call, email, or visit us." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/contact" />
       </Helmet>
       <Navbar />
       <main>

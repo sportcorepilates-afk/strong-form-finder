@@ -7,10 +7,15 @@ const SCPFoundation = () => {
     <>
       <Helmet>
         <title>SCP Foundation | Sport Core Pilates</title>
-        <meta
-          name="description"
-          content="An introductory Pilates class focused on movement quality, control, and building a strong foundation for structured training." />
-        
+        <meta name="description" content="Build your foundation with our beginner-friendly Pilates programme. Perfect for those new to Pilates." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/scp-foundation" />
+        <meta property="og:title" content="SCP Foundation | Sport Core Pilates" />
+        <meta property="og:description" content="Build your foundation with our beginner-friendly Pilates programme. Perfect for those new to Pilates." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/scp-foundation" />
       </Helmet>
       <Navbar />
       <main>

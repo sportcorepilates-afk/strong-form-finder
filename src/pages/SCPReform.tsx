@@ -7,10 +7,15 @@ const SCPReform = () => {
     <>
       <Helmet>
         <title>SCP Reform | Sport Core Pilates</title>
-        <meta
-          name="description"
-          content="A structured recovery pathway integrating Physiotherapy, Pilates and rehab Strength training to restore movement, reduce pain, and guide you safely back to performance." />
-        
+        <meta name="description" content="Reformer Pilates sessions designed to transform your movement, strength, and flexibility." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/scp-reform" />
+        <meta property="og:title" content="SCP Reform | Sport Core Pilates" />
+        <meta property="og:description" content="Reformer Pilates sessions designed to transform your movement, strength, and flexibility." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/scp-reform" />
       </Helmet>
       <Navbar />
       <main>

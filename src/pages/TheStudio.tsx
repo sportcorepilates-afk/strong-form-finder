@@ -28,10 +28,15 @@ const TheStudio = () => {
     <>
       <Helmet>
         <title>The Studio | Sport Core Pilates</title>
-        <meta
-          name="description"
-          content="Explore the performance-focused training environment designed for precision, progression and long-term durability." />
-
+        <meta name="description" content="Visit our state-of-the-art Pilates studio in Mumbai. Purpose-built for performance training with premium equipment." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/the-studio" />
+        <meta property="og:title" content="The Studio | Sport Core Pilates" />
+        <meta property="og:description" content="Visit our state-of-the-art Pilates studio in Mumbai. Purpose-built for performance training with premium equipment." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/the-studio" />
       </Helmet>
       <Navbar />
       <main>

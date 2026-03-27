@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -24,20 +25,6 @@ type FormValues = z.infer<typeof formSchema>;
 
 const StartHere = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  useEffect(() => {
-    document.title = "Start Here | Sport Core Pilates";
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) {
-      meta.setAttribute("content", "Begin your journey at Sport Core Pilates with a structured assessment and performance-focused onboarding process.");
-    } else {
-      const newMeta = document.createElement("meta");
-      newMeta.name = "description";
-      newMeta.content = "Begin your journey at Sport Core Pilates with a structured assessment and performance-focused onboarding process.";
-      document.head.appendChild(newMeta);
-    }
-  }, []);
-
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: { fullName: "", phone: "", email: "", goal: "" },
@@ -89,6 +76,18 @@ const StartHere = () => {
 
   return (
     <main className="min-h-screen bg-background">
+      <Helmet>
+        <title>Start Here | Sport Core Pilates</title>
+        <meta name="description" content="Begin your journey at Sport Core Pilates. Share your details and our team will connect with you to guide the next steps." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/start-here" />
+        <meta property="og:title" content="Start Here | Sport Core Pilates" />
+        <meta property="og:description" content="Begin your journey at Sport Core Pilates. Share your details and our team will connect with you to guide the next steps." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/start-here" />
+      </Helmet>
       <Navbar />
       {/* Hero */}
       <section className="pt-32 pb-20 px-6 md:px-12 lg:px-20">
