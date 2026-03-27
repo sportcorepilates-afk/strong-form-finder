@@ -38,25 +38,19 @@ serve(async (req) => {
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
-<body style="margin:0;padding:0;background:#111111;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
-  <table width="100%" cellpadding="0" cellspacing="0" style="background:#111111;padding:40px 20px;">
+<body style="margin:0;padding:0;background:#111;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#111;padding:40px 20px;">
     <tr><td align="center">
       <table width="600" cellpadding="0" cellspacing="0" style="background:#1a1a1a;border-radius:12px;overflow:hidden;">
-
-        <!-- Header -->
         <tr><td style="background:#00BFA6;padding:24px 32px;">
           <h1 style="margin:0;color:#111;font-size:20px;font-weight:700;letter-spacing:1px;">SPORT CORE PILATES</h1>
         </td></tr>
-
-        <!-- Title -->
         <tr><td style="padding:32px 32px 16px;">
-          <h2 style="margin:0;color:#ffffff;font-size:22px;font-weight:600;">New Enquiry Received</h2>
-          <p style="margin:8px 0 0;color:#999;font-size:14px;">A new lead has submitted the Start Here form</p>
+          <h2 style="margin:0;color:#fff;font-size:22px;">New Enquiry Received</h2>
+          <p style="margin:8px 0 0;color:#999;font-size:14px;">A new lead submitted the Start Here form</p>
         </td></tr>
-
-        <!-- Details -->
         <tr><td style="padding:16px 32px 32px;">
-          <table width="100%" cellpadding="0" cellspacing="0" style="background:#222;border-radius:8px;overflow:hidden;">
+          <table width="100%" cellpadding="0" cellspacing="0" style="background:#222;border-radius:8px;">
             <tr>
               <td style="padding:14px 20px;border-bottom:1px solid #333;color:#999;font-size:13px;font-weight:600;width:160px;">Full Name</td>
               <td style="padding:14px 20px;border-bottom:1px solid #333;color:#fff;font-size:14px;">${fullName}</td>
@@ -79,17 +73,12 @@ serve(async (req) => {
             </tr>
           </table>
         </td></tr>
-
-        <!-- CTA -->
         <tr><td style="padding:0 32px 32px;" align="center">
-          <a href="tel:${phone}" style="display:inline-block;background:#00BFA6;color:#111;padding:12px 32px;border-radius:6px;font-size:14px;font-weight:600;text-decoration:none;letter-spacing:0.5px;">CALL NOW</a>
+          <a href="tel:${phone}" style="display:inline-block;background:#00BFA6;color:#111;padding:12px 32px;border-radius:6px;font-size:14px;font-weight:600;text-decoration:none;">CALL NOW</a>
         </td></tr>
-
-        <!-- Footer -->
         <tr><td style="padding:20px 32px;border-top:1px solid #333;">
-          <p style="margin:0;color:#666;font-size:12px;text-align:center;">This enquiry was submitted via sportcorepilates.com</p>
+          <p style="margin:0;color:#666;font-size:12px;text-align:center;">Submitted via sportcorepilates.com</p>
         </td></tr>
-
       </table>
     </td></tr>
   </table>
