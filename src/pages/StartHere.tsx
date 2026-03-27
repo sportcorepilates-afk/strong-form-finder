@@ -46,12 +46,6 @@ const StartHere = () => {
   const onSubmit = async (data: FormValues) => {
     setIsSubmitting(true);
     try {
-      const { data: resData, error } = await supabase.functions.invoke("send-contact-email", {
-        body: data,
-      });
-
-      if (error) throw error;
-
       // Fire-and-forget lead capture to MyGymDesk
       fetch("https://db.mygymdesk.in/functions/v1/capture-website-lead", {
         method: "POST",
@@ -69,6 +63,12 @@ const StartHere = () => {
           source_details: window.location.href
         })
       }).catch(err => console.error("MGD lead capture error:", err));
+
+      const { data: resData, error } = await supabase.functions.invoke("send-contact-email", {
+        body: data,
+      });
+
+      if (error) throw error;
 
       toast({
         title: "Thank you!",
