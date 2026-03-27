@@ -47,7 +47,7 @@ const StartHere = () => {
     setIsSubmitting(true);
     try {
       // Fire-and-forget lead capture to MyGymDesk
-      fetch("https://db.mygymdesk.in/functions/v1/capture-website-lead", {
+      fetch("https://gaprkusxdqyztcmzymni.supabase.co/functions/v1/capture-website-lead", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
