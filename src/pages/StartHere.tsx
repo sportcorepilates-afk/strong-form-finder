@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -24,20 +25,6 @@ type FormValues = z.infer<typeof formSchema>;
 
 const StartHere = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  useEffect(() => {
-    document.title = "Start Here | Sport Core Pilates";
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) {
-      meta.setAttribute("content", "Begin your journey at Sport Core Pilates with a structured assessment and performance-focused onboarding process.");
-    } else {
-      const newMeta = document.createElement("meta");
-      newMeta.name = "description";
-      newMeta.content = "Begin your journey at Sport Core Pilates with a structured assessment and performance-focused onboarding process.";
-      document.head.appendChild(newMeta);
-    }
-  }, []);
-
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: { fullName: "", phone: "", email: "", goal: "" },
