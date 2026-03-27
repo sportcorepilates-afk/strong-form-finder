@@ -52,6 +52,24 @@ const StartHere = () => {
 
       if (error) throw error;
 
+      // Fire-and-forget lead capture to MyGymDesk
+      fetch("https://db.mygymdesk.in/functions/v1/capture-website-lead", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-mgd-api-key": "mgd_live_9faaad290c5acc40dc788495b5a6802315c202d7a6fcd095"
+        },
+        body: JSON.stringify({
+          name: data.fullName,
+          phone: data.phone,
+          email: data.email,
+          interest: data.service,
+          notes: data.goal,
+          source: "website",
+          source_details: window.location.href
+        })
+      }).catch(err => console.error("MGD lead capture error:", err));
+
       toast({
         title: "Thank you!",
         description: "Thank you for connecting with Sport Core Pilates. Our team will connect with you to guide the next steps.",
