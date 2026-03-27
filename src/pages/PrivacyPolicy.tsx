@@ -60,10 +60,15 @@ const PrivacyPolicy = () => {
     <>
       <Helmet>
         <title>Privacy Policy | Sport Core Pilates</title>
-        <meta
-          name="description"
-          content="Understand how Sport Core Pilates collects, uses, and protects your personal information."
-        />
+        <meta name="description" content="Privacy policy for Sport Core Pilates — how we handle your data." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sport Core Pilates" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:url" content="https://sportcorepilates.com/privacy-policy" />
+        <meta property="og:title" content="Privacy Policy | Sport Core Pilates" />
+        <meta property="og:description" content="Privacy policy for Sport Core Pilates — how we handle your data." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://sportcorepilates.com/privacy-policy" />
       </Helmet>
       <Navbar />
       <main>
