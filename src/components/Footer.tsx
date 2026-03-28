@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Instagram, Facebook, Youtube } from "lucide-react";
+import { Instagram, Facebook } from "lucide-react";
 import scpLogo from "@/assets/scp-logo.png";
 
 const Footer = () => {
@@ -34,25 +34,22 @@ const Footer = () => {
             </p>
             <div className="flex gap-4 mt-6">
               <a
-                href="#"
+                href="https://www.instagram.com/sportcorepilates"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors p-1"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/people/Sport-Core-Pilates/61587232286125/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors p-1"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors p-1"
-                aria-label="YouTube"
-              >
-                <Youtube className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -122,7 +119,6 @@ const Footer = () => {
               {[
                 { label: "Terms & Conditions", href: "/terms-and-conditions" },
                 { label: "Privacy Policy", href: "/privacy-policy" },
-                { label: "Gift Cards", href: "#" },
               ].map((item) => (
                 <li key={item.label}>
                   <a
@@ -152,7 +148,7 @@ const Footer = () => {
               Privacy Policy
             </a>
             <a
-              href="#"
+              href="/terms-and-conditions"
               className="font-body text-muted-foreground text-xs hover:text-primary transition-colors"
             >
               Terms of Service
