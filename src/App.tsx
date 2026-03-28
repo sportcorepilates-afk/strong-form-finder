@@ -18,6 +18,7 @@ import SCPPerformance from "./pages/SCPPerformance";
 import SCPReform from "./pages/SCPReform";
 import PrivateTraining from "./pages/PrivateTraining";
 import NotFound from "./pages/NotFound";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <WhatsAppButton />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/start-here" element={<StartHere />} />
