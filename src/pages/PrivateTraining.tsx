@@ -71,7 +71,7 @@ const PrivateTraining = () => {
                 },
                 {
                   title: "Athletes & Performers",
-                  text: "Anyone looking for personalised coaching to move better, get stronger, and train with purpose — regardless of experience level.",
+                  text: "Sport - specific programming to improve performance, prevent injury and support recovery between competitions.",
                 },
                 {
                   title: "Rehabilitation Clients",
