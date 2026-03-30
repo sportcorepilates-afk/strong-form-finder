@@ -67,7 +67,7 @@ const PrivateTraining = () => {
               {[
                 {
                   title: "Active Adults",
-                  text: "Sport-specific programming to improve performance, prevent injury, and support recovery between competitions.",
+                  text: "Anyone looking for personalised coaching to move better, get stronger, and train with purpose — regardless of experience level.",
                 },
                 {
                   title: "Rehabilitation Clients",
