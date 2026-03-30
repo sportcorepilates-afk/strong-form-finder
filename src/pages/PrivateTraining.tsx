@@ -66,7 +66,7 @@ const PrivateTraining = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
                 {
-                  title: "Active Adults",
+                  title: "Athletes & Performers",
                   text: "Anyone looking for personalised coaching to move better, get stronger, and train with purpose — regardless of experience level.",
                 },
                 {
