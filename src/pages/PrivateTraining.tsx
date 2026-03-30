@@ -29,7 +29,7 @@ const PrivateTraining = () => {
               Private <span className="text-gradient-yellow">Training</span>
             </h1>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              One-on-one and semi-private sessions tailored to your individual goals, movement needs, and performance aspirations — delivered within the SCP framework.
+              One-on-one and semi-private sessions across Pilates, Strength & Conditioning, Exercise physiology or Physiotherapy tailored to your individual goals, movement needs, and performance aspirations — delivered within the SCP framework.
             </p>
           </div>
         </section>
