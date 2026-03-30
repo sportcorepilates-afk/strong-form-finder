@@ -5,7 +5,7 @@ import scpLogo from "@/assets/scp-logo.png";
 
 const navLinks = [
   { label: "Classes", href: "/#workouts" },
-  { label: "SCP Method", href: "/scp-method" },
+  { label: "SCP Methods", href: "/scp-method" },
   { label: "The Studio", href: "/the-studio" },
   { label: "Services", href: "/services" },
 ];
