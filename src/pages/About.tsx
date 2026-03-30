@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import gauravPhoto from "@/assets/gaurav-photo.jpg";
+import moushumiPhoto from "@/assets/moushumi-photo.jpg";
 
 const About = () => {
   return (
