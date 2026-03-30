@@ -66,7 +66,7 @@ const PrivateTraining = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
                 {
-                  title: "Athletes & Performers",
+                  title: "Active Adults",
                   text: "Sport-specific programming to improve performance, prevent injury, and support recovery between competitions.",
                 },
                 {
