@@ -77,9 +77,9 @@ const PrivateTraining = () => {
                   title: "Rehabilitation Clients",
                   text: "Individuals recovering from injury or surgery who need a guided, progressive return to movement and strength.",
                 },
-              ].map((item) => (
+              ].slice(0, 3).map((item, index) => (
                 <div
-                  key={item.title}
+                  key={`${item.title}-${index}`}
                   className="bg-card border border-border p-8"
                 >
                   <h3 className="font-heading text-sm uppercase tracking-[0.2em] text-primary mb-3">
