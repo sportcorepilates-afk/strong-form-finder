@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Navigation, ArrowUpRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -79,9 +79,19 @@ const Contact = () => {
               </div>
 
               {/* Location */}
-              <div className="bg-background border border-border p-6 flex flex-col items-center text-center">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <MapPin className="w-6 h-6 text-primary" />
+              <a
+                href="https://maps.app.goo.gl/2CN53JYMbm5QpgkQ9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-background border border-border p-6 flex flex-col items-center text-center cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105"
+              >
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <MapPin className="w-6 h-6 text-primary" />
+                  </div>
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Navigation className="w-5 h-5 text-primary" />
+                  </div>
                 </div>
                 <h3 className="font-heading text-sm uppercase tracking-[0.2em] text-foreground mb-2">
                   Location
@@ -89,7 +99,10 @@ const Contact = () => {
                 <p className="font-body text-muted-foreground text-sm">
                   Sport Core Pilates, 4th floor, Om Palace, Dr. Ambedkar Road, Pali Hill Bandra West, Mumbai, Maharashtra 400052
                 </p>
-              </div>
+                <span className="mt-3 inline-flex items-center gap-1 text-sm font-heading uppercase tracking-[0.15em]" style={{ color: "#00BFA6" }}>
+                  Get Directions <ArrowUpRight className="w-4 h-4" />
+                </span>
+              </a>
             </div>
           </div>
         </section>
