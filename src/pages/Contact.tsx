@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { Mail, Phone, MapPin, Navigation, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, MapPin, Navigation } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -99,9 +99,6 @@ const Contact = () => {
                 <p className="font-body text-muted-foreground text-sm">
                   Sport Core Pilates, 4th floor, Om Palace, Dr. Ambedkar Road, Pali Hill Bandra West, Mumbai, Maharashtra 400052
                 </p>
-                <span className="mt-3 inline-flex items-center gap-1 text-sm font-heading uppercase tracking-[0.15em]" style={{ color: "#00BFA6" }}>
-                  Get Directions <ArrowUpRight className="w-4 h-4" />
-                </span>
               </a>
             </div>
           </div>
