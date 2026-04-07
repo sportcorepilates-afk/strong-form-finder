@@ -84,7 +84,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
               { name: "Gaurav Mashruwala", role: "Co-Founder & CEO", image: gauravPhoto, bio: "Gaurav leads the strategic direction and growth of Sport Core Pilates (SCP). With over two decades of experience in media, business leadership, and building scalable intellectual property, he brings a performance-driven mindset to developing SCP as a structured, system-led Pilates ecosystem. His focus is simple — to position Pilates as a central method for long-term strength, intelligent training, and athletic durability." },
-              { name: "Dr. Moushumi Kuvawala (PT)", role: "Co-founder & Master Pilates Educator", image: moushumiPhoto, bio: "Short biography and background." }].
+              { name: "Dr. Moushumi Kuvawala (PT)", role: "Co-founder & Master Pilates Educator", image: moushumiPhoto, bio: "With over 30 years of experience in rehabilitation and pain management, she specializes in guiding individuals from recovery to peak performance. As a master Pilates educator, she also trains and mentors instructors, sharing her deep expertise in movement and rehabilitation. Her approach integrates Pilates-based rehabilitation with advanced movement strategies, supporting a wide range of clinical needs as well as sports performance goals. Whether you're healing from injury or striving to enhance athletic ability, she provides expert, personalized care every step of the way." }].
               map((leader, index) =>
               <div key={index} className="bg-background border border-border rounded-lg p-6 flex flex-col items-center text-center">
                   {leader.image ? (
