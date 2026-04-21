@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "Is Sport Core Pilates only for Athletes?",
-    a: "Yes. SCP is specifically designed for athletes and active individuals. Our sport-specific programming improves performance, prevents injury, and supports recovery between competitions.",
+    a: "No. While our system is designed using high-performance principles, it is equally effective for active individuals. Whether you run, play a sport, or simply want to move better and stay injury-free, our approach is tailored to your current level and goals.",
   },
   {
     q: "Do you offer physiotherapy or rehabilitation services?",
