@@ -29,7 +29,7 @@ Whether you run, play a sport, or simply want to move better and stay injury-fre
   },
   {
     q: "What types of classes do you offer?",
-    a: "We offer SCP Foundation, SCP Control, SCP Performance, SCP Reform, and Private Training — each structured to meet specific goals across mobility, strength, performance, and rehabilitation.",
+    a: "We offer structured group classes (SCP Foundation, SCP Control, SCP Performance, SCP Reform), and Private Training across Pilates, Strength and Conditioning and Physiotherapy— each structured to meet specific goals across mobility, strength, performance, and rehabilitation.",
   },
   {
     q: "How do I get started?",
