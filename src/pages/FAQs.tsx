@@ -37,7 +37,9 @@ Whether you run, play a sport, or simply want to move better and stay injury-fre
   },
   {
     q: "Where is the studio located?",
-    a: "Sport Core Pilates is based in Mumbai. Visit our Contact page for the full address and directions.",
+    a: `Sport Core Pilates is located in Bandra West, Mumbai. 
+4th floor OM Palace, Dr. Ambedkar Road, Pali Hill Mumbai 400052
+📍 https://maps.app.goo.gl/686y6bnNGS1wXJQn6?g_st=iw`,
   },
 ];
 
