@@ -15,7 +15,8 @@ const faqs = [
   },
   {
     q: "Why do I need an assessment before starting?",
-    a: "No prior experience is required. Our SCP Foundation program is designed to introduce you to the core principles of movement, control, and breath, building a strong base before progressing into more advanced training.",
+    a: `At Sport Core Pilates, training is always assessment-led.
+We begin by understanding how your body moves, identifying imbalances, and evaluating how you handle load and control. This allows us to guide you into the right training pathway, ensuring your program is both safe and effective.`,
   },
   {
     q: "Is Sport Core Pilates only for Athletes?",
