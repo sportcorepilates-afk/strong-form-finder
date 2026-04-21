@@ -14,7 +14,7 @@ const faqs = [
     a: "Sport Core Pilates is a performance-focused, Pilates-first system. We integrate strength and conditioning principles with structured assessment through the SCP-PX framework, tailoring every session to your sport or activity for long-term strength, control, and durability.",
   },
   {
-    q: "Do I need prior Pilates experience to start?",
+    q: "Why do I need an assessment before starting?",
     a: "No prior experience is required. Our SCP Foundation program is designed to introduce you to the core principles of movement, control, and breath, building a strong base before progressing into more advanced training.",
   },
   {
