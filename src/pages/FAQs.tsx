@@ -67,7 +67,7 @@ const FAQs = () => {
         <section className="section-padding pt-32 md:pt-40 bg-background">
           <div className="max-w-4xl mx-auto">
             <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
-              FAQs
+              FAQs — Understanding the SCP approach
             </span>
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-foreground leading-[0.9] mb-6">
               Frequently Asked <span className="text-gradient-yellow">Questions</span>
