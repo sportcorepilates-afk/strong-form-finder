@@ -24,6 +24,12 @@ We begin by understanding how your body moves, identifying imbalances, and evalu
 Whether you run, play a sport, or simply want to move better and stay injury-free, our approach is tailored to your current level and goals.`,
   },
   {
+    q: "Do I need prior Pilates experience?",
+    a: `No prior experience is required.
+
+Our training is structured and progression-based, which means you will be guided into the right starting point based on your assessment and current ability.`,
+  },
+  {
     q: "Do you offer physiotherapy or rehabilitation services?",
     a: "Yes. Led by Dr. Hemakshi Basu (PT), with over 30 years of experience in rehabilitation and pain management, we offer Pilates-based rehabilitation that bridges recovery and peak performance.",
   },
