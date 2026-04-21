@@ -25,7 +25,7 @@ Whether you run, play a sport, or simply want to move better and stay injury-fre
   },
   {
     q: "Do you offer physiotherapy or rehabilitation services?",
-    a: "Yes. Led by Dr. Moushumi Kuvawala (PT), with over 30 years of experience in rehabilitation and pain management, we offer Pilates-based rehabilitation that bridges recovery and peak performance.",
+    a: "Yes. Led by Dr. Hemakshi Basu (PT), with over 30 years of experience in rehabilitation and pain management, we offer Pilates-based rehabilitation that bridges recovery and peak performance.",
   },
   {
     q: "What types of classes do you offer?",
