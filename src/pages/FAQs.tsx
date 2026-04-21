@@ -18,7 +18,7 @@ const faqs = [
     a: "No prior experience is required. Our SCP Foundation program is designed to introduce you to the core principles of movement, control, and breath, building a strong base before progressing into more advanced training.",
   },
   {
-    q: "Is Sport Core Pilates suitable for athletes?",
+    q: "Is Sport Core Pilates only for Athletes?",
     a: "Yes. SCP is specifically designed for athletes and active individuals. Our sport-specific programming improves performance, prevents injury, and supports recovery between competitions.",
   },
   {
