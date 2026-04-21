@@ -10,7 +10,7 @@ import {
 
 const faqs = [
   {
-    q: "What makes Sport Core Pilates different from other Pilates studios?",
+    q: "What makes Sport Core Pilates unique in India?",
     a: "Sport Core Pilates is a performance-focused, Pilates-first system. We integrate strength and conditioning principles with structured assessment through the SCP-PX framework, tailoring every session to your sport or activity for long-term strength, control, and durability.",
   },
   {
