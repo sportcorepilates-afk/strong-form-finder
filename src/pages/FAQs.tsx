@@ -31,7 +31,7 @@ Our training is structured and progression-based, which means you will be guided
   },
   {
     q: "Do you offer physiotherapy or rehabilitation services?",
-    a: "Yes. Led by Dr. Hemakshi Basu (PT), with over 30 years of experience in rehabilitation and pain management, we offer Pilates-based rehabilitation that bridges recovery and peak performance.",
+    a: "Yes. Led by Dr. Moushumi Kuvawala (PT), with over 30 years of experience in rehabilitation and pain management, we offer Pilates-based rehabilitation that bridges recovery and peak performance.",
   },
   {
     q: "What types of classes do you offer?",
