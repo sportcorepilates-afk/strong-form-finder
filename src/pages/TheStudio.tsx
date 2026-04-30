@@ -11,13 +11,13 @@ const teamMembers = [
 },
 {
   name: "Dr. Hemakshi Basu (PT)",
-  role: "Master Educator & Head of Pilates",
+  role: "Role Title",
   image: null,
   bio: "Short biography and background."
 },
 {
   name: "Team Member Name",
-  role: "Master Educator & Head of Pilates",
+  role: "Role Title",
   image: null,
   bio: "Short biography and background."
 }];
