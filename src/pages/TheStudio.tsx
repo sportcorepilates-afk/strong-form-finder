@@ -5,19 +5,19 @@ import Footer from "@/components/Footer";
 const teamMembers = [
 {
   name: "Dr. Moushumi Kuvawala (PT)",
-  role: "Role Title",
+  role: "Head of Physiotherapy",
   image: null,
   bio: "Short biography and background."
 },
 {
   name: "Dr. Hemakshi Basu (PT)",
-  role: "Role Title",
+  role: "Head of Physiotherapy",
   image: null,
   bio: "Short biography and background."
 },
 {
   name: "Team Member Name",
-  role: "Role Title",
+  role: "Head of Physiotherapy",
   image: null,
   bio: "Short biography and background."
 }];
