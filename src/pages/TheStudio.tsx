@@ -10,7 +10,7 @@ const teamMembers = [
   bio: "Short biography and background."
 },
 {
-  name: "Team Member Name",
+  name: "Dr. Hemakshi Basu (PT)",
   role: "Role Title",
   image: null,
   bio: "Short biography and background."
