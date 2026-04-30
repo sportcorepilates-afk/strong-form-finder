@@ -11,7 +11,7 @@ const teamMembers = [
 },
 {
   name: "Dr. Hemakshi Basu (PT)",
-  role: "Role Title",
+  role: "Head of Physiotherapy",
   image: null,
   bio: "Short biography and background."
 },
