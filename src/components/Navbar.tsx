@@ -8,6 +8,7 @@ const navLinks = [
   { label: "SCP Methods", href: "/scp-method" },
   { label: "The Studio", href: "/the-studio" },
   { label: "Services", href: "/services" },
+  { label: "Future of Movement", href: "/future-of-movement" },
 ];
 
 const Navbar = () => {

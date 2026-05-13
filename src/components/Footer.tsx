@@ -96,6 +96,7 @@ const Footer = () => {
                 { label: "SCP Method", href: "/scp-method" },
                 { label: "Services", href: "/services" },
                 { label: "The Studio", href: "/the-studio" },
+                { label: "Future of Movement", href: "/future-of-movement" },
                 { label: "Start Here", href: "/start-here" },
                 { label: "Contact", href: "/contact" },
               ].map((item) => (
