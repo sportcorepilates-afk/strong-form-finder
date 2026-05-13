@@ -18,6 +18,7 @@ import SCPPerformance from "./pages/SCPPerformance";
 import SCPReform from "./pages/SCPReform";
 import PrivateTraining from "./pages/PrivateTraining";
 import FAQs from "./pages/FAQs";
+import FutureOfMovement from "./pages/FutureOfMovement";
 import NotFound from "./pages/NotFound";
 import WhatsAppButton from "./components/WhatsAppButton";
 
@@ -44,6 +45,7 @@ const App = () => (
           <Route path="/scp-reform" element={<SCPReform />} />
           <Route path="/private-training" element={<PrivateTraining />} />
           <Route path="/faqs" element={<FAQs />} />
+          <Route path="/future-of-movement" element={<FutureOfMovement />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
