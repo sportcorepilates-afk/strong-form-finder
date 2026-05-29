@@ -5,7 +5,8 @@ import heroBg from "@/assets/hero-bg.jpg";
 const HeroSection = () => {
   return (
       <Helmet>
-        <link rel="preload" as="image" href={heroBg} {...({ fetchpriority: "high" } as any)} />
+        {/* @ts-ignore - fetchpriority is valid HTML */}
+        <link rel="preload" as="image" href={heroBg} fetchpriority="high" />
       </Helmet>
       </Helmet>
       {/* Background Image */}
