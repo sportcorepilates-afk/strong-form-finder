@@ -48,7 +48,7 @@ const SCPPostNatal = () => {
                 SCP Post Natal is a guided Pilates program built for mothers in the postpartum phase. The class focuses on restoring deep core function, rebuilding pelvic floor coordination, and re-establishing the movement patterns the body needs after pregnancy and birth.
               </p>
               <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed">
-                Sessions are delivered on the reformer and supporting equipment with progressive coaching — meeting you where your body is today and guiding you safely toward strength, stability, and confident return to activity.
+                Sessions are delivered on the mat and / or reformer and supporting equipment with progressive coaching — meeting you where your body is today and guiding you safely toward strength, stability, and confident return to activity.
               </p>
             </div>
           </div>
