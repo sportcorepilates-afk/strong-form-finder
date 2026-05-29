@@ -3,6 +3,25 @@ import { Mail, Phone, MapPin, Navigation } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Sport Core Pilates",
+  "image": "https://sportcorepilates.com/og-image.png",
+  "telephone": "+91-9930441143",
+  "email": "sportcorepilates@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4th floor, Om Palace, Dr. Ambedkar Road, Pali Hill",
+    "addressLocality": "Bandra West",
+    "addressRegion": "Maharashtra",
+    "postalCode": "400052",
+    "addressCountry": "IN"
+  },
+  "url": "https://sportcorepilates.com/contact",
+  "priceRange": "$$"
+};
+
 const Contact = () => {
   return (
     <>
@@ -17,6 +36,7 @@ const Contact = () => {
         <meta property="og:description" content="Get in touch with Sport Core Pilates. Located in Mumbai. Call, email, or visit us." />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://sportcorepilates.com/contact" />
+        <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
       </Helmet>
       <Navbar />
       <main>

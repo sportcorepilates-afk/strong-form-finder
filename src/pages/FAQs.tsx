@@ -69,6 +69,18 @@ const FAQs = () => {
         />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://sportcorepilates.com/faqs" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": faqs.map((item) => ({
+            "@type": "Question",
+            "name": item.q,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": item.a,
+            },
+          })),
+        })}</script>
       </Helmet>
       <Navbar />
       <main>
