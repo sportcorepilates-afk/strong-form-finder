@@ -36,6 +36,7 @@ const Contact = () => {
         <meta property="og:description" content="Get in touch with Sport Core Pilates. Located in Mumbai. Call, email, or visit us." />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://sportcorepilates.com/contact" />
+        <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
       </Helmet>
       <Navbar />
       <main>
