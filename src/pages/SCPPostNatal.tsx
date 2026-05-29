@@ -158,7 +158,7 @@ const SCPPostNatal = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
-              "Restored core and pelvic floor function",
+              "Improved Core Strength and Stability                          Restored core and pelvic floor function",
               "Rebuilt strength and postural stability",
               "Improved movement quality and body awareness",
               "Confidence to return to training and daily activity"].
