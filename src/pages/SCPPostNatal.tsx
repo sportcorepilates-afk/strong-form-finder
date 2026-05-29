@@ -113,7 +113,7 @@ const SCPPostNatal = () => {
               {
                 step: "02",
                 title: "Foundational Strength",
-                text: "Reformer and equipment-based exercises rebuilding postural control, alignment, and full-body strength."
+                text: "Mat / Reformer and equipment-based exercises rebuilding postural control, alignment, and full-body strength."
               },
               {
                 step: "03",
