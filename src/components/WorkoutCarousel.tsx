@@ -49,6 +49,15 @@ const workouts = [
     duration: "60 min",
     href: "/private-training",
   },
+  {
+    title: "SCP Post Natal",
+    subtitle: "Recovery & Rebuilding",
+    image: workoutReform,
+    description:
+      "A structured post natal Pilates program designed to help mothers rebuild strength, restore movement, improve core function, and return to activity with confidence.",
+    duration: "50 min",
+    href: "/scp-post-natal",
+  },
 ];
 
 const WorkoutCarousel = () => {
