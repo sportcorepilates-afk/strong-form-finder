@@ -5,6 +5,9 @@ import heroBg from "@/assets/hero-bg.jpg";
 const HeroSection = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-end">
+      <Helmet>
+        <link rel="preload" as="image" href={heroBg} fetchpriority="high" />
+      </Helmet>
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
