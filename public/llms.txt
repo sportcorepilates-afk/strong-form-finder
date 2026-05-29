@@ -1,0 +1,33 @@
+# Sport Core Pilates
+
+> Performance-focused Pilates for active adults and athletes in Mumbai. Train stronger, move better, stay injury-resilient. Built on the philosophy of Pilates First. Performance Driven.
+
+Sport Core Pilates is a premium athletic Pilates studio based in Bandra West, Mumbai. The brand delivers performance-driven Pilates training through a proprietary class structure — SCP Foundation, SCP Control, SCP Performance, and SCP Reform — designed for progressive strength, control, and movement quality. The studio also offers private training and operates an education platform called Future of Movement.
+
+## Pages
+
+- [/](/): Homepage — introduction to Sport Core Pilates, class offerings, and franchise opportunities.
+- [/about](/about): About the brand, mission, and team behind Sport Core Pilates.
+- [/scp-method](/scp-method): Overview of the Sport Core Pilates training methodology and philosophy.
+- [/services](/services): Complete list of services including group classes and private training.
+- [/the-studio](/the-studio): Studio environment, team profiles, and what to expect during sessions.
+- [/contact](/contact): Contact information, location in Bandra West, Mumbai, and enquiry form.
+
+## Classes
+
+- [/scp-foundation](/scp-foundation): Beginner-friendly Pilates programme for those new to the practice.
+- [/scp-control](/scp-control): Intermediate class focused on control, precision, and core stability.
+- [/scp-performance](/scp-performance): Advanced performance-driven Pilates for athletes and active adults.
+- [/scp-reform](/scp-reform): Reformer-based Pilates training for strength and conditioning.
+- [/private-training](/private-training): One-on-one and small-group private Pilates sessions.
+
+## Resources
+
+- [/faqs](/faqs): Frequently asked questions about classes, pricing, first visits, and what to bring.
+- [/future-of-movement](/future-of-movement): Sport Core Pilates' education and industry platform exploring performance, rehabilitation, biomechanics, and coaching.
+- [/start-here](/start-here): Lead capture page for new visitors wanting to begin their Pilates journey.
+
+## Optional
+
+- [/terms-and-conditions](/terms-and-conditions): Terms and conditions for service usage.
+- [/privacy-policy](/privacy-policy): Privacy policy and data handling practices.
