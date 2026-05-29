@@ -51,7 +51,7 @@ const workouts = [
   },
   {
     title: "SCP Post Natal",
-    subtitle: "Recovery & Rebuilding",
+    subtitle: "Post Natal Training",
     image: workoutReform,
     description:
       "A structured post natal Pilates program designed to help mothers rebuild strength, restore movement, improve core function, and return to activity with confidence.",
