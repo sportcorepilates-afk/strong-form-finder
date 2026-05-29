@@ -1,4 +1,6 @@
+import { Helmet } from "react-helmet-async";
 import heroBg from "@/assets/hero-bg.jpg";
+
 
 const HeroSection = () => {
   return (
