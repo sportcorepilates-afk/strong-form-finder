@@ -45,6 +45,7 @@ const App = () => (
           <Route path="/scp-performance" element={<SCPPerformance />} />
           <Route path="/scp-reform" element={<SCPReform />} />
           <Route path="/private-training" element={<PrivateTraining />} />
+          <Route path="/scp-post-natal" element={<SCPPostNatal />} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/future-of-movement" element={<FutureOfMovement />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
