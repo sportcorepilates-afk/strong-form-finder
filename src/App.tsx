@@ -17,6 +17,7 @@ import SCPControl from "./pages/SCPControl";
 import SCPPerformance from "./pages/SCPPerformance";
 import SCPReform from "./pages/SCPReform";
 import PrivateTraining from "./pages/PrivateTraining";
+import SCPPostNatal from "./pages/SCPPostNatal";
 import FAQs from "./pages/FAQs";
 import FutureOfMovement from "./pages/FutureOfMovement";
 import NotFound from "./pages/NotFound";
