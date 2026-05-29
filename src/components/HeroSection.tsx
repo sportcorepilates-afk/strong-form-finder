@@ -4,10 +4,10 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
+    <section className="relative h-screen w-full overflow-hidden flex items-end">
       <Helmet>
         {/* @ts-ignore - fetchpriority is valid HTML */}
         <link rel="preload" as="image" href={heroBg} fetchpriority="high" />
-      </Helmet>
       </Helmet>
       {/* Background Image */}
       <div className="absolute inset-0">
