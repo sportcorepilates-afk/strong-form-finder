@@ -19,6 +19,7 @@ import SCPReform from "./pages/SCPReform";
 import PrivateTraining from "./pages/PrivateTraining";
 import SCPPostNatal from "./pages/SCPPostNatal";
 import SCPAnteNatal from "./pages/SCPAnteNatal";
+import SCPRecoveryMobility from "./pages/SCPRecoveryMobility";
 import FAQs from "./pages/FAQs";
 import FutureOfMovement from "./pages/FutureOfMovement";
 import NotFound from "./pages/NotFound";
@@ -48,6 +49,7 @@ const App = () => (
           <Route path="/private-training" element={<PrivateTraining />} />
           <Route path="/scp-post-natal" element={<SCPPostNatal />} />
           <Route path="/scp-ante-natal" element={<SCPAnteNatal />} />
+          <Route path="/scp-recovery-mobility" element={<SCPRecoveryMobility />} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/future-of-movement" element={<FutureOfMovement />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
