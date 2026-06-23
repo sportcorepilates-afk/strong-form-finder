@@ -41,13 +41,13 @@ const workouts = [
     href: "/scp-reform",
   },
   {
-    title: "Private Training",
-    subtitle: "Personalised Training",
+    title: "SCP Ante Natal",
+    subtitle: "Pregnancy Training",
     image: workoutRow,
     description:
-      "One-on-one or semi-private (1:2) sessions tailored to your individual goals, movement needs, and performance aspirations.",
-    duration: "60 min",
-    href: "/private-training",
+      "Personalised equipment-based Pilates designed to support strength, movement, and confidence throughout pregnancy through safe, structured training.",
+    duration: "50 min",
+    href: "/scp-ante-natal",
   },
   {
     title: "SCP Post Natal",
@@ -57,6 +57,15 @@ const workouts = [
       "A structured post natal Pilates program designed to help mothers rebuild strength, restore movement, improve core function, and return to activity with confidence.",
     duration: "50 min",
     href: "/scp-post-natal",
+  },
+  {
+    title: "Private Training",
+    subtitle: "Personalised Training",
+    image: workoutRow,
+    description:
+      "One-on-one or semi-private (1:2) sessions tailored to your individual goals, movement needs, and performance aspirations.",
+    duration: "60 min",
+    href: "/private-training",
   },
 ];
 
