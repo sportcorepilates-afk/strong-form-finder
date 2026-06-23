@@ -19,6 +19,8 @@ Sport Core Pilates is a premium athletic Pilates studio based in Bandra West, Mu
 - [/scp-control](/scp-control): Intermediate class focused on control, precision, and core stability.
 - [/scp-performance](/scp-performance): Advanced performance-driven Pilates for athletes and active adults.
 - [/scp-reform](/scp-reform): Reformer-based Pilates training for strength and conditioning.
+- [/scp-ante-natal](/scp-ante-natal): Personalised equipment-based Pilates designed to support strength, movement, and confidence throughout pregnancy.
+- [/scp-post-natal](/scp-post-natal): Structured post natal Pilates program to help mothers rebuild strength, restore movement, and return to activity with confidence.
 - [/private-training](/private-training): One-on-one and small-group private Pilates sessions.
 
 ## Resources
