@@ -33,7 +33,7 @@ const workouts = [
   },
   {
     title: "SCP Reform",
-    subtitle: "Recovery & Rehabilitation",
+    subtitle: "REHABILITATION & RECOVERY",
     image: workoutReform,
     description:
       "A structured recovery pathway integrating Physiotherapy, Pilates and rehab Strength training to restore movement, reduce pain, and guide you safely back to performance.",
