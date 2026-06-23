@@ -41,6 +41,15 @@ const workouts = [
     href: "/scp-reform",
   },
   {
+    title: "SCP Recovery & Mobility",
+    subtitle: "Recovery & Mobility",
+    image: workoutReform,
+    description:
+      "A structured recovery and mobility class designed to improve movement quality, reduce stiffness, enhance flexibility, and support long-term performance.",
+    duration: "50 min",
+    href: "/scp-recovery-mobility",
+  },
+  {
     title: "SCP Ante Natal",
     subtitle: "Pregnancy Training",
     image: workoutRow,
