@@ -9,16 +9,29 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
 import { toast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
+
+const interestOptions = [
+  { value: "pilates-classes", label: "Pilates Classes" },
+  { value: "private-pilates", label: "Private Pilates Training" },
+  { value: "strength-conditioning", label: "Strength & Conditioning" },
+  { value: "physiotherapy", label: "Physiotherapy" },
+  { value: "ante-natal", label: "SCP Ante Natal" },
+  { value: "post-natal", label: "SCP Post Natal" },
+  { value: "recovery-mobility", label: "SCP Recovery & Mobility" },
+  { value: "not-sure", label: "I'm Not Sure" },
+];
 
 const formSchema = z.object({
   fullName: z.string().trim().min(1, "Full name is required").max(100),
   phone: z.string().regex(/^\d{10}$/, "Please enter a valid 10-digit phone number"),
   email: z.string().trim().email("Please enter a valid email").max(255),
-  service: z.enum(["pilates", "physiotherapy", "both"], { required_error: "Please select an option" }),
-  goal: z.string().trim().min(1, "Please tell us about your goal or concern").max(1000),
+  interests: z.array(z.string()).min(1, "Please select at least one option"),
+  previousExperience: z.enum(["yes", "no"], { required_error: "Please select an option" }),
+  goal: z.string().trim().min(1, "Please tell us about your goals, training background, or any concerns").max(1000),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -27,12 +40,22 @@ const StartHere = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
-    defaultValues: { fullName: "", phone: "", email: "", goal: "" },
+    defaultValues: { fullName: "", phone: "", email: "", interests: [], previousExperience: undefined, goal: "" },
   });
+
+  const selectedInterests = form.watch("interests") || [];
+  const showNotSureNote = selectedInterests.includes("not-sure");
 
   const onSubmit = async (data: FormValues) => {
     setIsSubmitting(true);
     try {
+      const interestLabels = interestOptions
+        .filter((opt) => data.interests.includes(opt.value))
+        .map((opt) => opt.label)
+        .join(", ");
+
+      const previousExperienceLabel = data.previousExperience === "yes" ? "Yes" : "No";
+
       // Fire-and-forget lead capture to MyGymDesk
       fetch("https://gaprkusxdqyztcmzymni.supabase.co/functions/v1/capture-website-lead", {
         method: "POST",
@@ -44,8 +67,8 @@ const StartHere = () => {
           name: data.fullName,
           phone: data.phone,
           email: data.email,
-          interest: data.service,
-          notes: data.goal,
+          interest: interestLabels,
+          notes: `Previous Pilates Experience: ${previousExperienceLabel}\n\n${data.goal}`,
           source: "website",
           source_details: window.location.href
         })
@@ -125,27 +148,77 @@ const StartHere = () => {
 
               <FormField control={form.control} name="email" render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Email</FormLabel>
+                  <FormLabel>Email Address</FormLabel>
                   <FormControl><Input type="email" placeholder="Your email address" {...field} /></FormControl>
                   <FormMessage />
                 </FormItem>
               )} />
 
-              <FormField control={form.control} name="service" render={({ field }) => (
+              <FormField
+                control={form.control}
+                name="interests"
+                render={() => (
+                  <FormItem>
+                    <FormLabel>Which of the following are you interested in?</FormLabel>
+                    <div className="space-y-2">
+                      {interestOptions.map((opt) => (
+                        <FormField
+                          key={opt.value}
+                          control={form.control}
+                          name="interests"
+                          render={({ field }) => (
+                            <FormItem className="flex items-center space-x-3 space-y-0">
+                              <FormControl>
+                                <Checkbox
+                                  checked={field.value?.includes(opt.value)}
+                                  onCheckedChange={(checked) => {
+                                    const current = field.value || [];
+                                    if (checked) {
+                                      field.onChange([...current, opt.value]);
+                                    } else {
+                                      field.onChange(current.filter((v: string) => v !== opt.value));
+                                    }
+                                  }}
+                                />
+                              </FormControl>
+                              <span className="text-sm font-medium text-foreground cursor-pointer" onClick={() => {
+                                const current = field.value || [];
+                                if (current.includes(opt.value)) {
+                                  field.onChange(current.filter((v: string) => v !== opt.value));
+                                } else {
+                                  field.onChange([...current, opt.value]);
+                                }
+                              }}>
+                                {opt.label}
+                              </span>
+                            </FormItem>
+                          )}
+                        />
+                      ))}
+                    </div>
+                    {showNotSureNote && (
+                      <p className="text-sm text-primary mt-2">
+                        Our team will help guide you to the most appropriate starting point.
+                      </p>
+                    )}
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField control={form.control} name="previousExperience" render={({ field }) => (
                 <FormItem className="space-y-3">
-                  <FormLabel>How would you like to begin?</FormLabel>
+                  <FormLabel>Have you worked with Pilates before?</FormLabel>
                   <FormControl>
                     <RadioGroup onValueChange={field.onChange} value={field.value} className="flex flex-col space-y-2">
-                      {[
-                        { value: "pilates", label: "Pilates Training" },
-                        { value: "physiotherapy", label: "Physiotherapy" },
-                        { value: "both", label: "Both" },
-                      ].map((opt) => (
-                        <label key={opt.value} className="flex items-center space-x-3 cursor-pointer">
-                          <RadioGroupItem value={opt.value} />
-                          <span className="text-sm font-medium text-foreground">{opt.label}</span>
-                        </label>
-                      ))}
+                      <label className="flex items-center space-x-3 cursor-pointer">
+                        <RadioGroupItem value="yes" />
+                        <span className="text-sm font-medium text-foreground">Yes</span>
+                      </label>
+                      <label className="flex items-center space-x-3 cursor-pointer">
+                        <RadioGroupItem value="no" />
+                        <span className="text-sm font-medium text-foreground">No</span>
+                      </label>
                     </RadioGroup>
                   </FormControl>
                   <FormMessage />
@@ -154,7 +227,7 @@ const StartHere = () => {
 
               <FormField control={form.control} name="goal" render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Briefly tell us about your goal or concern</FormLabel>
+                  <FormLabel>Tell us a little about your goals, training background, or any concerns you would like us to know about</FormLabel>
                   <FormControl><Textarea placeholder="E.g. recovering from a back injury, improving athletic performance..." className="min-h-[100px]" {...field} /></FormControl>
                   <FormMessage />
                 </FormItem>
