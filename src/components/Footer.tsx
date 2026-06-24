@@ -136,6 +136,18 @@ const Footer = () => {
               ))}
             </ul>
           </div>
+
+          {/* Visit Our Studio */}
+          <div>
+            <h4 className="font-heading text-xs uppercase tracking-[0.2em] text-foreground mb-4">
+              Visit Our Studio
+            </h4>
+            <address className="font-body text-muted-foreground text-sm not-italic leading-relaxed space-y-1">
+              <p className="font-medium text-foreground">Sport Core Pilates</p>
+              <p>4th Floor, Om Palace, Dr. Ambedkar Road, Pali Hill</p>
+              <p>Bandra West, Mumbai 400052</p>
+            </address>
+          </div>
         </div>
       </div>
 
