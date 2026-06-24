@@ -18,10 +18,13 @@ serve(async (req) => {
       throw new Error("RESEND_API_KEY is not configured");
     }
 
-    const { fullName, phone, email, service, goal } = await req.json();
+    const { fullName, phone, email, service, goal, interests, previousExperience } = await req.json();
 
-    // Validate inputs
-    if (!fullName || !phone || !email || !service || !goal) {
+    // Validate inputs — support both old schema (service) and new schema (interests + previousExperience)
+    const hasOldSchema = !!service && !!goal;
+    const hasNewSchema = Array.isArray(interests) && interests.length > 0 && !!previousExperience && !!goal;
+
+    if (!fullName || !phone || !email || (!hasOldSchema && !hasNewSchema)) {
       return new Response(
         JSON.stringify({ error: "All fields are required" }),
         { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } }
@@ -33,6 +36,37 @@ serve(async (req) => {
       physiotherapy: "Physiotherapy",
       both: "Both",
     };
+
+    const interestLabels: Record<string, string> = {
+      "pilates-classes": "Pilates Classes",
+      "private-pilates": "Private Pilates Training",
+      "strength-conditioning": "Strength & Conditioning",
+      physiotherapy: "Physiotherapy",
+      "ante-natal": "SCP Ante Natal",
+      "post-natal": "SCP Post Natal",
+      "recovery-mobility": "SCP Recovery & Mobility",
+      "not-sure": "I'm Not Sure",
+    };
+
+    let interestsHtml = "";
+    if (Array.isArray(interests) && interests.length > 0) {
+      const interestList = interests.map((v: string) => interestLabels[v] || v).join(", ");
+      interestsHtml = `
+            <tr>
+              <td style="padding:14px 20px;border-bottom:1px solid #333;color:#999;font-size:13px;font-weight:600;">Interests</td>
+              <td style="padding:14px 20px;border-bottom:1px solid #333;color:#fff;font-size:14px;">${interestList}</td>
+            </tr>`;
+    }
+
+    let previousExperienceHtml = "";
+    if (previousExperience) {
+      const label = previousExperience === "yes" ? "Yes" : "No";
+      previousExperienceHtml = `
+            <tr>
+              <td style="padding:14px 20px;border-bottom:1px solid #333;color:#999;font-size:13px;font-weight:600;">Previous Pilates Experience</td>
+              <td style="padding:14px 20px;border-bottom:1px solid #333;color:#fff;font-size:14px;">${label}</td>
+            </tr>`;
+    }
 
     const htmlBody = `
 <!DOCTYPE html>
@@ -63,10 +97,13 @@ serve(async (req) => {
               <td style="padding:14px 20px;border-bottom:1px solid #333;color:#999;font-size:13px;font-weight:600;">Email</td>
               <td style="padding:14px 20px;border-bottom:1px solid #333;color:#fff;font-size:14px;"><a href="mailto:${email}" style="color:#00BFA6;text-decoration:none;">${email}</a></td>
             </tr>
+            ${service ? `
             <tr>
               <td style="padding:14px 20px;border-bottom:1px solid #333;color:#999;font-size:13px;font-weight:600;">Service Interest</td>
               <td style="padding:14px 20px;border-bottom:1px solid #333;color:#fff;font-size:14px;">${serviceLabels[service] || service}</td>
-            </tr>
+            </tr>` : ""}
+            ${interestsHtml}
+            ${previousExperienceHtml}
             <tr>
               <td style="padding:14px 20px;color:#999;font-size:13px;font-weight:600;vertical-align:top;">Goal / Concern</td>
               <td style="padding:14px 20px;color:#fff;font-size:14px;line-height:1.5;">${goal}</td>
