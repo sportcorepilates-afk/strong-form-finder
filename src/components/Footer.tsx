@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="bg-card border-t border-border">
       {/* Main Footer */}
       <div className="px-6 md:px-12 lg:px-20 xl:px-28 2xl:px-36 py-12 lg:py-16">
-        <div className="max-w-7xl xl:max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
+        <div className="max-w-7xl xl:max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <a href="/" className="flex items-center">
@@ -135,6 +135,18 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+          </div>
+
+          {/* Visit Our Studio */}
+          <div>
+            <h4 className="font-heading text-xs uppercase tracking-[0.2em] text-foreground mb-4">
+              Visit Our Studio
+            </h4>
+            <address className="font-body text-muted-foreground text-sm not-italic leading-relaxed space-y-1">
+              <p className="font-medium text-foreground">Sport Core Pilates</p>
+              <p>4th Floor, Om Palace, Dr. Ambedkar Road, Pali Hill</p>
+              <p>Bandra West, Mumbai 400052</p>
+            </address>
           </div>
         </div>
       </div>
