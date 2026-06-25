@@ -114,7 +114,7 @@ const SCPMethod = () => {
               <span className="text-gradient-yellow">Clear Pathway</span>
             </h2>
             <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
-              Progression through SCP Foundation, SCP Control, SCP Performance, SCP Restore, and Private Training.
+              Progression through SCP Foundation, SCP Control, SCP Performance, SCP Reform, and Private Training.
             </p>
           </div>
         </section>
