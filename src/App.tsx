@@ -22,6 +22,7 @@ import SCPAnteNatal from "./pages/SCPAnteNatal";
 import SCPRecoveryMobility from "./pages/SCPRecoveryMobility";
 import FAQs from "./pages/FAQs";
 import FutureOfMovement from "./pages/FutureOfMovement";
+import Insights from "./pages/Insights";
 import NotFound from "./pages/NotFound";
 import WhatsAppButton from "./components/WhatsAppButton";
 
