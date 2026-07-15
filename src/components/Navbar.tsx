@@ -9,6 +9,7 @@ const navLinks = [
   { label: "The Studio", href: "/the-studio" },
   { label: "Services", href: "/services" },
   { label: "Future of Movement", href: "/future-of-movement" },
+  { label: "Insights", href: "/insights" },
 ];
 
 const Navbar = () => {
