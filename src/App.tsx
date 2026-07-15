@@ -22,6 +22,7 @@ import SCPAnteNatal from "./pages/SCPAnteNatal";
 import SCPRecoveryMobility from "./pages/SCPRecoveryMobility";
 import FAQs from "./pages/FAQs";
 import FutureOfMovement from "./pages/FutureOfMovement";
+import Insights from "./pages/Insights";
 import NotFound from "./pages/NotFound";
 import WhatsAppButton from "./components/WhatsAppButton";
 
@@ -52,6 +53,7 @@ const App = () => (
           <Route path="/scp-recovery-mobility" element={<SCPRecoveryMobility />} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/future-of-movement" element={<FutureOfMovement />} />
+          <Route path="/insights" element={<Insights />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

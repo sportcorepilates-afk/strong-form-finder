@@ -100,6 +100,7 @@ const Footer = () => {
                 { label: "Services", href: "/services" },
                 { label: "The Studio", href: "/the-studio" },
                 { label: "Future of Movement", href: "/future-of-movement" },
+                { label: "Insights", href: "/insights" },
                 { label: "Start Here", href: "/start-here" },
                 { label: "Contact Us", href: "/contact" },
               ].map((item) => (
