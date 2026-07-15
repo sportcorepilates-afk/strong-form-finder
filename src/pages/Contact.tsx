@@ -139,6 +139,27 @@ const Contact = () => {
           </div>
         </section>
 
+        {/* Map */}
+        <section className="section-padding bg-background">
+          <div className="max-w-5xl mx-auto">
+            <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
+              Find Us
+            </span>
+            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-10">
+              Studio <span className="text-gradient-yellow">Location</span>
+            </h2>
+            <div className="w-full border border-border overflow-hidden bg-card">
+              <iframe
+                src="https://maps.google.com/maps?q=19.0698133%2C72.8297607&z=17&output=embed"
+                className="w-full h-[400px] md:h-[500px] border-0"
+                loading="lazy"
+                allowFullScreen
+                title="Sport Core Pilates Studio Location"
+              />
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="section-padding bg-background text-center">
           <div className="max-w-3xl mx-auto">
