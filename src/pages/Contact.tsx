@@ -55,6 +55,21 @@ const Contact = () => {
           </div>
         </section>
 
+        {/* Areas We Serve */}
+        <section className="section-padding bg-background">
+          <div className="max-w-5xl mx-auto">
+            <span className="font-heading text-xs uppercase tracking-[0.3em] text-primary mb-4 block">
+              Areas We Serve
+            </span>
+            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground leading-[0.95] mb-10">
+              Areas We <span className="text-gradient-yellow">Serve</span>
+            </h2>
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed">
+              Conveniently Located for West Mumbai Fitness Enthusiasts. Our premium reformer studio is situated in the heart of Bandra West, making it easily accessible for clients looking for a premier Pilates studio near Pali Hill or professional core conditioning around Khar West. Whether you are commuting from nearby residential hubs or looking for a boutique fitness routine close to Carter Road, our central location ensures your workout fits seamlessly into your schedule.
+            </p>
+          </div>
+        </section>
+
         {/* Contact Information */}
         <section className="section-padding bg-card">
           <div className="max-w-5xl mx-auto">
