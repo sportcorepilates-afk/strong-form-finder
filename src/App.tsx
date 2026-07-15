@@ -53,6 +53,7 @@ const App = () => (
           <Route path="/scp-recovery-mobility" element={<SCPRecoveryMobility />} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/future-of-movement" element={<FutureOfMovement />} />
+          <Route path="/insights" element={<Insights />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
