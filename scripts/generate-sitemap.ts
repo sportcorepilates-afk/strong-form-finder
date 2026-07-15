@@ -27,6 +27,7 @@ const entries: SitemapEntry[] = [
   { path: "/scp-post-natal", priority: "0.6", changefreq: "monthly" },
   { path: "/faqs", priority: "0.6", changefreq: "monthly" },
   { path: "/future-of-movement", priority: "0.6", changefreq: "monthly" },
+  { path: "/insights", priority: "0.7", changefreq: "weekly" },
   { path: "/terms-and-conditions", priority: "0.3", changefreq: "yearly" },
   { path: "/privacy-policy", priority: "0.3", changefreq: "yearly" },
 ];
