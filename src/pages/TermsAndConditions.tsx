@@ -56,12 +56,12 @@ const sections = [
   {
     title: "Governing Law",
     content:
-      "These Terms and Conditions are governed by and construed in accordance with the laws of India.",
+      "These Terms and Conditions are governed by and construed in accordance with the laws of India. The courts in Mumbai, India, shall have jurisdiction over any disputes arising out of or in connection with these Terms and Conditions or the services provided by Sport Core Pilates.\n",
   },
   {
     title: "Contact",
     content:
-      "If you have any questions about these Terms and Conditions, please contact us through our website or visit the studio directly.",
+      "If you have any questions about these Terms and Conditions, please contact us through our website or visit the studio directly.\n Email: sportcorepilates@gmail.com\nWebsite: https://sportcorepilates.com/\nStudio Address: 4th Floor, Om Palace, Dr. Ambedkar Road, Pali Hill, Bandra West, Mumbai 400052.\n \n",
   },
 ];
 
