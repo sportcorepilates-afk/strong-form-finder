@@ -6,12 +6,12 @@ const sections = [
   {
     title: "Acceptance of Terms",
     content:
-      "By accessing and using the Sport Core Pilates website and services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use our services.  Your continued use of our services following any amendment to these Terms constitutes your acceptance of the revised Terms.\n",
+      "By accessing and using the Sport Core Pilates website and services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use our services. Your continued use of our services following any amendment to these Terms constitutes your acceptance of the revised Terms.",
   },
   {
     title: "Services",
     content:
-      "Sport Core Pilates provides Pilates-based training services including group classes, private and semi-private sessions, assessments, and related programming. All services are subject to availability and may be modified or discontinued at any time without prior notice.  Session schedules, instructors, class formats, and timings may change from time to time. Sport Core Pilates will make reasonable efforts to communicate significant changes to clients.\nPilates and exercise programming are intended to support general fitness, movement, strength, mobility, and wellbeing and are not a substitute for medical diagnosis or treatment.\n\n\n",
+      "Sport Core Pilates provides Pilates-based training services including group classes, private and semi-private sessions, assessments, and related programming. All services are subject to availability and may be modified or discontinued at any time without prior notice. Session schedules, instructors, class formats, and timings may change from time to time. Sport Core Pilates will make reasonable efforts to communicate significant changes to clients.\nPilates and exercise programming are intended to support general fitness, movement, strength, mobility, and wellbeing and are not a substitute for medical diagnosis or treatment.",
   },
   {
     title: "Membership, Payments & Packages",
@@ -21,12 +21,12 @@ const sections = [
   {
     title: "Booking and Cancellation Policy",
     content:
-      "Clients must book sessions 24 hours in advance. Cancellations must be made at least 24 hours prior to the scheduled session. Late cancellations or no-shows may result in forfeiture of the session or applicable fees.Specific cancellation timelines may be communicated separately. Sport Core Pilates may cancel or reschedule a session due to instructor availability, operational requirements, emergencies, or other circumstances beyond its reasonable control. \n \n\n\n",
+      "Clients must book sessions 24 hours in advance. Cancellations must be made at least 24 hours prior to the scheduled session. Late cancellations or no-shows may result in forfeiture of the session or applicable fees. Specific cancellation timelines may be communicated separately. Sport Core Pilates may cancel or reschedule a session due to instructor availability, operational requirements, emergencies, or other circumstances beyond its reasonable control.",
   },
   {
     title: "Health and Safety",
     content:
-      "Clients must disclose any relevant medical conditions, injuries, or physical limitations prior to participation. Participation in training sessions is voluntary. While all sessions are professionally supervised, clients assume responsibility for exercising within their personal physical capacity. Physiotherapy services are delivered in accordance with applicable professional standards in India. Clients participate in all classes and sessions at their own risk. Sport Core Pilates reserves the right to refuse service to anyone whose participation may pose a risk to themselves or others. Clients should inform their instructor or physiotherapist of any change in their health, injuries, pain, pregnancy, recent surgery, or other condition that may affect their ability to participate safely. Where appropriate, Sport Core Pilates may request medical clearance before allowing a client to participate in certain activities.  Clients are responsible for following reasonable instructions and safety guidelines provided by Sport Core Pilates staff.     ",
+      "Clients must disclose any relevant medical conditions, injuries, or physical limitations prior to participation. Participation in training sessions is voluntary. While all sessions are professionally supervised, clients assume responsibility for exercising within their personal physical capacity. Physiotherapy services are delivered in accordance with applicable professional standards in India. Clients participate in all classes and sessions at their own risk. Sport Core Pilates reserves the right to refuse service to anyone whose participation may pose a risk to themselves or others. Clients should inform their instructor or physiotherapist of any change in their health, injuries, pain, pregnancy, recent surgery, or other condition that may affect their ability to participate safely. Where appropriate, Sport Core Pilates may request medical clearance before allowing a client to participate in certain activities. Clients are responsible for following reasonable instructions and safety guidelines provided by Sport Core Pilates staff.",
   },
   {
     title: "Assumption of Risk and Liability Waiver",
@@ -36,7 +36,7 @@ const sections = [
   {
     title: "Intellectual Property",
     content:
-      "All content (including text, graphics, logos, images), branding, training methodologies (including the SCP-PX framework and SCP) is the intellectual property of Sport Core Pilates. Unauthorized use, reproduction, or distribution of any content is strictly prohibited. No content from the Sport Core Pilates website or services may be copied, modified, distributed, or commercially exploited without the prior written consent of Sport Core Pilates\n\n",
+      "All content (including text, graphics, logos, images), branding, training methodologies (including the SCP-PX framework and SCP) is the intellectual property of Sport Core Pilates. Unauthorized use, reproduction, or distribution of any content is strictly prohibited. No content from the Sport Core Pilates website or services may be copied, modified, distributed, or commercially exploited without the prior written consent of Sport Core Pilates",
   },
   {
     title: "Privacy",
@@ -46,22 +46,22 @@ const sections = [
   {
     title: "Code of Conduct",
     content:
-      "All clients are expected to conduct themselves respectfully and professionally within the studio environment. Sport Core Pilates reserves the right to terminate access to services for any individual who violates our code of conduct or disrupts the training environment. In the event that access to services is terminated due to a breach of the code of conduct, the Client shall not be entitled to any refund for unused sessions remaining in their current package.\n",
+      "All clients are expected to conduct themselves respectfully and professionally within the studio environment. Sport Core Pilates reserves the right to terminate access to services for any individual who violates our code of conduct or disrupts the training environment. In the event that access to services is terminated due to a breach of the code of conduct, the Client shall not be entitled to any refund for unused sessions remaining in their current package.",
   },
   {
     title: "Modifications to Terms",
     content:
-      "Sport Core Pilates reserves the right to update or modify these Terms and Conditions at any time. Changes will be effective immediately upon posting to our website. Continued use of our services following any changes constitutes acceptance of the revised terms. Clients are responsible for reviewing these Terms on the Sport Core Pilates website periodically to remain informed of any updates or amendments.\n",
+      "Sport Core Pilates reserves the right to update or modify these Terms and Conditions at any time. Changes will be effective immediately upon posting to our website. Continued use of our services following any changes constitutes acceptance of the revised terms. Clients are responsible for reviewing these Terms on the Sport Core Pilates website periodically to remain informed of any updates or amendments.",
   },
   {
     title: "Governing Law",
     content:
-      "These Terms and Conditions are governed by and construed in accordance with the laws of India. The courts in Mumbai, India, shall have jurisdiction over any disputes arising out of or in connection with these Terms and Conditions or the services provided by Sport Core Pilates.\n",
+      "These Terms and Conditions are governed by and construed in accordance with the laws of India. The courts in Mumbai, India, shall have jurisdiction over any disputes arising out of or in connection with these Terms and Conditions or the services provided by Sport Core Pilates.",
   },
   {
     title: "Contact",
     content:
-      "If you have any questions about these Terms and Conditions, please contact us through our website or visit the studio directly.\n Email: sportcorepilates@gmail.com\nWebsite: https://sportcorepilates.com/\nStudio Address: 4th Floor, Om Palace, Dr. Ambedkar Road, Pali Hill, Bandra West, Mumbai 400052.\n \n",
+      "If you have any questions about these Terms and Conditions, please contact us through our website or visit the studio directly.\nEmail: sportcorepilates@gmail.com\nWebsite: https://sportcorepilates.com/\nStudio Address: 4th Floor, Om Palace, Dr. Ambedkar Road, Pali Hill, Bandra West, Mumbai 400052.",
   },
 ];
 
@@ -90,10 +90,7 @@ const TermsAndConditions = () => {
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-foreground leading-[0.9] mb-6">
               Terms &amp; Conditions
             </h1>
-            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-16">
-              Introduction: Please read these terms carefully before using Sport Core Pilates services and website. These Terms &amp; Conditions govern your use of the Sport Core Pilates website and participation in training sessions, assessments, physiotherapy services, and related offerings. By accessing this website or engaging with our services, you agree to these terms.
-            </p>
-            <p className="font-body text-muted-foreground text-sm mb-16">
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-16">\nIntroduction: Please read these terms carefully before using Sport Core Pilates services and website. These Terms &amp; Conditions govern your use of the Sport Core Pilates website and participation in training sessions, assessments, physiotherapy services, and related offerings. By accessing this website or engaging with our services, you agree to these terms.\n</p>\n<p className="font-body text-muted-foreground text-sm mb-16">
               Last Updated: March 1, 2026
             </p>
 
