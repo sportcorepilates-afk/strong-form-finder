@@ -90,7 +90,10 @@ const TermsAndConditions = () => {
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-foreground leading-[0.9] mb-6">
               Terms &amp; Conditions
             </h1>
-            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-16">\nIntroduction: Please read these terms carefully before using Sport Core Pilates services and website. These Terms &amp; Conditions govern your use of the Sport Core Pilates website and participation in training sessions, assessments, physiotherapy services, and related offerings. By accessing this website or engaging with our services, you agree to these terms.\n</p>\n<p className="font-body text-muted-foreground text-sm mb-16">
+            <p className="font-body text-muted-foreground text-base md:text-lg max-w-2xl leading-relaxed mb-16">
+              Introduction: Please read these terms carefully before using Sport Core Pilates services and website. These Terms & Conditions govern your use of the Sport Core Pilates website and participation in training sessions, assessments, physiotherapy services, and related offerings. By accessing this website or engaging with our services, you agree to these terms.
+            </p>
+            <p className="font-body text-muted-foreground text-sm mb-16">
               Last Updated: March 1, 2026
             </p>
 
