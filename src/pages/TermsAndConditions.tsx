@@ -46,7 +46,7 @@ const sections = [
   {
     title: "Code of Conduct",
     content:
-      "All clients are expected to conduct themselves respectfully and professionally within the studio environment. Sport Core Pilates reserves the right to terminate access to services for any individual who violates our code of conduct or disrupts the training environment.",
+      "All clients are expected to conduct themselves respectfully and professionally within the studio environment. Sport Core Pilates reserves the right to terminate access to services for any individual who violates our code of conduct or disrupts the training environment. In the event that access to services is terminated due to a breach of the code of conduct, the Client shall not be entitled to any refund for unused sessions remaining in their current package.\n",
   },
   {
     title: "Modifications to Terms",
