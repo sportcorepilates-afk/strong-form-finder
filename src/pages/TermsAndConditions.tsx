@@ -21,7 +21,7 @@ const sections = [
   {
     title: "Booking and Cancellation Policy",
     content:
-      "Clients must book sessions 24 hours in advance. Cancellations must be made at least 24 hours prior to the scheduled session. Late cancellations or no-shows may result in forfeiture of the session or applicable fees.\nSpecific cancellation timelines may be communicated separately.",
+      "Clients must book sessions 24 hours in advance. Cancellations must be made at least 24 hours prior to the scheduled session. Late cancellations or no-shows may result in forfeiture of the session or applicable fees.Specific cancellation timelines may be communicated separately. Sport Core Pilates may cancel or reschedule a session due to instructor availability, operational requirements, emergencies, or other circumstances beyond its reasonable control. \n \n\n\n",
   },
   {
     title: "Health and Safety",
