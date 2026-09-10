@@ -51,7 +51,7 @@ const sections = [
   {
     title: "Modifications to Terms",
     content:
-      "Sport Core Pilates reserves the right to update or modify these Terms and Conditions at any time. Changes will be effective immediately upon posting to our website. Continued use of our services following any changes constitutes acceptance of the revised terms.",
+      "Sport Core Pilates reserves the right to update or modify these Terms and Conditions at any time. Changes will be effective immediately upon posting to our website. Continued use of our services following any changes constitutes acceptance of the revised terms. Clients are responsible for reviewing these Terms on the Sport Core Pilates website periodically to remain informed of any updates or amendments.\n",
   },
   {
     title: "Governing Law",
