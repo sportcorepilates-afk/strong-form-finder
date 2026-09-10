@@ -11,7 +11,7 @@ const sections = [
   {
     title: "Services",
     content:
-      "Sport Core Pilates provides Pilates-based training services including group classes, private and semi-private sessions, assessments, and related programming. All services are subject to availability and may be modified or discontinued at any time without prior notice.",
+      "Sport Core Pilates provides Pilates-based training services including group classes, private and semi-private sessions, assessments, and related programming. All services are subject to availability and may be modified or discontinued at any time without prior notice.  Session schedules, instructors, class formats, and timings may change from time to time. Sport Core Pilates will make reasonable efforts to communicate significant changes to clients.\nPilates and exercise programming are intended to support general fitness, movement, strength, mobility, and wellbeing and are not a substitute for medical diagnosis or treatment.\n\n\n",
   },
   {
     title: "Membership, Payments & Packages",
