@@ -16,7 +16,7 @@ const sections = [
   {
     title: "Membership, Payments & Packages",
     content:
-      "All session packages must be paid in advance unless otherwise agreed.\nPackages are valid for a specified duration and must be used within that validity period. Unused sessions will expire upon completion of the package validity period.\nAll purchases are non-transferable and non-refundable unless required by applicable law.",
+      "All session packages must be paid in advance unless otherwise agreed. All fees and pricing are subject to revision and at the discretion of Sport Core Pilates. Packages are valid for a specified duration and must be used within that validity period. Unused sessions will expire upon completion of the package validity period. All purchases are non-transferable and non-refundable unless required by applicable law.",
   },
   {
     title: "Booking and Cancellation Policy",
