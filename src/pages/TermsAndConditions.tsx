@@ -41,7 +41,7 @@ const sections = [
   {
     title: "Privacy",
     content:
-      "Your use of our services is also governed by our Privacy Policy. By using our website and services, you consent to the collection, use, and disclosure of your information as described in our Privacy Policy.",
+      "Your use of our services is also governed by our Privacy Policy. By using our website and services, you consent to the collection, use, and disclosure of your information as described in our Privacy Policy. By accepting these Terms and Conditions you also acknowledge and accept the Privacy Policy.",
   },
   {
     title: "Code of Conduct",
