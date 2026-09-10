@@ -6,7 +6,7 @@ const sections = [
   {
     title: "Acceptance of Terms",
     content:
-      "By accessing and using the Sport Core Pilates website and services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use our services.",
+      "By accessing and using the Sport Core Pilates website and services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use our services.  Your continued use of our services following any amendment to these Terms constitutes your acceptance of the revised Terms.\n",
   },
   {
     title: "Services",
